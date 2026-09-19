@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "30 11 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/refresh-awards.yml"
 
 permissions:
   contents: write
