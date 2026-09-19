@@ -33,23 +33,29 @@ jobs:
       - name: Search Flying Blue Europe availability
         run: python scripts/flyingblue_europe.py
 
+      - name: Search solo hiking availability across programs
+        run: python scripts/solo_hiking.py
+
       - name: Validate JSON
         run: |
           python -m json.tool data/aeroplan-nye.json >/dev/null
           python -m json.tool data/flyingblue-europe.json >/dev/null
+          python -m json.tool data/solo-hiking.json >/dev/null
 
       - name: Publish updated data
         run: |
           cp data/aeroplan-nye.json /tmp/aeroplan-nye.json
           cp data/flyingblue-europe.json /tmp/flyingblue-europe.json
+          cp data/solo-hiking.json /tmp/solo-hiking.json
           git fetch origin main
           git reset --hard origin/main
           mkdir -p data
           cp /tmp/aeroplan-nye.json data/aeroplan-nye.json
           cp /tmp/flyingblue-europe.json data/flyingblue-europe.json
+          cp /tmp/solo-hiking.json data/solo-hiking.json
           git config user.name "award-watch"
           git config user.email "award-watch@users.noreply.github.com"
-          git add data/aeroplan-nye.json data/flyingblue-europe.json
+          git add data/aeroplan-nye.json data/flyingblue-europe.json data/solo-hiking.json
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
