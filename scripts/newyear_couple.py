@@ -253,6 +253,8 @@ def main():
                     },
                 )
             except Exception as exc:
+                if "HTTP 429" in str(exc):
+                    raise
                 print(f"warning: outbound {source}/{region} failed: {exc}", file=sys.stderr)
                 continue
             for row in rows:
@@ -289,6 +291,8 @@ def main():
                     },
                 )
             except Exception as exc:
+                if "HTTP 429" in str(exc):
+                    raise
                 print(f"warning: return {source}/{batch[:2]}... failed: {exc}", file=sys.stderr)
                 continue
             for row in rows:
