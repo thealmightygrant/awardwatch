@@ -27,32 +27,35 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Search NYC multi-program availability
-        run: python scripts/nyc_multi_watch.py
+      - name: Search Aeroplan New Year availability
+        run: python scripts/aeroplan_nye.py
 
-      - name: Search New Year couple availability
-        run: python scripts/newyear_couple.py
+      - name: Search Flying Blue Europe availability
+        run: python scripts/flyingblue_europe.py
+
+      - name: Search 2027 anniversary availability
+        run: python scripts/anniversary_2027.py
 
       - name: Validate JSON
         run: |
-          python -m json.tool data/solo-hiking.json >/dev/null
-          python -m json.tool data/couple-europe.json >/dev/null
-          python -m json.tool data/newyear-couple.json >/dev/null
+          python -m json.tool data/aeroplan-nye.json >/dev/null
+          python -m json.tool data/flyingblue-europe.json >/dev/null
+          python -m json.tool data/anniversary-2027.json >/dev/null
 
       - name: Publish updated data
         run: |
-          cp data/solo-hiking.json /tmp/solo-hiking.json
-          cp data/couple-europe.json /tmp/couple-europe.json
-          cp data/newyear-couple.json /tmp/newyear-couple.json
+          cp data/aeroplan-nye.json /tmp/aeroplan-nye.json
+          cp data/flyingblue-europe.json /tmp/flyingblue-europe.json
+          cp data/anniversary-2027.json /tmp/anniversary-2027.json
           git fetch origin main
           git reset --hard origin/main
           mkdir -p data
-          cp /tmp/solo-hiking.json data/solo-hiking.json
-          cp /tmp/couple-europe.json data/couple-europe.json
-          cp /tmp/newyear-couple.json data/newyear-couple.json
+          cp /tmp/aeroplan-nye.json data/aeroplan-nye.json
+          cp /tmp/flyingblue-europe.json data/flyingblue-europe.json
+          cp /tmp/anniversary-2027.json data/anniversary-2027.json
           git config user.name "award-watch"
           git config user.email "award-watch@users.noreply.github.com"
-          git add data/solo-hiking.json data/couple-europe.json data/newyear-couple.json
+          git add data/aeroplan-nye.json data/flyingblue-europe.json data/anniversary-2027.json
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
