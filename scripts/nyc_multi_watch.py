@@ -234,6 +234,8 @@ def main():
                     },
                 )
             except Exception as exc:
+                if "HTTP 429" in str(exc):
+                    raise
                 print(f"warning: {source}/{region} availability failed: {exc}", file=sys.stderr)
                 continue
             for row in rows:
