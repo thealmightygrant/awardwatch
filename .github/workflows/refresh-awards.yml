@@ -1,0 +1,35 @@
+name: Refresh award data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 11 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Worker smoke-test data
+        run: |
+          mkdir -p data
+          curl --fail --silent --show-error \
+            "https://award-watch.agsherrick.workers.dev/test" \
+            -o data/test.json
+          python -m json.tool data/test.json >/dev/null
+
+      - name: Commit updated data
+        run: |
+          git config user.name "award-watch"
+          git config user.email "award-watch@users.noreply.github.com"
+          git add data/test.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Refresh award data"
+          git push
