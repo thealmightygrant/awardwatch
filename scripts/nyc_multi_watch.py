@@ -18,7 +18,7 @@ NYC = {"JFK", "EWR", "LGA"}
 REGIONS = ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"]
 MAX_EFFECTIVE_COST = 100_000
 TAKE = 1000
-MAX_DETAIL_LOOKUPS = 450
+MAX_DETAIL_LOOKUPS = 220
 TRIPS_PER_AVAILABILITY = 3
 SOLO_END = "2026-12-31"
 
@@ -251,7 +251,7 @@ def main():
     groups = defaultdict(list)
     for s in candidates:
         month = (s["date"] or "")[:7]
-        groups[(s["source"], s["destination"], month)].append(s)
+        groups[(s["destination"], month)].append(s)
     for options in groups.values():
         options.sort(key=candidate_rank)
 
