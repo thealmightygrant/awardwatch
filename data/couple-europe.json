@@ -1,0 +1,100 @@
+{
+  "candidate_count": 0,
+  "candidates": [],
+  "criteria": {
+    "cabin": "business",
+    "destination_region": "Europe",
+    "end_date": "2027-09-19",
+    "max_effective_cost_exclusive": 100000,
+    "minimum_confirmed_seats": 2,
+    "origins": [
+      "EWR",
+      "JFK",
+      "LGA"
+    ],
+    "start_date": "2026-09-19",
+    "trip_focus": "couple experiential Europe"
+  },
+  "generated_at": "2026-09-19T13:53:58.434988+00:00",
+  "notes": [
+    "Uses Seats.aero cached availability, not live airline search.",
+    "AmEx MR equivalents use the current standard transfer ratio and are rounded up to the next 1,000 MR.",
+    "United awards are compared using United miles because Membership Rewards do not transfer directly to United.",
+    "Some current AmEx airline partners are not direct Seats.aero cached API sources and are not included in this feed.",
+    "Verify any promising award directly with the loyalty program before transferring points or booking."
+  ],
+  "programs": {
+    "aeromexico": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": true,
+      "mr_per_program_point": 0.625,
+      "name": "Aeromexico Rewards"
+    },
+    "aeroplan": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": true,
+      "mr_per_program_point": 1.0,
+      "name": "Air Canada Aeroplan"
+    },
+    "delta": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": true,
+      "mr_per_program_point": 1.0,
+      "name": "Delta SkyMiles"
+    },
+    "emirates": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": false,
+      "mr_per_program_point": 1.25,
+      "name": "Emirates Skywards"
+    },
+    "flyingblue": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": true,
+      "mr_per_program_point": 1.0,
+      "name": "Air France/KLM Flying Blue"
+    },
+    "jetblue": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": true,
+      "mr_per_program_point": 1.25,
+      "name": "JetBlue TrueBlue"
+    },
+    "lifemiles": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": false,
+      "mr_per_program_point": 1.0,
+      "name": "Avianca LifeMiles"
+    },
+    "qantas": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": false,
+      "mr_per_program_point": 1.0,
+      "name": "Qantas Frequent Flyer"
+    },
+    "qatar": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": false,
+      "mr_per_program_point": 1.0,
+      "name": "Qatar Airways Privilege Club"
+    },
+    "singapore": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": false,
+      "mr_per_program_point": 1.0,
+      "name": "Singapore KrisFlyer"
+    },
+    "united": {
+      "funding": "United miles",
+      "has_seat_count": true,
+      "mr_per_program_point": null,
+      "name": "United MileagePlus"
+    },
+    "virginatlantic": {
+      "funding": "AmEx Membership Rewards",
+      "has_seat_count": true,
+      "mr_per_program_point": 1.0,
+      "name": "Virgin Atlantic Flying Club"
+    }
+  }
+}
