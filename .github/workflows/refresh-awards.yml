@@ -20,6 +20,8 @@ jobs:
       SEATS_AERO_API_KEY: ${{ secrets.SEATS_AERO_API_KEY }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Search Aeroplan New Year availability
         run: python scripts/aeroplan_nye.py
@@ -37,4 +39,5 @@ jobs:
             exit 0
           fi
           git commit -m "Refresh Aeroplan award data"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
