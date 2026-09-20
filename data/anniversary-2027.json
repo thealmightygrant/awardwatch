@@ -1,0 +1,64 @@
+{
+  "criteria": {
+    "cabin": "business",
+    "max_points_exclusive": 100000,
+    "min_cabin_pct": 100,
+    "minimum_seats": 2,
+    "outbound_dates": [
+      "2027-09-14",
+      "2027-09-16"
+    ],
+    "outbound_destinations": [
+      "BRS",
+      "LGW",
+      "LHR"
+    ],
+    "outbound_origins": [
+      "EWR",
+      "JFK",
+      "LGA"
+    ],
+    "programs": [
+      "flyingblue",
+      "aeroplan"
+    ],
+    "return_dates": [
+      "2027-10-02",
+      "2027-10-04"
+    ],
+    "return_destinations": [
+      "EWR",
+      "JFK",
+      "LGA"
+    ],
+    "return_origins": "any Europe airport represented in Seats.aero regional cache"
+  },
+  "generated_at": "2026-09-20T14:45:37.120083+00:00",
+  "notes": [
+    "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
+    "This watch requires at least two reported business-class seats in both directions.",
+    "Seats.aero data is cached. Verify promising itineraries directly with the relevant loyalty program before transferring points or booking.",
+    "October 2027 award inventory may not appear until it enters each program's booking horizon."
+  ],
+  "outbound_options": [],
+  "return_options": [],
+  "source": "Seats.aero cached availability",
+  "trip": {
+    "anniversary": "2027-10-01",
+    "festival_dates": [
+      "2027-09-10",
+      "2027-09-19"
+    ],
+    "purpose": "2027 anniversary / Jane Austen Festival final weekend",
+    "target_festival_weekend": [
+      "2027-09-17",
+      "2027-09-19"
+    ],
+    "uk_wish_list": [
+      "Jane Austen Festival final weekend in Bath",
+      "Lyme Park, the exterior of Pemberley in the BBC 1995 Pride and Prejudice",
+      "Regency-style afternoon tea at Lyme if offered for 2027",
+      "Sussex sparkling wine estate visit"
+    ]
+  }
+}
