@@ -229,26 +229,29 @@ def main():
     candidates = []
 
     for source in PROGRAMS:
-        # Shared NYC -> Europe snapshot, used by both couple-Europe and solo hiking.
+        # Shared NYC -> Europe snapshot, used by both watches. Query explicit
+        # gateways so Seats.aero does the origin/destination filtering server-side.
         try:
             rows = paginate(
-                "/availability",
+                "/search",
                 {
-                    "source": source,
-                    "cabin": "business",
+                    "origin_airport": ",".join(sorted(NYC)),
+                    "destination_airport": ",".join(sorted(EUROPE_GATEWAYS)),
                     "start_date": START_DATE,
                     "end_date": END_DATE,
-                    "origin_region": "North America",
-                    "destination_region": "Europe",
+                    "sources": source,
+                    "cabins": "business",
                     "min_cabin_pct": 100,
+                    "order_by": "lowest_mileage",
                 },
+                max_pages=20,
             )
             for row in rows:
                 s = summary(row, source, "Europe")
                 if qualifies_summary(s):
                     candidates.append(s)
         except Exception as exc:
-            print(f"warning: {source}/Europe availability failed: {exc}", file=sys.stderr)
+            print(f"warning: {source}/Europe search failed: {exc}", file=sys.stderr)
 
         # Compact targeted worldwide coverage for the solo hiking watch.
         try:
@@ -334,7 +337,7 @@ def main():
 
     shared_notes = [
         "Uses Seats.aero cached availability, not live airline search.",
-        "The scanner reuses one NYC-to-Europe summary snapshot for both watches and performs at most 24 trip-detail lookups total.",
+        "The scanner reuses one server-filtered NYC-to-Europe gateway snapshot for both watches and performs at most 24 trip-detail lookups total.",
         "Non-Europe solo-hiking coverage is limited to a targeted gateway list rather than a full worldwide regional crawl.",
         "AmEx MR equivalents use the current standard transfer ratio and are rounded up to the next 1,000 MR.",
         "United awards are compared using United miles because Membership Rewards do not transfer directly to United.",
@@ -351,7 +354,7 @@ def main():
             "max_effective_cost_exclusive": MAX_EFFECTIVE_COST,
             "minimum_seats": 1,
             "trip_focus": "solo hiking",
-            "non_europe_hiking_gateways": sorted(NON_EUROPE_HIKING_GATEWAYS),
+            "europe_gateways": sorted(EUROPE_GATEWAYS),\n            "non_europe_hiking_gateways": sorted(NON_EUROPE_HIKING_GATEWAYS),
         },
         "programs": PROGRAMS,
         "candidate_count": len(solo),
