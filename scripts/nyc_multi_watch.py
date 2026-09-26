@@ -15,12 +15,19 @@ from award_programs import PROGRAMS, approx_mr, effective_cost, under_limit
 
 BASE = "https://seats.aero/partnerapi"
 NYC = {"JFK", "EWR", "LGA"}
-REGIONS = ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"]
 MAX_EFFECTIVE_COST = 100_000
 TAKE = 1000
-MAX_DETAIL_LOOKUPS = 220
+MAX_COUPLE_DETAILS = 12
+MAX_SOLO_DETAILS = 12
 TRIPS_PER_AVAILABILITY = 3
 SOLO_END = "2026-12-31"
+
+# Instead of scanning every world region for every program, reuse one NYC->Europe
+# snapshot for both watches and add one compact search for non-Europe hiking
+# gateways. This keeps API traffic bounded while preserving the intended use.
+NON_EUROPE_HIKING_GATEWAYS = {
+    "YYC", "YVR", "SCL", "LIM", "UIO", "NRT", "HND", "KIX", "AKL", "CHC"
+}
 
 TODAY_DATE = datetime.now(timezone.utc).date()
 START_DATE = TODAY_DATE.isoformat()
@@ -39,7 +46,7 @@ def api_get(path, params=None, retries=3):
         headers={
             "Partner-Authorization": API_KEY,
             "Accept": "application/json",
-            "User-Agent": "awardwatch/1.0",
+            "User-Agent": "awardwatch/2.0",
         },
     )
     for attempt in range(retries):
@@ -49,13 +56,13 @@ def api_get(path, params=None, retries=3):
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", errors="replace")
             if e.code in (429, 500, 502, 503, 504) and attempt + 1 < retries:
-                time.sleep(2 ** attempt)
+                time.sleep(3 * (attempt + 1))
                 continue
             raise RuntimeError(f"Seats.aero HTTP {e.code}: {body[:1200]}") from e
         except Exception:
             if attempt + 1 >= retries:
                 raise
-            time.sleep(2 ** attempt)
+            time.sleep(3 * (attempt + 1))
 
 def items(payload):
     if isinstance(payload, list):
@@ -68,18 +75,18 @@ def items(payload):
             return value
     return []
 
-def paginate(path, params, max_pages=100):
+def paginate(path, params, max_pages=40):
     out = []
     cursor = None
     skip = 0
     seen = set()
     for _ in range(max_pages):
-        page_params = dict(params)
-        page_params["take"] = TAKE
+        q = dict(params)
+        q["take"] = TAKE
         if cursor is not None:
-            page_params["cursor"] = cursor
-            page_params["skip"] = skip
-        payload = api_get(path, page_params)
+            q["cursor"] = cursor
+            q["skip"] = skip
+        payload = api_get(path, q)
         batch = items(payload)
         for row in batch:
             row_id = row.get("ID") or row.get("id")
@@ -133,13 +140,12 @@ def summary(row, source, region):
         "updated_at": row.get("UpdatedAt") or row.get("updatedAt"),
     }
 
-def qualifies(row, source, region):
-    s = summary(row, source, region)
+def qualifies_summary(s):
     if s["origin"] not in NYC or not s["destination"] or s["destination"] in NYC:
         return False
-    if not s["business_available"] or not under_limit(s["program_points"], source, MAX_EFFECTIVE_COST):
+    if not s["business_available"] or not under_limit(s["program_points"], s["source"], MAX_EFFECTIVE_COST):
         return False
-    if PROGRAMS[source]["has_seat_count"] and (s["remaining_seats"] or 0) < 1:
+    if s["seat_count_reliable"] and (s["remaining_seats"] or 0) < 1:
         return False
     return True
 
@@ -200,7 +206,7 @@ def get_business_trips(availability_id, source):
     ))
     return result[:TRIPS_PER_AVAILABILITY]
 
-def candidate_rank(s):
+def rank(s):
     return (
         s["effective_cost"] if s["effective_cost"] is not None else 10**9,
         0 if s["direct"] else 1,
@@ -208,39 +214,64 @@ def candidate_rank(s):
         s["date"] or "",
     )
 
-def has_one_seat(option):
-    if any((t.get("remaining_seats") or 0) >= 1 for t in option.get("trips", [])):
-        return True
-    return not option["seat_count_reliable"] and bool(option.get("business_available"))
-
-def has_two_seats(option):
-    return any((t.get("remaining_seats") or 0) >= 2 for t in option.get("trips", []))
+def representatives(options, limit):
+    groups = defaultdict(list)
+    for s in options:
+        groups[(s["destination"], (s["date"] or "")[:7])].append(s)
+    reps = []
+    for values in groups.values():
+        values.sort(key=rank)
+        reps.append(values[0])
+    reps.sort(key=rank)
+    return reps[:limit]
 
 def main():
     candidates = []
+
     for source in PROGRAMS:
-        for region in REGIONS:
-            try:
-                rows = paginate(
-                    "/availability",
-                    {
-                        "source": source,
-                        "cabin": "business",
-                        "start_date": START_DATE,
-                        "end_date": END_DATE,
-                        "origin_region": "North America",
-                        "destination_region": region,
-                        "min_cabin_pct": 100,
-                    },
-                )
-            except Exception as exc:
-                if "HTTP 429" in str(exc):
-                    raise
-                print(f"warning: {source}/{region} availability failed: {exc}", file=sys.stderr)
-                continue
+        # Shared NYC -> Europe snapshot, used by both couple-Europe and solo hiking.
+        try:
+            rows = paginate(
+                "/availability",
+                {
+                    "source": source,
+                    "cabin": "business",
+                    "start_date": START_DATE,
+                    "end_date": END_DATE,
+                    "origin_region": "North America",
+                    "destination_region": "Europe",
+                    "min_cabin_pct": 100,
+                },
+            )
             for row in rows:
-                if qualifies(row, source, region):
-                    candidates.append(summary(row, source, region))
+                s = summary(row, source, "Europe")
+                if qualifies_summary(s):
+                    candidates.append(s)
+        except Exception as exc:
+            print(f"warning: {source}/Europe availability failed: {exc}", file=sys.stderr)
+
+        # Compact targeted worldwide coverage for the solo hiking watch.
+        try:
+            rows = paginate(
+                "/search",
+                {
+                    "origin_airport": ",".join(sorted(NYC)),
+                    "destination_airport": ",".join(sorted(NON_EUROPE_HIKING_GATEWAYS)),
+                    "start_date": START_DATE,
+                    "end_date": SOLO_END,
+                    "sources": source,
+                    "cabins": "business",
+                    "min_cabin_pct": 100,
+                    "order_by": "lowest_mileage",
+                },
+                max_pages=10,
+            )
+            for row in rows:
+                s = summary(row, source, "targeted-non-Europe-hiking")
+                if qualifies_summary(s):
+                    candidates.append(s)
+        except Exception as exc:
+            print(f"warning: {source}/hiking search failed: {exc}", file=sys.stderr)
 
     dedup = {}
     for s in candidates:
@@ -250,35 +281,31 @@ def main():
         dedup[key] = s
     candidates = list(dedup.values())
 
-    groups = defaultdict(list)
-    for s in candidates:
-        month = (s["date"] or "")[:7]
-        groups[(s["destination"], month)].append(s)
-    for options in groups.values():
-        options.sort(key=candidate_rank)
+    solo_pool = [
+        s for s in candidates
+        if (s["date"] or "") <= SOLO_END
+    ]
+    couple_pool = [
+        s for s in candidates
+        if s["destination_region"] == "Europe"
+        and s["seat_count_reliable"]
+        and (s["remaining_seats"] or 0) >= 2
+    ]
 
-    representatives = []
-    seconds = []
-    for _, options in sorted(groups.items()):
-        if options:
-            representatives.append(options[0])
-        if len(options) > 1:
-            seconds.append(options[1])
+    solo_reps = representatives(solo_pool, MAX_SOLO_DETAILS)
+    couple_reps = representatives(couple_pool, MAX_COUPLE_DETAILS)
 
-    representatives.sort(key=candidate_rank)
-    if len(representatives) > MAX_DETAIL_LOOKUPS:
-        representatives = representatives[:MAX_DETAIL_LOOKUPS]
-    else:
-        remaining = MAX_DETAIL_LOOKUPS - len(representatives)
-        seconds.sort(key=candidate_rank)
-        representatives.extend(seconds[:remaining])
+    detail_targets = {}
+    for s in solo_reps + couple_reps:
+        if s.get("availability_id"):
+            detail_targets[(s["availability_id"], s["source"])] = s
 
-    ids = [(s["availability_id"], s["source"]) for s in representatives if s["availability_id"]]
     trip_map = {}
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    # Keep concurrency low to avoid Seats.aero burst-rate limits.
+    with ThreadPoolExecutor(max_workers=2) as pool:
         future_to_key = {
             pool.submit(get_business_trips, aid, source): (aid, source)
-            for aid, source in ids
+            for aid, source in detail_targets
         }
         for future in as_completed(future_to_key):
             key = future_to_key[future]
@@ -288,26 +315,29 @@ def main():
                 trip_map[key] = []
                 print(f"warning: trip lookup failed for {key}: {exc}", file=sys.stderr)
 
-    for s in representatives:
-        s["trips"] = trip_map.get((s["availability_id"], s["source"]), [])
+    def attach(options):
+        out = []
+        for s in options:
+            x = dict(s)
+            x["trips"] = trip_map.get((s.get("availability_id"), s["source"]), [])
+            out.append(x)
+        return out
 
-    solo = [
-        s for s in representatives
-        if (s["date"] or "") <= SOLO_END and has_one_seat(s)
-    ]
-    couple_europe = [
-        s for s in representatives
-        if s["destination_region"] == "Europe" and has_two_seats(s)
-    ]
+    solo = attach(solo_reps)
+    couple = attach(couple_reps)
 
-    solo.sort(key=lambda s: (s["date"] or "", candidate_rank(s), s["destination"], s["source"]))
-    couple_europe.sort(key=lambda s: (s["date"] or "", candidate_rank(s), s["destination"], s["source"]))
+    # Couple alerts require confirmed trip-level two-seat availability.
+    couple = [
+        s for s in couple
+        if any((t.get("remaining_seats") or 0) >= 2 for t in s.get("trips", []))
+    ]
 
     shared_notes = [
         "Uses Seats.aero cached availability, not live airline search.",
+        "The scanner reuses one NYC-to-Europe summary snapshot for both watches and performs at most 24 trip-detail lookups total.",
+        "Non-Europe solo-hiking coverage is limited to a targeted gateway list rather than a full worldwide regional crawl.",
         "AmEx MR equivalents use the current standard transfer ratio and are rounded up to the next 1,000 MR.",
         "United awards are compared using United miles because Membership Rewards do not transfer directly to United.",
-        "Some current AmEx airline partners are not direct Seats.aero cached API sources and are not included in this feed.",
         "Verify any promising award directly with the loyalty program before transferring points or booking.",
     ]
 
@@ -321,6 +351,7 @@ def main():
             "max_effective_cost_exclusive": MAX_EFFECTIVE_COST,
             "minimum_seats": 1,
             "trip_focus": "solo hiking",
+            "non_europe_hiking_gateways": sorted(NON_EUROPE_HIKING_GATEWAYS),
         },
         "programs": PROGRAMS,
         "candidate_count": len(solo),
@@ -341,8 +372,8 @@ def main():
             "trip_focus": "couple experiential Europe",
         },
         "programs": PROGRAMS,
-        "candidate_count": len(couple_europe),
-        "candidates": couple_europe,
+        "candidate_count": len(couple),
+        "candidates": couple,
         "notes": shared_notes,
     }
 
@@ -351,10 +382,12 @@ def main():
     Path("data/couple-europe.json").write_text(json.dumps(couple_result, indent=2, sort_keys=True) + "\n")
 
     print(json.dumps({
-        "raw_candidates": len(candidates),
-        "detailed_candidates": len(representatives),
+        "summary_candidates": len(candidates),
+        "solo_detail_lookups": len(solo_reps),
+        "couple_detail_lookups": len(couple_reps),
+        "unique_detail_lookups": len(detail_targets),
         "solo_hiking_candidates": len(solo),
-        "couple_europe_two_seat_candidates": len(couple_europe),
+        "couple_europe_two_seat_candidates": len(couple),
     }))
 
 if __name__ == "__main__":
