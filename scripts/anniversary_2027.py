@@ -24,7 +24,7 @@ RETURN_START = "2027-10-02"
 RETURN_END = "2027-10-04"
 
 TAKE = 1000
-MAX_RETURN_DETAIL_LOOKUPS_PER_SOURCE = 180
+MAX_RETURN_DETAIL_LOOKUPS_PER_SOURCE = 8
 
 API_KEY = os.environ.get("SEATS_AERO_API_KEY")
 if not API_KEY:
@@ -191,7 +191,7 @@ def get_trips(availability_id, source):
 def enrich(options):
     trip_map = {}
     pairs = [(o["availability_id"], o["source"]) for o in options if o.get("availability_id")]
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    with ThreadPoolExecutor(max_workers=2) as pool:
         future_map = {pool.submit(get_trips, aid, source): (aid, source) for aid, source in pairs}
         for future in as_completed(future_map):
             aid, source = future_map[future]
