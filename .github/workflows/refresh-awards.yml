@@ -28,40 +28,53 @@ jobs:
           fetch-depth: 0
 
       - name: Search NYC Europe and solo hiking availability
+        id: nyc
+        continue-on-error: true
         run: python scripts/nyc_multi_watch.py
 
       - name: Search New Year couple availability
+        id: nye
+        continue-on-error: true
         run: python scripts/newyear_couple.py
 
       - name: Search 2027 anniversary availability
+        id: anniversary
+        continue-on-error: true
         run: python scripts/anniversary_2027.py
 
-      - name: Validate JSON
+      - name: Validate generated JSON
         run: |
-          python -m json.tool data/couple-europe.json >/dev/null
-          python -m json.tool data/solo-hiking.json >/dev/null
-          python -m json.tool data/newyear-couple.json >/dev/null
-          python -m json.tool data/anniversary-2027.json >/dev/null
+          for f in data/couple-europe.json data/solo-hiking.json data/newyear-couple.json data/anniversary-2027.json; do
+            if [ -f "$f" ]; then
+              python -m json.tool "$f" >/dev/null
+            fi
+          done
 
-      - name: Publish updated data
+      - name: Publish any successful updates
         run: |
-          cp data/couple-europe.json /tmp/couple-europe.json
-          cp data/solo-hiking.json /tmp/solo-hiking.json
-          cp data/newyear-couple.json /tmp/newyear-couple.json
-          cp data/anniversary-2027.json /tmp/anniversary-2027.json
+          mkdir -p /tmp/award-data
+          for f in couple-europe.json solo-hiking.json newyear-couple.json anniversary-2027.json; do
+            if [ -f "data/$f" ]; then cp "data/$f" "/tmp/award-data/$f"; fi
+          done
           git fetch origin main
           git reset --hard origin/main
           mkdir -p data
-          cp /tmp/couple-europe.json data/couple-europe.json
-          cp /tmp/solo-hiking.json data/solo-hiking.json
-          cp /tmp/newyear-couple.json data/newyear-couple.json
-          cp /tmp/anniversary-2027.json data/anniversary-2027.json
+          for f in couple-europe.json solo-hiking.json newyear-couple.json anniversary-2027.json; do
+            if [ -f "/tmp/award-data/$f" ]; then cp "/tmp/award-data/$f" "data/$f"; fi
+          done
           git config user.name "award-watch"
           git config user.email "award-watch@users.noreply.github.com"
-          git add data/couple-europe.json data/solo-hiking.json data/newyear-couple.json data/anniversary-2027.json
+          git add data/
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
           git commit -m "Refresh award data"
           git push origin HEAD:main
+
+      - name: Report partial failures
+        if: always()
+        run: |
+          echo "nyc=${{ steps.nyc.outcome }}"
+          echo "nye=${{ steps.nye.outcome }}"
+          echo "anniversary=${{ steps.anniversary.outcome }}"
