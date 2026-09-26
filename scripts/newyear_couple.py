@@ -21,7 +21,7 @@ OUT_START = "2026-12-28"
 OUT_END = "2026-12-29"
 RETURN_START = "2027-01-07"
 RETURN_END = "2027-01-10"
-REGIONS = ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"]
+REGIONS = ["North America", "South America", "Africa", "Asia", "Oceania"]\nTWO_SEAT_SOURCES = [s for s, cfg in PROGRAMS.items() if cfg["has_seat_count"]]
 TAKE = 1000
 TRIPS_PER_AVAILABILITY = 5
 
@@ -209,7 +209,7 @@ def chunks(values, size):
 
 def enrich(options):
     trip_map = {}
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    with ThreadPoolExecutor(max_workers=2) as pool:
         future_to_key = {}
         for s in options:
             aid = s.get("availability_id")
@@ -237,7 +237,7 @@ def main():
     outbound = []
 
     # Narrow two-day DEN scan across all directly supported programs.
-    for source in PROGRAMS:
+    for source in TWO_SEAT_SOURCES:
         for region in REGIONS:
             try:
                 rows = paginate(
@@ -274,7 +274,7 @@ def main():
 
     # Returns may be booked through a different program than the outbound.
     returns = []
-    for source in PROGRAMS:
+    for source in TWO_SEAT_SOURCES:
         for batch in chunks(destinations, 25):
             try:
                 rows = paginate(
