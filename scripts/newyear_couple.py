@@ -21,7 +21,8 @@ OUT_START = "2026-12-28"
 OUT_END = "2026-12-29"
 RETURN_START = "2027-01-07"
 RETURN_END = "2027-01-10"
-REGIONS = ["North America", "South America", "Africa", "Asia", "Oceania"]\nTWO_SEAT_SOURCES = [s for s, cfg in PROGRAMS.items() if cfg["has_seat_count"]]
+REGIONS = ["North America", "South America", "Africa", "Asia", "Oceania"]
+TWO_SEAT_SOURCES = [s for s, cfg in PROGRAMS.items() if cfg["has_seat_count"]]
 TAKE = 1000
 TRIPS_PER_AVAILABILITY = 5
 
