@@ -25,6 +25,13 @@ SOLO_END = "2026-12-31"
 # Instead of scanning every world region for every program, reuse one NYC->Europe
 # snapshot for both watches and add one compact search for non-Europe hiking
 # gateways. This keeps API traffic bounded while preserving the intended use.
+EUROPE_GATEWAYS = {
+    "LHR", "LGW", "MAN", "EDI", "GLA", "DUB", "CDG", "ORY", "NCE", "LYS", "TLS",
+    "AMS", "BRU", "FRA", "MUC", "BER", "ZRH", "GVA", "BSL", "VIE", "PRG", "BUD",
+    "WAW", "KRK", "CPH", "ARN", "OSL", "HEL", "KEF", "LIS", "OPO", "MAD", "BCN",
+    "AGP", "PMI", "FCO", "MXP", "VCE", "NAP", "FLR", "ATH", "SKG", "IST", "SOF",
+    "BEG", "ZAG", "DBV", "SPU", "LJU", "TLL", "RIX", "VNO", "OTP", "BRS", "BHX"
+}
 NON_EUROPE_HIKING_GATEWAYS = {
     "YYC", "YVR", "SCL", "LIM", "UIO", "NRT", "HND", "KIX", "AKL", "CHC"
 }
@@ -354,7 +361,8 @@ def main():
             "max_effective_cost_exclusive": MAX_EFFECTIVE_COST,
             "minimum_seats": 1,
             "trip_focus": "solo hiking",
-            "europe_gateways": sorted(EUROPE_GATEWAYS),\n            "non_europe_hiking_gateways": sorted(NON_EUROPE_HIKING_GATEWAYS),
+            "europe_gateways": sorted(EUROPE_GATEWAYS),
+            "non_europe_hiking_gateways": sorted(NON_EUROPE_HIKING_GATEWAYS),
         },
         "programs": PROGRAMS,
         "candidate_count": len(solo),
