@@ -21,7 +21,17 @@ OUT_START = "2026-12-28"
 OUT_END = "2026-12-29"
 RETURN_START = "2027-01-07"
 RETURN_END = "2027-01-10"
-REGIONS = ["North America", "South America", "Africa", "Asia", "Oceania"]
+WARM_DESTINATIONS = {
+    "MIA", "FLL", "HNL", "OGG",
+    "CUN", "PVR", "SJD",
+    "AUA", "CUR", "BGI", "PUJ", "MBJ", "NAS", "GCM", "SXM", "UVF", "ANU", "SJU",
+    "LIR", "SJO", "PTY", "BZE",
+    "EZE", "MVD", "GIG", "GRU", "SCL", "LIM",
+    "CPT", "JNB", "RAK", "CMN",
+    "DXB", "AUH", "DOH", "MCT",
+    "BKK", "HKT", "SIN", "MLE", "SEZ", "MRU",
+    "SYD", "MEL", "BNE", "AKL", "NAN", "PPT"
+}
 TWO_SEAT_SOURCES = [s for s, cfg in PROGRAMS.items() if cfg["has_seat_count"]]
 TAKE = 1000
 TRIPS_PER_AVAILABILITY = 5
@@ -237,30 +247,33 @@ def enrich(options):
 def main():
     outbound = []
 
-    # Narrow two-day DEN scan across all directly supported programs.
+    # Query only warm/sunny New Year gateways. This is dramatically smaller
+    # than crawling every region and still matches the purpose of this watch.
     for source in TWO_SEAT_SOURCES:
-        for region in REGIONS:
-            try:
-                rows = paginate(
-                    "/availability",
-                    {
-                        "source": source,
-                        "cabin": "business",
-                        "start_date": OUT_START,
-                        "end_date": OUT_END,
-                        "origin_region": "North America",
-                        "destination_region": region,
-                        "min_cabin_pct": 100,
-                    },
-                )
-            except Exception as exc:
-                if "HTTP 429" in str(exc):
-                    raise
-                print(f"warning: outbound {source}/{region} failed: {exc}", file=sys.stderr)
-                continue
-            for row in rows:
-                if qualifies(row, source, required_origin=ORIGIN):
-                    s = summary(row, source, region=region)
+        try:
+            rows = paginate(
+                "/search",
+                {
+                    "origin_airport": ORIGIN,
+                    "destination_airport": ",".join(sorted(WARM_DESTINATIONS)),
+                    "start_date": OUT_START,
+                    "end_date": OUT_END,
+                    "sources": source,
+                    "cabins": "business",
+                    "min_cabin_pct": 100,
+                    "order_by": "lowest_mileage",
+                },
+                max_pages=10,
+            )
+        except Exception as exc:
+            if "HTTP 429" in str(exc):
+                raise
+            print(f"warning: outbound {source} failed: {exc}", file=sys.stderr)
+            continue
+        for row in rows:
+            if qualifies(row, source, required_origin=ORIGIN):
+                s = summary(row, source, region="warm-target")
+                if s["destination"] in WARM_DESTINATIONS:
                     outbound.append(s)
 
     dedup = {}
@@ -356,6 +369,7 @@ def main():
             "minimum_confirmed_seats": 2,
             "min_cabin_pct": 100,
             "return_pairing": "same destination airport; outbound and return may use different loyalty programs",
+            "warm_destination_airports": sorted(WARM_DESTINATIONS),
         },
         "programs": PROGRAMS,
         "outbound_candidates_with_two_seat_trip_data": len(outbound),
