@@ -1051,9 +1051,9 @@
     {
       "airlines": "LA",
       "approx_amex_mr": 50000,
-      "availability_id": "36g5a5KFB0POOZDsCjBHjhQx9Hu",
+      "availability_id": "37Z7kmUhAqeBhMnzXKnAgeZNcaM",
       "business_available": true,
-      "date": "2026-11-06",
+      "date": "2026-11-25",
       "destination": "LIM",
       "destination_region": "targeted-non-Europe-hiking",
       "direct": true,
@@ -1068,10 +1068,10 @@
       "trips": [
         {
           "approx_amex_mr": 50000,
-          "arrives_at": "2026-11-06T21:00:00Z",
+          "arrives_at": "2026-11-25T21:00:00Z",
           "cabin": "business",
           "carriers": "LA",
-          "departs_at": "2026-11-06T12:50:00Z",
+          "departs_at": "2026-11-25T12:50:00Z",
           "effective_cost": 50000,
           "flight_numbers": "LA2691",
           "mixed_cabin_pct": null,
@@ -1081,8 +1081,8 @@
           "segments": [
             {
               "aircraft": "763",
-              "arrives_at": "2026-11-06T21:00:00Z",
-              "departs_at": "2026-11-06T12:50:00Z",
+              "arrives_at": "2026-11-25T21:00:00Z",
+              "departs_at": "2026-11-25T12:50:00Z",
               "destination": "LIM",
               "fare_class": "U",
               "flight_number": "LA2691",
@@ -1093,10 +1093,10 @@
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
           "taxes_minor_units": 5555,
-          "trip_id": "3K0SMqBwalqp3aZHqrmozXVLBuX"
+          "trip_id": "3JqXEPSsBfMqo2tM1wcQ4TosZoE"
         }
       ],
-      "updated_at": "2026-10-03T01:06:23.612943Z"
+      "updated_at": "2026-10-04T14:12:40.278073Z"
     },
     {
       "airlines": "LA",
@@ -1146,7 +1146,7 @@
           "trip_id": "3JxZn73ZsbhfDYx02N1mtQOh3ki"
         }
       ],
-      "updated_at": "2026-10-03T03:31:27.953133Z"
+      "updated_at": "2026-10-04T15:07:39.840597Z"
     },
     {
       "airlines": "CM, UA",
@@ -1296,10 +1296,10 @@
       "JFK",
       "LGA"
     ],
-    "start_date": "2026-10-03",
+    "start_date": "2026-10-04",
     "trip_focus": "solo hiking"
   },
-  "generated_at": "2026-10-03T15:10:22.227075+00:00",
+  "generated_at": "2026-10-04T15:52:40.283661+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "The scanner reuses one server-filtered NYC-to-Europe gateway snapshot for both watches and performs at most 24 trip-detail lookups total.",
