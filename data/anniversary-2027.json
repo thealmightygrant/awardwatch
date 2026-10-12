@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-10-11T16:41:28.725240+00:00",
+  "generated_at": "2026-10-12T20:21:39.114432+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -41,7 +41,338 @@
     "October 2027 award inventory may not appear until it enters each program's booking horizon."
   ],
   "outbound_options": [],
-  "return_options": [],
+  "return_options": [
+    {
+      "airlines": "AF, KL",
+      "availability_id": "3KR5i8SNm1wJAicGgdbcj0vGrbQ",
+      "date": "2027-10-02",
+      "destination": "JFK",
+      "direct": false,
+      "origin": "MAN",
+      "points": 86000,
+      "remaining_seats": 9,
+      "source": "flyingblue",
+      "trips": [
+        {
+          "arrives_at": "2027-10-02T19:05:00Z",
+          "cabin": "business",
+          "carriers": "KL, KL",
+          "departs_at": "2027-10-02T13:45:00Z",
+          "flight_numbers": "KL1034, KL643",
+          "mixed_cabin_pct": null,
+          "points": 86000,
+          "remaining_seats": 9,
+          "segments": [
+            {
+              "aircraft": "E7W",
+              "arrives_at": "2027-10-02T16:05:00Z",
+              "departs_at": "2027-10-02T13:45:00Z",
+              "destination": "AMS",
+              "fare_class": "J",
+              "flight_number": "KL1034",
+              "origin": "MAN"
+            },
+            {
+              "aircraft": "781",
+              "arrives_at": "2027-10-02T19:05:00Z",
+              "departs_at": "2027-10-02T17:05:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "KL643",
+              "origin": "AMS"
+            }
+          ],
+          "source": "flyingblue",
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 84089,
+          "trip_id": "3KYuQiqPLINOz0DOqapmw39Z6hP"
+        },
+        {
+          "arrives_at": "2027-10-02T18:45:00Z",
+          "cabin": "business",
+          "carriers": "AF, AF",
+          "departs_at": "2027-10-02T10:55:00Z",
+          "flight_numbers": "AF1669, AF8",
+          "mixed_cabin_pct": null,
+          "points": 86000,
+          "remaining_seats": 9,
+          "segments": [
+            {
+              "aircraft": "223",
+              "arrives_at": "2027-10-02T13:25:00Z",
+              "departs_at": "2027-10-02T10:55:00Z",
+              "destination": "CDG",
+              "fare_class": "J",
+              "flight_number": "AF1669",
+              "origin": "MAN"
+            },
+            {
+              "aircraft": "77W",
+              "arrives_at": "2027-10-02T18:45:00Z",
+              "departs_at": "2027-10-02T16:30:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "AF8",
+              "origin": "CDG"
+            }
+          ],
+          "source": "flyingblue",
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 84099,
+          "trip_id": "3KYuQnq046Ruf8hq44gUXo5hCAs"
+        },
+        {
+          "arrives_at": "2027-10-02T19:05:00Z",
+          "cabin": "business",
+          "carriers": "KL, KL",
+          "departs_at": "2027-10-02T11:00:00Z",
+          "flight_numbers": "KL1032, KL643",
+          "mixed_cabin_pct": null,
+          "points": 86000,
+          "remaining_seats": 9,
+          "segments": [
+            {
+              "aircraft": "32Q",
+              "arrives_at": "2027-10-02T13:20:00Z",
+              "departs_at": "2027-10-02T11:00:00Z",
+              "destination": "AMS",
+              "fare_class": "J",
+              "flight_number": "KL1032",
+              "origin": "MAN"
+            },
+            {
+              "aircraft": "781",
+              "arrives_at": "2027-10-02T19:05:00Z",
+              "departs_at": "2027-10-02T17:05:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "KL643",
+              "origin": "AMS"
+            }
+          ],
+          "source": "flyingblue",
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 84089,
+          "trip_id": "3KYuQjiObvSY9mJEiV892GvdNvM"
+        },
+        {
+          "arrives_at": "2027-10-02T19:05:00Z",
+          "cabin": "business",
+          "carriers": "KL, KL",
+          "departs_at": "2027-10-02T08:55:00Z",
+          "flight_numbers": "KL1030, KL643",
+          "mixed_cabin_pct": null,
+          "points": 86000,
+          "remaining_seats": 9,
+          "segments": [
+            {
+              "aircraft": "E7W",
+              "arrives_at": "2027-10-02T11:15:00Z",
+              "departs_at": "2027-10-02T08:55:00Z",
+              "destination": "AMS",
+              "fare_class": "J",
+              "flight_number": "KL1030",
+              "origin": "MAN"
+            },
+            {
+              "aircraft": "781",
+              "arrives_at": "2027-10-02T19:05:00Z",
+              "departs_at": "2027-10-02T17:05:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "KL643",
+              "origin": "AMS"
+            }
+          ],
+          "source": "flyingblue",
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 84089,
+          "trip_id": "3KYuQpWxbswbRy0tFUcxHK08tG7"
+        },
+        {
+          "arrives_at": "2027-10-02T22:40:00Z",
+          "cabin": "business",
+          "carriers": "AF, AF",
+          "departs_at": "2027-10-02T10:55:00Z",
+          "flight_numbers": "AF1669, AF12",
+          "mixed_cabin_pct": null,
+          "points": 86000,
+          "remaining_seats": 9,
+          "segments": [
+            {
+              "aircraft": "223",
+              "arrives_at": "2027-10-02T13:25:00Z",
+              "departs_at": "2027-10-02T10:55:00Z",
+              "destination": "CDG",
+              "fare_class": "J",
+              "flight_number": "AF1669",
+              "origin": "MAN"
+            },
+            {
+              "aircraft": "359",
+              "arrives_at": "2027-10-02T22:40:00Z",
+              "departs_at": "2027-10-02T20:30:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "AF12",
+              "origin": "CDG"
+            }
+          ],
+          "source": "flyingblue",
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 84099,
+          "trip_id": "3KYuQmK1LhVVvMyPai9DErpgBPb"
+        }
+      ],
+      "updated_at": "2026-10-11T19:26:48.565642Z"
+    },
+    {
+      "airlines": "AF",
+      "availability_id": "3KTpZyJ7Sg6KBbo4juRMBUGXPyP",
+      "date": "2027-10-03",
+      "destination": "JFK",
+      "direct": false,
+      "origin": "MAN",
+      "points": 86000,
+      "remaining_seats": 9,
+      "source": "flyingblue",
+      "trips": [
+        {
+          "arrives_at": "2027-10-03T22:40:00Z",
+          "cabin": "business",
+          "carriers": "AF, AF",
+          "departs_at": "2027-10-03T14:55:00Z",
+          "flight_numbers": "AF1069, AF12",
+          "mixed_cabin_pct": null,
+          "points": 86000,
+          "remaining_seats": 9,
+          "segments": [
+            {
+              "aircraft": "223",
+              "arrives_at": "2027-10-03T17:30:00Z",
+              "departs_at": "2027-10-03T14:55:00Z",
+              "destination": "CDG",
+              "fare_class": "J",
+              "flight_number": "AF1069",
+              "origin": "MAN"
+            },
+            {
+              "aircraft": "359",
+              "arrives_at": "2027-10-03T22:40:00Z",
+              "departs_at": "2027-10-03T20:30:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "AF12",
+              "origin": "CDG"
+            }
+          ],
+          "source": "flyingblue",
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 84099,
+          "trip_id": "3KYsaHnPYmwNWesnvEQfxPJcvU0"
+        },
+        {
+          "arrives_at": "2027-10-03T20:45:00Z",
+          "cabin": "business",
+          "carriers": "AF, AF",
+          "departs_at": "2027-10-03T14:55:00Z",
+          "flight_numbers": "AF1069, AF10",
+          "mixed_cabin_pct": null,
+          "points": 86000,
+          "remaining_seats": 3,
+          "segments": [
+            {
+              "aircraft": "223",
+              "arrives_at": "2027-10-03T17:30:00Z",
+              "departs_at": "2027-10-03T14:55:00Z",
+              "destination": "CDG",
+              "fare_class": "J",
+              "flight_number": "AF1069",
+              "origin": "MAN"
+            },
+            {
+              "aircraft": "359",
+              "arrives_at": "2027-10-03T20:45:00Z",
+              "departs_at": "2027-10-03T18:30:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "AF10",
+              "origin": "CDG"
+            }
+          ],
+          "source": "flyingblue",
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 84099,
+          "trip_id": "3KYsaM5UYSIN2MjzsvQiIOekPmI"
+        }
+      ],
+      "updated_at": "2026-10-11T19:11:37.556703Z"
+    },
+    {
+      "airlines": "AF, KL",
+      "availability_id": "3KYtWDBLrFdFqH3tktG78OfO6d1",
+      "date": "2027-10-04",
+      "destination": "JFK",
+      "direct": false,
+      "origin": "MAN",
+      "points": 86000,
+      "remaining_seats": 3,
+      "source": "flyingblue",
+      "trips": [
+        {
+          "arrives_at": "2027-10-04T22:40:00Z",
+          "cabin": "business",
+          "carriers": "AF, AF",
+          "departs_at": "2027-10-04T14:55:00Z",
+          "flight_numbers": "AF1069, AF12",
+          "mixed_cabin_pct": null,
+          "points": 86000,
+          "remaining_seats": 3,
+          "segments": [
+            {
+              "aircraft": "223",
+              "arrives_at": "2027-10-04T17:30:00Z",
+              "departs_at": "2027-10-04T14:55:00Z",
+              "destination": "CDG",
+              "fare_class": "J",
+              "flight_number": "AF1069",
+              "origin": "MAN"
+            },
+            {
+              "aircraft": "359",
+              "arrives_at": "2027-10-04T22:40:00Z",
+              "departs_at": "2027-10-04T20:30:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "AF12",
+              "origin": "CDG"
+            }
+          ],
+          "source": "flyingblue",
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 84099,
+          "trip_id": "3KYtWF35b6PWwA5vqO4qLxb0UAq"
+        }
+      ],
+      "updated_at": "2026-10-11T19:19:18.108682Z"
+    }
+  ],
   "source": "Seats.aero cached availability",
   "trip": {
     "anniversary": "2027-10-01",
