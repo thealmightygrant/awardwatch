@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-10-14T15:52:54.087213+00:00",
+  "generated_at": "2026-10-15T15:39:32.481797+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -280,11 +280,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 16150,
+          "taxes_minor_units": 16140,
           "trip_id": "3KfnWwTa7XxlwmHWBHwjQgVg1HH"
         }
       ],
-      "updated_at": "2026-10-14T05:58:44.135403Z"
+      "updated_at": "2026-10-14T17:24:06.140112Z"
     },
     {
       "airlines": "MS",
@@ -509,42 +509,6 @@
           "arrives_at": "2027-10-04T10:25:00Z",
           "cabin": "business",
           "carriers": "MS",
-          "departs_at": "2027-10-03T14:30:00Z",
-          "flight_numbers": "MS704, MS985",
-          "mixed_cabin_pct": null,
-          "points": 90000,
-          "remaining_seats": 2,
-          "segments": [
-            {
-              "aircraft": "321",
-              "arrives_at": "2027-10-03T19:10:00Z",
-              "departs_at": "2027-10-03T14:30:00Z",
-              "destination": "CAI",
-              "fare_class": "I",
-              "flight_number": "MS704",
-              "origin": "MXP"
-            },
-            {
-              "aircraft": "773",
-              "arrives_at": "2027-10-04T10:25:00Z",
-              "departs_at": "2027-10-04T05:50:00Z",
-              "destination": "JFK",
-              "fare_class": "I",
-              "flight_number": "MS985",
-              "origin": "CAI"
-            }
-          ],
-          "source": "aeroplan",
-          "stops": 1,
-          "tax_currency": "CAD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 15140,
-          "trip_id": "3KgIV7rZubgsU7nPzv8O8ojIfpR"
-        },
-        {
-          "arrives_at": "2027-10-04T10:25:00Z",
-          "cabin": "business",
-          "carriers": "MS",
           "departs_at": "2027-10-03T17:50:00Z",
           "flight_numbers": "MS706, MS985",
           "mixed_cabin_pct": null,
@@ -576,9 +540,45 @@
           "tax_currency_symbol": "$",
           "taxes_minor_units": 15140,
           "trip_id": "3KgIV1SvxTRzlUya2igjLNHMxAx"
+        },
+        {
+          "arrives_at": "2027-10-04T10:25:00Z",
+          "cabin": "business",
+          "carriers": "MS",
+          "departs_at": "2027-10-03T14:30:00Z",
+          "flight_numbers": "MS704, MS985",
+          "mixed_cabin_pct": null,
+          "points": 90000,
+          "remaining_seats": 2,
+          "segments": [
+            {
+              "aircraft": "321",
+              "arrives_at": "2027-10-03T19:10:00Z",
+              "departs_at": "2027-10-03T14:30:00Z",
+              "destination": "CAI",
+              "fare_class": "I",
+              "flight_number": "MS704",
+              "origin": "MXP"
+            },
+            {
+              "aircraft": "773",
+              "arrives_at": "2027-10-04T10:25:00Z",
+              "departs_at": "2027-10-04T05:50:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "MS985",
+              "origin": "CAI"
+            }
+          ],
+          "source": "aeroplan",
+          "stops": 1,
+          "tax_currency": "CAD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 15140,
+          "trip_id": "3KgIV7rZubgsU7nPzv8O8ojIfpR"
         }
       ],
-      "updated_at": "2026-10-14T10:13:24.831333Z"
+      "updated_at": "2026-10-14T18:19:17.865469Z"
     },
     {
       "airlines": "AF, KL",
