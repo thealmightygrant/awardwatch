@@ -497,25 +497,25 @@
           "destination": "EWR",
           "destination_region": null,
           "direct": false,
-          "effective_cost": 58100,
+          "effective_cost": 57700,
           "funding": "United miles",
           "origin": "CUN",
           "program": "United MileagePlus",
-          "program_points": 58100,
+          "program_points": 57700,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "source": "united",
           "trips": [
             {
               "approx_amex_mr": null,
-              "arrives_at": "2027-01-07T23:15:00Z",
+              "arrives_at": "2027-01-07T23:14:00Z",
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2027-01-07T14:55:00Z",
-              "effective_cost": 58100,
+              "effective_cost": 57700,
               "flight_numbers": "UA2737, UA759",
               "mixed_cabin_pct": null,
-              "program_points": 58100,
+              "program_points": 57700,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -528,8 +528,8 @@
                   "origin": "CUN"
                 },
                 {
-                  "aircraft": "32Q",
-                  "arrives_at": "2027-01-07T23:15:00Z",
+                  "aircraft": "7M9",
+                  "arrives_at": "2027-01-07T23:14:00Z",
                   "departs_at": "2027-01-07T19:56:00Z",
                   "destination": "EWR",
                   "fare_class": "JN",
@@ -541,10 +541,47 @@
               "tax_currency": "USD",
               "tax_currency_symbol": "$",
               "taxes_minor_units": 8639,
-              "trip_id": "3KXHl29G8jD2B8U3jhXACvJF8Vy"
+              "trip_id": "3Ksio2KFWBvXIlCE0QF4HNnhoRT"
+            },
+            {
+              "approx_amex_mr": null,
+              "arrives_at": "2027-01-07T21:17:00Z",
+              "cabin": "business",
+              "carriers": "UA, UA",
+              "departs_at": "2027-01-07T12:30:00Z",
+              "effective_cost": 65600,
+              "flight_numbers": "UA1694, UA4602",
+              "mixed_cabin_pct": null,
+              "program_points": 65600,
+              "remaining_seats": 9,
+              "segments": [
+                {
+                  "aircraft": "7M9",
+                  "arrives_at": "2027-01-07T15:54:00Z",
+                  "departs_at": "2027-01-07T12:30:00Z",
+                  "destination": "IAD",
+                  "fare_class": "JN",
+                  "flight_number": "UA1694",
+                  "origin": "CUN"
+                },
+                {
+                  "aircraft": "CR5",
+                  "arrives_at": "2027-01-07T21:17:00Z",
+                  "departs_at": "2027-01-07T19:40:00Z",
+                  "destination": "EWR",
+                  "fare_class": "JN",
+                  "flight_number": "UA4602",
+                  "origin": "DCA"
+                }
+              ],
+              "stops": 1,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 8639,
+              "trip_id": "3KXHl1wTFsWr5WfyZLaxTUlUnqZ"
             }
           ],
-          "updated_at": "2026-10-11T05:38:59.250777Z"
+          "updated_at": "2026-10-18T19:47:27.085966Z"
         },
         {
           "airlines": "DL",
@@ -560,7 +597,7 @@
           "origin": "CUN",
           "program": "Virgin Atlantic Flying Club",
           "program_points": 83000,
-          "remaining_seats": 7,
+          "remaining_seats": 4,
           "seat_count_reliable": true,
           "source": "virginatlantic",
           "trips": [
@@ -574,7 +611,7 @@
               "flight_numbers": "DL595, DL2386",
               "mixed_cabin_pct": null,
               "program_points": 83000,
-              "remaining_seats": 7,
+              "remaining_seats": 4,
               "segments": [
                 {
                   "aircraft": "321",
@@ -602,7 +639,7 @@
               "trip_id": "3KZpVXrKBQ45FJ2AlcvURPLqDww"
             }
           ],
-          "updated_at": "2026-10-14T16:39:46.984375Z"
+          "updated_at": "2026-10-19T01:53:34.586224Z"
         },
         {
           "airlines": "DL",
@@ -1018,32 +1055,69 @@
         },
         {
           "airlines": "DL",
-          "approx_amex_mr": 56000,
+          "approx_amex_mr": 60000,
           "availability_id": "39dob7jgUZ5bvfZputsuYiGscZg",
           "business_available": true,
           "date": "2027-01-10",
           "destination": "JFK",
           "destination_region": null,
-          "direct": false,
-          "effective_cost": 56000,
+          "direct": true,
+          "effective_cost": 60000,
           "funding": "AmEx Membership Rewards",
           "origin": "CUN",
           "program": "Delta SkyMiles",
-          "program_points": 56000,
+          "program_points": 60000,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "source": "delta",
           "trips": [
             {
-              "approx_amex_mr": 56000,
+              "approx_amex_mr": 60000,
+              "arrives_at": "2027-01-10T23:47:00Z",
+              "cabin": "business",
+              "carriers": "DL, DL",
+              "departs_at": "2027-01-10T15:20:00Z",
+              "effective_cost": 60000,
+              "flight_numbers": "DL1878, DL1173",
+              "mixed_cabin_pct": null,
+              "program_points": 60000,
+              "remaining_seats": 5,
+              "segments": [
+                {
+                  "aircraft": "321",
+                  "arrives_at": "2027-01-10T18:35:00Z",
+                  "departs_at": "2027-01-10T15:20:00Z",
+                  "destination": "MSP",
+                  "fare_class": "OI",
+                  "flight_number": "DL1878",
+                  "origin": "CUN"
+                },
+                {
+                  "aircraft": "223",
+                  "arrives_at": "2027-01-10T23:47:00Z",
+                  "departs_at": "2027-01-10T19:55:00Z",
+                  "destination": "JFK",
+                  "fare_class": "OI",
+                  "flight_number": "DL1173",
+                  "origin": "MSP"
+                }
+              ],
+              "stops": 1,
+              "tax_currency": "MXN",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 151638,
+              "trip_id": "3KtWOtJXc14A8Kv8WB8y8M5C5VY"
+            },
+            {
+              "approx_amex_mr": 66000,
               "arrives_at": "2027-01-11T00:59:00Z",
               "cabin": "business",
               "carriers": "DL, DL",
               "departs_at": "2027-01-10T17:40:00Z",
-              "effective_cost": 56000,
+              "effective_cost": 66000,
               "flight_numbers": "DL595, DL2386",
               "mixed_cabin_pct": null,
-              "program_points": 56000,
+              "program_points": 66000,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -1068,82 +1142,8 @@
               "stops": 1,
               "tax_currency": "MXN",
               "tax_currency_symbol": "$",
-              "taxes_minor_units": 150882,
+              "taxes_minor_units": 151638,
               "trip_id": "39fS9AmVeYztEGq8HrE6k6GA6tH"
-            },
-            {
-              "approx_amex_mr": 74000,
-              "arrives_at": "2027-01-10T23:47:00Z",
-              "cabin": "business",
-              "carriers": "DL, DL",
-              "departs_at": "2027-01-10T15:20:00Z",
-              "effective_cost": 74000,
-              "flight_numbers": "DL1878, DL5053",
-              "mixed_cabin_pct": null,
-              "program_points": 74000,
-              "remaining_seats": 9,
-              "segments": [
-                {
-                  "aircraft": "321",
-                  "arrives_at": "2027-01-10T18:35:00Z",
-                  "departs_at": "2027-01-10T15:20:00Z",
-                  "destination": "MSP",
-                  "fare_class": "OD",
-                  "flight_number": "DL1878",
-                  "origin": "CUN"
-                },
-                {
-                  "aircraft": "CR9",
-                  "arrives_at": "2027-01-10T23:47:00Z",
-                  "departs_at": "2027-01-10T19:55:00Z",
-                  "destination": "JFK",
-                  "fare_class": "OD",
-                  "flight_number": "DL5053",
-                  "origin": "MSP"
-                }
-              ],
-              "stops": 1,
-              "tax_currency": "MXN",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 150882,
-              "trip_id": "39fS97OhHUZJxiemSsj6GLRJpNE"
-            },
-            {
-              "approx_amex_mr": 74000,
-              "arrives_at": "2027-01-10T23:47:00Z",
-              "cabin": "business",
-              "carriers": "DL, DL",
-              "departs_at": "2027-01-10T13:55:00Z",
-              "effective_cost": 74000,
-              "flight_numbers": "DL2011, DL5053",
-              "mixed_cabin_pct": null,
-              "program_points": 74000,
-              "remaining_seats": 5,
-              "segments": [
-                {
-                  "aircraft": "739",
-                  "arrives_at": "2027-01-10T17:15:00Z",
-                  "departs_at": "2027-01-10T13:55:00Z",
-                  "destination": "MSP",
-                  "fare_class": "OD",
-                  "flight_number": "DL2011",
-                  "origin": "CUN"
-                },
-                {
-                  "aircraft": "CR9",
-                  "arrives_at": "2027-01-10T23:47:00Z",
-                  "departs_at": "2027-01-10T19:55:00Z",
-                  "destination": "JFK",
-                  "fare_class": "OD",
-                  "flight_number": "DL5053",
-                  "origin": "MSP"
-                }
-              ],
-              "stops": 1,
-              "tax_currency": "MXN",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 150882,
-              "trip_id": "3HDve8EsB0G6c821oP8TfTDRlfU"
             },
             {
               "approx_amex_mr": 74000,
@@ -1155,7 +1155,7 @@
               "flight_numbers": "DL641, DL2386",
               "mixed_cabin_pct": null,
               "program_points": 74000,
-              "remaining_seats": 5,
+              "remaining_seats": 8,
               "segments": [
                 {
                   "aircraft": "757",
@@ -1179,48 +1179,85 @@
               "stops": 1,
               "tax_currency": "MXN",
               "tax_currency_symbol": "$",
-              "taxes_minor_units": 150882,
+              "taxes_minor_units": 151638,
               "trip_id": "3GXoPpHjUt0WZoYuqHMUrywOHnp"
             },
             {
-              "approx_amex_mr": 95000,
-              "arrives_at": "2027-01-10T23:47:00Z",
+              "approx_amex_mr": 74000,
+              "arrives_at": "2027-01-11T00:59:00Z",
               "cabin": "business",
               "carriers": "DL, DL",
-              "departs_at": "2027-01-10T12:55:00Z",
-              "effective_cost": 95000,
-              "flight_numbers": "DL1827, DL5053",
+              "departs_at": "2027-01-10T16:30:00Z",
+              "effective_cost": 74000,
+              "flight_numbers": "DL1962, DL2386",
               "mixed_cabin_pct": null,
-              "program_points": 95000,
-              "remaining_seats": 2,
+              "program_points": 74000,
+              "remaining_seats": 7,
               "segments": [
                 {
-                  "aircraft": "739",
-                  "arrives_at": "2027-01-10T16:15:00Z",
-                  "departs_at": "2027-01-10T12:55:00Z",
-                  "destination": "MSP",
-                  "fare_class": "OC",
-                  "flight_number": "DL1827",
+                  "aircraft": "321",
+                  "arrives_at": "2027-01-10T19:10:00Z",
+                  "departs_at": "2027-01-10T16:30:00Z",
+                  "destination": "ATL",
+                  "fare_class": "OD",
+                  "flight_number": "DL1962",
                   "origin": "CUN"
                 },
                 {
-                  "aircraft": "CR9",
+                  "aircraft": "739",
+                  "arrives_at": "2027-01-11T00:59:00Z",
+                  "departs_at": "2027-01-10T22:40:00Z",
+                  "destination": "JFK",
+                  "fare_class": "OD",
+                  "flight_number": "DL2386",
+                  "origin": "ATL"
+                }
+              ],
+              "stops": 1,
+              "tax_currency": "MXN",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 151638,
+              "trip_id": "39fS95VD8E4WK57LXT3dv6quWiE"
+            },
+            {
+              "approx_amex_mr": 74000,
+              "arrives_at": "2027-01-10T23:47:00Z",
+              "cabin": "business",
+              "carriers": "DL, DL",
+              "departs_at": "2027-01-10T13:55:00Z",
+              "effective_cost": 74000,
+              "flight_numbers": "DL2011, DL1173",
+              "mixed_cabin_pct": null,
+              "program_points": 74000,
+              "remaining_seats": 5,
+              "segments": [
+                {
+                  "aircraft": "739",
+                  "arrives_at": "2027-01-10T17:15:00Z",
+                  "departs_at": "2027-01-10T13:55:00Z",
+                  "destination": "MSP",
+                  "fare_class": "OD",
+                  "flight_number": "DL2011",
+                  "origin": "CUN"
+                },
+                {
+                  "aircraft": "223",
                   "arrives_at": "2027-01-10T23:47:00Z",
                   "departs_at": "2027-01-10T19:55:00Z",
                   "destination": "JFK",
-                  "fare_class": "OC",
-                  "flight_number": "DL5053",
+                  "fare_class": "OD",
+                  "flight_number": "DL1173",
                   "origin": "MSP"
                 }
               ],
               "stops": 1,
               "tax_currency": "MXN",
               "tax_currency_symbol": "$",
-              "taxes_minor_units": 150882,
-              "trip_id": "3Gr1lc673vMeQOKkszAVqVzqyHA"
+              "taxes_minor_units": 151638,
+              "trip_id": "3KtWOwhLhZtn8cnK1j4YCnMpfwB"
             }
           ],
-          "updated_at": "2026-10-12T15:52:30.470515Z"
+          "updated_at": "2026-10-19T02:35:15.245158Z"
         }
       ]
     },
@@ -1494,111 +1531,6 @@
       ],
       "return_options": [
         {
-          "airlines": "B6",
-          "approx_amex_mr": 23000,
-          "availability_id": "39V8f3L5f5nd2Mp1MswOy5EdZ2j",
-          "business_available": true,
-          "date": "2027-01-07",
-          "destination": "LGA",
-          "destination_region": null,
-          "direct": true,
-          "effective_cost": 23000,
-          "funding": "AmEx Membership Rewards",
-          "origin": "FLL",
-          "program": "JetBlue TrueBlue",
-          "program_points": 18100,
-          "remaining_seats": 6,
-          "seat_count_reliable": true,
-          "source": "jetblue",
-          "trips": [
-            {
-              "approx_amex_mr": 23000,
-              "arrives_at": "2027-01-07T12:32:00Z",
-              "cabin": "business",
-              "carriers": "B6",
-              "departs_at": "2027-01-07T09:43:00Z",
-              "effective_cost": 23000,
-              "flight_numbers": "B672",
-              "mixed_cabin_pct": null,
-              "program_points": 18100,
-              "remaining_seats": 6,
-              "segments": [
-                {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-07T12:32:00Z",
-                  "departs_at": "2027-01-07T09:43:00Z",
-                  "destination": "LGA",
-                  "fare_class": "S",
-                  "flight_number": "B672",
-                  "origin": "FLL"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3Kjlb1NcXaerq7d93fMkNm80sbG"
-            },
-            {
-              "approx_amex_mr": 23000,
-              "arrives_at": "2027-01-07T14:58:00Z",
-              "cabin": "business",
-              "carriers": "B6",
-              "departs_at": "2027-01-07T12:06:00Z",
-              "effective_cost": 23000,
-              "flight_numbers": "B6372",
-              "mixed_cabin_pct": null,
-              "program_points": 18100,
-              "remaining_seats": 6,
-              "segments": [
-                {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-07T14:58:00Z",
-                  "departs_at": "2027-01-07T12:06:00Z",
-                  "destination": "LGA",
-                  "fare_class": "S",
-                  "flight_number": "B6372",
-                  "origin": "FLL"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3KjlayadnBqbcb2wuqB17Jccs5s"
-            },
-            {
-              "approx_amex_mr": 23000,
-              "arrives_at": "2027-01-07T23:53:00Z",
-              "cabin": "business",
-              "carriers": "B6",
-              "departs_at": "2027-01-07T20:59:00Z",
-              "effective_cost": 23000,
-              "flight_numbers": "B6572",
-              "mixed_cabin_pct": null,
-              "program_points": 18100,
-              "remaining_seats": 6,
-              "segments": [
-                {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-07T23:53:00Z",
-                  "departs_at": "2027-01-07T20:59:00Z",
-                  "destination": "LGA",
-                  "fare_class": "S",
-                  "flight_number": "B6572",
-                  "origin": "FLL"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3Kjlb2WLg8pFXnqGLXVDJuDQZJ6"
-            }
-          ],
-          "updated_at": "2026-10-15T15:42:05.148079Z"
-        },
-        {
           "airlines": "DL",
           "approx_amex_mr": 29000,
           "availability_id": "39V8yYqV5dOCnVbgrxepkXf6LPE",
@@ -1626,7 +1558,7 @@
               "flight_numbers": "DL2165",
               "mixed_cabin_pct": null,
               "program_points": 28600,
-              "remaining_seats": 3,
+              "remaining_seats": 9,
               "segments": [
                 {
                   "aircraft": "739",
@@ -1645,43 +1577,15 @@
               "trip_id": "39ehfRK7tc10rLRoqEbE7o0zVaz"
             },
             {
-              "approx_amex_mr": 51000,
-              "arrives_at": "2027-01-07T22:58:00Z",
-              "cabin": "business",
-              "carriers": "DL",
-              "departs_at": "2027-01-07T19:59:00Z",
-              "effective_cost": 51000,
-              "flight_numbers": "DL1419",
-              "mixed_cabin_pct": null,
-              "program_points": 50500,
-              "remaining_seats": 9,
-              "segments": [
-                {
-                  "aircraft": "739",
-                  "arrives_at": "2027-01-07T22:58:00Z",
-                  "departs_at": "2027-01-07T19:59:00Z",
-                  "destination": "JFK",
-                  "fare_class": "OI",
-                  "flight_number": "DL1419",
-                  "origin": "FLL"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "39ehfVwmuy2dGeEaJ0xJ3cDLj1g"
-            },
-            {
-              "approx_amex_mr": 51000,
+              "approx_amex_mr": 29000,
               "arrives_at": "2027-01-07T11:55:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-07T09:00:00Z",
-              "effective_cost": 51000,
+              "effective_cost": 29000,
               "flight_numbers": "DL1325",
               "mixed_cabin_pct": null,
-              "program_points": 50500,
+              "program_points": 28600,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -1689,7 +1593,7 @@
                   "arrives_at": "2027-01-07T11:55:00Z",
                   "departs_at": "2027-01-07T09:00:00Z",
                   "destination": "JFK",
-                  "fare_class": "OI",
+                  "fare_class": "OZ",
                   "flight_number": "DL1325",
                   "origin": "FLL"
                 }
@@ -1701,16 +1605,44 @@
               "trip_id": "3A8VQHbVqb687ddMcjf1OD6XxSk"
             },
             {
-              "approx_amex_mr": 51000,
+              "approx_amex_mr": 29000,
+              "arrives_at": "2027-01-07T22:58:00Z",
+              "cabin": "business",
+              "carriers": "DL",
+              "departs_at": "2027-01-07T19:59:00Z",
+              "effective_cost": 29000,
+              "flight_numbers": "DL1419",
+              "mixed_cabin_pct": null,
+              "program_points": 28600,
+              "remaining_seats": 7,
+              "segments": [
+                {
+                  "aircraft": "739",
+                  "arrives_at": "2027-01-07T22:58:00Z",
+                  "departs_at": "2027-01-07T19:59:00Z",
+                  "destination": "JFK",
+                  "fare_class": "OZ",
+                  "flight_number": "DL1419",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "39ehfVwmuy2dGeEaJ0xJ3cDLj1g"
+            },
+            {
+              "approx_amex_mr": 50000,
               "arrives_at": "2027-01-07T14:17:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-07T11:20:00Z",
-              "effective_cost": 51000,
+              "effective_cost": 50000,
               "flight_numbers": "DL1422",
               "mixed_cabin_pct": null,
-              "program_points": 50500,
-              "remaining_seats": 9,
+              "program_points": 49500,
+              "remaining_seats": 8,
               "segments": [
                 {
                   "aircraft": "739",
@@ -1729,16 +1661,16 @@
               "trip_id": "39ehfU7eY08S8AtUZMFesF2LOiE"
             },
             {
-              "approx_amex_mr": 51000,
+              "approx_amex_mr": 50000,
               "arrives_at": "2027-01-07T18:25:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-07T15:20:00Z",
-              "effective_cost": 51000,
+              "effective_cost": 50000,
               "flight_numbers": "DL2641",
               "mixed_cabin_pct": null,
-              "program_points": 50500,
-              "remaining_seats": 6,
+              "program_points": 49500,
+              "remaining_seats": 5,
               "segments": [
                 {
                   "aircraft": "739",
@@ -1757,7 +1689,112 @@
               "trip_id": "39ehfUI33aDx3yRCuglbOOBkf3H"
             }
           ],
-          "updated_at": "2026-10-10T01:23:36.498567Z"
+          "updated_at": "2026-10-19T03:48:10.287674Z"
+        },
+        {
+          "airlines": "B6",
+          "approx_amex_mr": 35000,
+          "availability_id": "39V8f3L5f5nd2Mp1MswOy5EdZ2j",
+          "business_available": true,
+          "date": "2027-01-07",
+          "destination": "LGA",
+          "destination_region": null,
+          "direct": true,
+          "effective_cost": 35000,
+          "funding": "AmEx Membership Rewards",
+          "origin": "FLL",
+          "program": "JetBlue TrueBlue",
+          "program_points": 27800,
+          "remaining_seats": 6,
+          "seat_count_reliable": true,
+          "source": "jetblue",
+          "trips": [
+            {
+              "approx_amex_mr": 35000,
+              "arrives_at": "2027-01-07T23:53:00Z",
+              "cabin": "business",
+              "carriers": "B6",
+              "departs_at": "2027-01-07T20:59:00Z",
+              "effective_cost": 35000,
+              "flight_numbers": "B6572",
+              "mixed_cabin_pct": null,
+              "program_points": 27800,
+              "remaining_seats": 6,
+              "segments": [
+                {
+                  "aircraft": "320",
+                  "arrives_at": "2027-01-07T23:53:00Z",
+                  "departs_at": "2027-01-07T20:59:00Z",
+                  "destination": "LGA",
+                  "fare_class": "S",
+                  "flight_number": "B6572",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3Kjlb2WLg8pFXnqGLXVDJuDQZJ6"
+            },
+            {
+              "approx_amex_mr": 35000,
+              "arrives_at": "2027-01-07T12:32:00Z",
+              "cabin": "business",
+              "carriers": "B6",
+              "departs_at": "2027-01-07T09:43:00Z",
+              "effective_cost": 35000,
+              "flight_numbers": "B672",
+              "mixed_cabin_pct": null,
+              "program_points": 27800,
+              "remaining_seats": 5,
+              "segments": [
+                {
+                  "aircraft": "320",
+                  "arrives_at": "2027-01-07T12:32:00Z",
+                  "departs_at": "2027-01-07T09:43:00Z",
+                  "destination": "LGA",
+                  "fare_class": "S",
+                  "flight_number": "B672",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3Kjlb1NcXaerq7d93fMkNm80sbG"
+            },
+            {
+              "approx_amex_mr": 35000,
+              "arrives_at": "2027-01-07T14:58:00Z",
+              "cabin": "business",
+              "carriers": "B6",
+              "departs_at": "2027-01-07T12:06:00Z",
+              "effective_cost": 35000,
+              "flight_numbers": "B6372",
+              "mixed_cabin_pct": null,
+              "program_points": 27800,
+              "remaining_seats": 5,
+              "segments": [
+                {
+                  "aircraft": "320",
+                  "arrives_at": "2027-01-07T14:58:00Z",
+                  "departs_at": "2027-01-07T12:06:00Z",
+                  "destination": "LGA",
+                  "fare_class": "S",
+                  "flight_number": "B6372",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3KjlayadnBqbcb2wuqB17Jccs5s"
+            }
+          ],
+          "updated_at": "2026-10-19T03:48:04.931643Z"
         },
         {
           "airlines": "UA",
@@ -1922,52 +1959,61 @@
         },
         {
           "airlines": "DL",
-          "approx_amex_mr": 38000,
+          "approx_amex_mr": 48000,
           "availability_id": "3ABKmLU2pOBkzOel5bZvZqnu56r",
           "business_available": true,
           "date": "2027-01-07",
           "destination": "LGA",
           "destination_region": null,
-          "direct": true,
-          "effective_cost": 38000,
+          "direct": false,
+          "effective_cost": 48000,
           "funding": "AmEx Membership Rewards",
           "origin": "FLL",
           "program": "Air France/KLM Flying Blue",
-          "program_points": 38000,
-          "remaining_seats": 5,
+          "program_points": 47500,
+          "remaining_seats": 2,
           "seat_count_reliable": true,
           "source": "flyingblue",
           "trips": [
             {
-              "approx_amex_mr": 38000,
-              "arrives_at": "2027-01-07T09:58:00Z",
+              "approx_amex_mr": 48000,
+              "arrives_at": "2027-01-07T12:41:00Z",
               "cabin": "business",
-              "carriers": "DL",
-              "departs_at": "2027-01-07T07:00:00Z",
-              "effective_cost": 38000,
-              "flight_numbers": "DL2304",
+              "carriers": "DL, DL",
+              "departs_at": "2027-01-07T07:35:00Z",
+              "effective_cost": 48000,
+              "flight_numbers": "DL1603, DL371",
               "mixed_cabin_pct": null,
-              "program_points": 38000,
-              "remaining_seats": 5,
+              "program_points": 47500,
+              "remaining_seats": 2,
               "segments": [
                 {
                   "aircraft": "321",
-                  "arrives_at": "2027-01-07T09:58:00Z",
-                  "departs_at": "2027-01-07T07:00:00Z",
+                  "arrives_at": "2027-01-07T09:35:00Z",
+                  "departs_at": "2027-01-07T07:35:00Z",
+                  "destination": "ATL",
+                  "fare_class": "O",
+                  "flight_number": "DL1603",
+                  "origin": "FLL"
+                },
+                {
+                  "aircraft": "321",
+                  "arrives_at": "2027-01-07T12:41:00Z",
+                  "departs_at": "2027-01-07T10:30:00Z",
                   "destination": "LGA",
                   "fare_class": "O",
-                  "flight_number": "DL2304",
-                  "origin": "FLL"
+                  "flight_number": "DL371",
+                  "origin": "ATL"
                 }
               ],
-              "stops": null,
+              "stops": 1,
               "tax_currency": "USD",
               "tax_currency_symbol": null,
-              "taxes_minor_units": 2562,
-              "trip_id": "3KTxZ7jTJpISS16jsYiPnGQr7fS"
+              "taxes_minor_units": 3012,
+              "trip_id": "3KtfFy7bsP7vWpelHBGUlaM4c8v"
             }
           ],
-          "updated_at": "2026-10-10T01:23:31.777671Z"
+          "updated_at": "2026-10-19T03:48:04.313788Z"
         },
         {
           "airlines": "UA",
@@ -1978,11 +2024,11 @@
           "destination": "LGA",
           "destination_region": null,
           "direct": false,
-          "effective_cost": 39200,
+          "effective_cost": 48800,
           "funding": "United miles",
           "origin": "FLL",
           "program": "United MileagePlus",
-          "program_points": 39200,
+          "program_points": 48800,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "source": "united",
@@ -1993,10 +2039,10 @@
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2027-01-07T08:37:00Z",
-              "effective_cost": 39200,
+              "effective_cost": 48800,
               "flight_numbers": "UA2169, UA4011",
               "mixed_cabin_pct": null,
-              "program_points": 39200,
+              "program_points": 48800,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -2030,19 +2076,19 @@
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2027-01-07T07:00:00Z",
-              "effective_cost": 39200,
-              "flight_numbers": "UA2809, UA485",
+              "effective_cost": 48800,
+              "flight_numbers": "UA1770, UA485",
               "mixed_cabin_pct": null,
-              "program_points": 39200,
+              "program_points": 48800,
               "remaining_seats": 9,
               "segments": [
                 {
-                  "aircraft": "32Q",
-                  "arrives_at": "2027-01-07T09:34:00Z",
+                  "aircraft": "739",
+                  "arrives_at": "2027-01-07T09:33:00Z",
                   "departs_at": "2027-01-07T07:00:00Z",
                   "destination": "ORD",
                   "fare_class": "JN",
-                  "flight_number": "UA2809",
+                  "flight_number": "UA1770",
                   "origin": "FLL"
                 },
                 {
@@ -2059,44 +2105,7 @@
               "tax_currency": "USD",
               "tax_currency_symbol": "$",
               "taxes_minor_units": 560,
-              "trip_id": "3KTxZJm6HXmMta5U5GOLeBzUPGx"
-            },
-            {
-              "approx_amex_mr": null,
-              "arrives_at": "2027-01-07T17:15:00Z",
-              "cabin": "business",
-              "carriers": "UA, UA",
-              "departs_at": "2027-01-07T09:00:00Z",
-              "effective_cost": 39200,
-              "flight_numbers": "UA2298, UA1376",
-              "mixed_cabin_pct": null,
-              "program_points": 39200,
-              "remaining_seats": 9,
-              "segments": [
-                {
-                  "aircraft": "32Q",
-                  "arrives_at": "2027-01-07T11:34:00Z",
-                  "departs_at": "2027-01-07T09:00:00Z",
-                  "destination": "ORD",
-                  "fare_class": "JN",
-                  "flight_number": "UA2298",
-                  "origin": "FLL"
-                },
-                {
-                  "aircraft": "738",
-                  "arrives_at": "2027-01-07T17:15:00Z",
-                  "departs_at": "2027-01-07T14:00:00Z",
-                  "destination": "LGA",
-                  "fare_class": "JN",
-                  "flight_number": "UA1376",
-                  "origin": "ORD"
-                }
-              ],
-              "stops": 1,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3KTxZNDd4PfhYJrjlTGB6VuYdp8"
+              "trip_id": "3KtfHPUBSL7PWGQ23W3PRx7xvlQ"
             },
             {
               "approx_amex_mr": null,
@@ -2104,10 +2113,10 @@
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2027-01-07T13:02:00Z",
-              "effective_cost": 48700,
+              "effective_cost": 55500,
               "flight_numbers": "UA2050, UA4062",
               "mixed_cabin_pct": null,
-              "program_points": 48700,
+              "program_points": 55500,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -2137,32 +2146,32 @@
             },
             {
               "approx_amex_mr": null,
-              "arrives_at": "2027-01-07T14:21:00Z",
+              "arrives_at": "2027-01-07T23:40:00Z",
               "cabin": "business",
               "carriers": "UA, UA",
-              "departs_at": "2027-01-07T07:00:00Z",
-              "effective_cost": 56600,
-              "flight_numbers": "UA2809, UA2826",
+              "departs_at": "2027-01-07T16:25:00Z",
+              "effective_cost": 55500,
+              "flight_numbers": "UA403, UA3450",
               "mixed_cabin_pct": null,
-              "program_points": 56600,
+              "program_points": 55500,
               "remaining_seats": 9,
               "segments": [
                 {
                   "aircraft": "32Q",
-                  "arrives_at": "2027-01-07T09:34:00Z",
-                  "departs_at": "2027-01-07T07:00:00Z",
+                  "arrives_at": "2027-01-07T19:00:00Z",
+                  "departs_at": "2027-01-07T16:25:00Z",
                   "destination": "ORD",
                   "fare_class": "JN",
-                  "flight_number": "UA2809",
+                  "flight_number": "UA403",
                   "origin": "FLL"
                 },
                 {
-                  "aircraft": "738",
-                  "arrives_at": "2027-01-07T14:21:00Z",
-                  "departs_at": "2027-01-07T11:00:00Z",
+                  "aircraft": "E7W",
+                  "arrives_at": "2027-01-07T23:40:00Z",
+                  "departs_at": "2027-01-07T20:10:00Z",
                   "destination": "LGA",
                   "fare_class": "JN",
-                  "flight_number": "UA2826",
+                  "flight_number": "UA3450",
                   "origin": "ORD"
                 }
               ],
@@ -2170,10 +2179,47 @@
               "tax_currency": "USD",
               "tax_currency_symbol": "$",
               "taxes_minor_units": 560,
-              "trip_id": "3KTxZKWDPQGiuV3Lk8z0J5JPDhN"
+              "trip_id": "3KTxZMsTdeh9S3GLKb5lqNjkR85"
+            },
+            {
+              "approx_amex_mr": null,
+              "arrives_at": "2027-01-07T21:50:00Z",
+              "cabin": "business",
+              "carriers": "UA, UA",
+              "departs_at": "2027-01-07T14:13:00Z",
+              "effective_cost": 67800,
+              "flight_numbers": "UA1851, UA2783",
+              "mixed_cabin_pct": null,
+              "program_points": 67800,
+              "remaining_seats": 9,
+              "segments": [
+                {
+                  "aircraft": "739",
+                  "arrives_at": "2027-01-07T16:44:00Z",
+                  "departs_at": "2027-01-07T14:13:00Z",
+                  "destination": "ORD",
+                  "fare_class": "JN",
+                  "flight_number": "UA1851",
+                  "origin": "FLL"
+                },
+                {
+                  "aircraft": "738",
+                  "arrives_at": "2027-01-07T21:50:00Z",
+                  "departs_at": "2027-01-07T18:30:00Z",
+                  "destination": "LGA",
+                  "fare_class": "JN",
+                  "flight_number": "UA2783",
+                  "origin": "ORD"
+                }
+              ],
+              "stops": 1,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3KTxZOuUGwi2K60U00Yz3hG9Pv5"
             }
           ],
-          "updated_at": "2026-10-10T01:23:33.145454Z"
+          "updated_at": "2026-10-19T03:48:16.364934Z"
         },
         {
           "airlines": "DL",
@@ -2392,7 +2438,7 @@
               "flight_numbers": "DL2165",
               "mixed_cabin_pct": null,
               "program_points": 59500,
-              "remaining_seats": 5,
+              "remaining_seats": 4,
               "segments": [
                 {
                   "aircraft": "739",
@@ -2420,7 +2466,7 @@
               "flight_numbers": "DL1419",
               "mixed_cabin_pct": null,
               "program_points": 59500,
-              "remaining_seats": 3,
+              "remaining_seats": 2,
               "segments": [
                 {
                   "aircraft": "739",
@@ -2439,112 +2485,7 @@
               "trip_id": "3KcEHAtfd4M1Z8SJsfp19S8eHCd"
             }
           ],
-          "updated_at": "2026-10-16T07:10:36.36817Z"
-        },
-        {
-          "airlines": "B6",
-          "approx_amex_mr": 23000,
-          "availability_id": "39Y95m7wbuizQd6xmKAH2Xi1Bqo",
-          "business_available": true,
-          "date": "2027-01-08",
-          "destination": "LGA",
-          "destination_region": null,
-          "direct": true,
-          "effective_cost": 23000,
-          "funding": "AmEx Membership Rewards",
-          "origin": "FLL",
-          "program": "JetBlue TrueBlue",
-          "program_points": 18100,
-          "remaining_seats": 6,
-          "seat_count_reliable": true,
-          "source": "jetblue",
-          "trips": [
-            {
-              "approx_amex_mr": 23000,
-              "arrives_at": "2027-01-08T12:32:00Z",
-              "cabin": "business",
-              "carriers": "B6",
-              "departs_at": "2027-01-08T09:43:00Z",
-              "effective_cost": 23000,
-              "flight_numbers": "B672",
-              "mixed_cabin_pct": null,
-              "program_points": 18100,
-              "remaining_seats": 6,
-              "segments": [
-                {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-08T12:32:00Z",
-                  "departs_at": "2027-01-08T09:43:00Z",
-                  "destination": "LGA",
-                  "fare_class": "S",
-                  "flight_number": "B672",
-                  "origin": "FLL"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3KjlbCFsi0SEkcbOfIFZLMRayg4"
-            },
-            {
-              "approx_amex_mr": 23000,
-              "arrives_at": "2027-01-08T14:58:00Z",
-              "cabin": "business",
-              "carriers": "B6",
-              "departs_at": "2027-01-08T12:06:00Z",
-              "effective_cost": 23000,
-              "flight_numbers": "B6372",
-              "mixed_cabin_pct": null,
-              "program_points": 18100,
-              "remaining_seats": 6,
-              "segments": [
-                {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-08T14:58:00Z",
-                  "departs_at": "2027-01-08T12:06:00Z",
-                  "destination": "LGA",
-                  "fare_class": "S",
-                  "flight_number": "B6372",
-                  "origin": "FLL"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3Kjlb75JfOCXikloUS4Ws4HXsRX"
-            },
-            {
-              "approx_amex_mr": 23000,
-              "arrives_at": "2027-01-08T23:53:00Z",
-              "cabin": "business",
-              "carriers": "B6",
-              "departs_at": "2027-01-08T20:59:00Z",
-              "effective_cost": 23000,
-              "flight_numbers": "B6572",
-              "mixed_cabin_pct": null,
-              "program_points": 18100,
-              "remaining_seats": 6,
-              "segments": [
-                {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-08T23:53:00Z",
-                  "departs_at": "2027-01-08T20:59:00Z",
-                  "destination": "LGA",
-                  "fare_class": "S",
-                  "flight_number": "B6572",
-                  "origin": "FLL"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3KjlbC63rdwb3MaOn6137B5Svo7"
-            }
-          ],
-          "updated_at": "2026-10-16T12:36:05.915981Z"
+          "updated_at": "2026-10-19T03:48:04.632932Z"
         },
         {
           "airlines": "DL",
@@ -2869,6 +2810,111 @@
           "updated_at": "2026-10-16T12:36:06.716517Z"
         },
         {
+          "airlines": "B6",
+          "approx_amex_mr": 35000,
+          "availability_id": "39Y95m7wbuizQd6xmKAH2Xi1Bqo",
+          "business_available": true,
+          "date": "2027-01-08",
+          "destination": "LGA",
+          "destination_region": null,
+          "direct": true,
+          "effective_cost": 35000,
+          "funding": "AmEx Membership Rewards",
+          "origin": "FLL",
+          "program": "JetBlue TrueBlue",
+          "program_points": 27800,
+          "remaining_seats": 9,
+          "seat_count_reliable": true,
+          "source": "jetblue",
+          "trips": [
+            {
+              "approx_amex_mr": 35000,
+              "arrives_at": "2027-01-08T23:53:00Z",
+              "cabin": "business",
+              "carriers": "B6",
+              "departs_at": "2027-01-08T20:59:00Z",
+              "effective_cost": 35000,
+              "flight_numbers": "B6572",
+              "mixed_cabin_pct": null,
+              "program_points": 27800,
+              "remaining_seats": 9,
+              "segments": [
+                {
+                  "aircraft": "320",
+                  "arrives_at": "2027-01-08T23:53:00Z",
+                  "departs_at": "2027-01-08T20:59:00Z",
+                  "destination": "LGA",
+                  "fare_class": "S",
+                  "flight_number": "B6572",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3KjlbC63rdwb3MaOn6137B5Svo7"
+            },
+            {
+              "approx_amex_mr": 35000,
+              "arrives_at": "2027-01-08T12:32:00Z",
+              "cabin": "business",
+              "carriers": "B6",
+              "departs_at": "2027-01-08T09:43:00Z",
+              "effective_cost": 35000,
+              "flight_numbers": "B672",
+              "mixed_cabin_pct": null,
+              "program_points": 27800,
+              "remaining_seats": 8,
+              "segments": [
+                {
+                  "aircraft": "320",
+                  "arrives_at": "2027-01-08T12:32:00Z",
+                  "departs_at": "2027-01-08T09:43:00Z",
+                  "destination": "LGA",
+                  "fare_class": "S",
+                  "flight_number": "B672",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3KjlbCFsi0SEkcbOfIFZLMRayg4"
+            },
+            {
+              "approx_amex_mr": 35000,
+              "arrives_at": "2027-01-08T14:58:00Z",
+              "cabin": "business",
+              "carriers": "B6",
+              "departs_at": "2027-01-08T12:06:00Z",
+              "effective_cost": 35000,
+              "flight_numbers": "B6372",
+              "mixed_cabin_pct": null,
+              "program_points": 27800,
+              "remaining_seats": 6,
+              "segments": [
+                {
+                  "aircraft": "320",
+                  "arrives_at": "2027-01-08T14:58:00Z",
+                  "departs_at": "2027-01-08T12:06:00Z",
+                  "destination": "LGA",
+                  "fare_class": "S",
+                  "flight_number": "B6372",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3Kjlb75JfOCXikloUS4Ws4HXsRX"
+            }
+          ],
+          "updated_at": "2026-10-19T03:48:05.134371Z"
+        },
+        {
           "airlines": "UA",
           "approx_amex_mr": null,
           "availability_id": "39Mwhxj1rIXV2h01ZmwifibO4J1",
@@ -3113,7 +3159,7 @@
               "flight_numbers": "DL2321",
               "mixed_cabin_pct": null,
               "program_points": 59500,
-              "remaining_seats": 2,
+              "remaining_seats": 3,
               "segments": [
                 {
                   "aircraft": "321",
@@ -3132,7 +3178,7 @@
               "trip_id": "3JTBGNYIUzspcwdXbXsYNBHNKuL"
             }
           ],
-          "updated_at": "2026-10-16T12:35:59.257696Z"
+          "updated_at": "2026-10-19T03:48:04.693297Z"
         },
         {
           "airlines": "DL",
@@ -3148,7 +3194,7 @@
           "origin": "FLL",
           "program": "Virgin Atlantic Flying Club",
           "program_points": 59500,
-          "remaining_seats": 8,
+          "remaining_seats": 7,
           "seat_count_reliable": true,
           "source": "virginatlantic",
           "trips": [
@@ -3162,7 +3208,7 @@
               "flight_numbers": "DL2165",
               "mixed_cabin_pct": null,
               "program_points": 59500,
-              "remaining_seats": 8,
+              "remaining_seats": 7,
               "segments": [
                 {
                   "aircraft": "739",
@@ -3218,7 +3264,7 @@
               "flight_numbers": "DL1325",
               "mixed_cabin_pct": null,
               "program_points": 59500,
-              "remaining_seats": 3,
+              "remaining_seats": 5,
               "segments": [
                 {
                   "aircraft": "739",
@@ -3237,7 +3283,7 @@
               "trip_id": "3J0Qxgz9DWFDqemGtLJFp46iuPZ"
             }
           ],
-          "updated_at": "2026-10-16T07:06:20.645801Z"
+          "updated_at": "2026-10-19T03:48:05.134747Z"
         },
         {
           "airlines": "UA",
@@ -3298,111 +3344,6 @@
           "updated_at": "2026-10-15T15:42:14.184877Z"
         },
         {
-          "airlines": "B6",
-          "approx_amex_mr": 23000,
-          "availability_id": "39b6gaT7QJZfZGAMu1PM1HhH7FN",
-          "business_available": true,
-          "date": "2027-01-09",
-          "destination": "LGA",
-          "destination_region": null,
-          "direct": true,
-          "effective_cost": 23000,
-          "funding": "AmEx Membership Rewards",
-          "origin": "FLL",
-          "program": "JetBlue TrueBlue",
-          "program_points": 18100,
-          "remaining_seats": 8,
-          "seat_count_reliable": true,
-          "source": "jetblue",
-          "trips": [
-            {
-              "approx_amex_mr": 23000,
-              "arrives_at": "2027-01-09T23:53:00Z",
-              "cabin": "business",
-              "carriers": "B6",
-              "departs_at": "2027-01-09T20:59:00Z",
-              "effective_cost": 23000,
-              "flight_numbers": "B6572",
-              "mixed_cabin_pct": null,
-              "program_points": 18100,
-              "remaining_seats": 4,
-              "segments": [
-                {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-09T23:53:00Z",
-                  "departs_at": "2027-01-09T20:59:00Z",
-                  "destination": "LGA",
-                  "fare_class": "S",
-                  "flight_number": "B6572",
-                  "origin": "FLL"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3KjlbiETlhj2o8X5iLuhGCefks6"
-            },
-            {
-              "approx_amex_mr": 23000,
-              "arrives_at": "2027-01-09T12:32:00Z",
-              "cabin": "business",
-              "carriers": "B6",
-              "departs_at": "2027-01-09T09:43:00Z",
-              "effective_cost": 23000,
-              "flight_numbers": "B672",
-              "mixed_cabin_pct": null,
-              "program_points": 18100,
-              "remaining_seats": 2,
-              "segments": [
-                {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-09T12:32:00Z",
-                  "departs_at": "2027-01-09T09:43:00Z",
-                  "destination": "LGA",
-                  "fare_class": "S",
-                  "flight_number": "B672",
-                  "origin": "FLL"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3KjlbawZeUKXWlnbbiHTtNoOsz2"
-            },
-            {
-              "approx_amex_mr": 43000,
-              "arrives_at": "2027-01-09T14:58:00Z",
-              "cabin": "business",
-              "carriers": "B6",
-              "departs_at": "2027-01-09T12:06:00Z",
-              "effective_cost": 43000,
-              "flight_numbers": "B6372",
-              "mixed_cabin_pct": null,
-              "program_points": 34100,
-              "remaining_seats": 8,
-              "segments": [
-                {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-09T14:58:00Z",
-                  "departs_at": "2027-01-09T12:06:00Z",
-                  "destination": "LGA",
-                  "fare_class": "R",
-                  "flight_number": "B6372",
-                  "origin": "FLL"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3KjlbgRS9GqNwdiggDXvhmRR3Rn"
-            }
-          ],
-          "updated_at": "2026-10-16T12:26:32.994955Z"
-        },
-        {
           "airlines": "DL",
           "approx_amex_mr": 29000,
           "availability_id": "39b6suSaovdYJBYqanGEjisfTKy",
@@ -3449,23 +3390,23 @@
               "trip_id": "39ehqeDGEUuiUAv3jzLDmSLhEzK"
             },
             {
-              "approx_amex_mr": 51000,
+              "approx_amex_mr": 29000,
               "arrives_at": "2027-01-09T11:55:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-09T09:00:00Z",
-              "effective_cost": 51000,
+              "effective_cost": 29000,
               "flight_numbers": "DL1325",
               "mixed_cabin_pct": null,
-              "program_points": 50500,
-              "remaining_seats": 9,
+              "program_points": 28600,
+              "remaining_seats": 4,
               "segments": [
                 {
                   "aircraft": "739",
                   "arrives_at": "2027-01-09T11:55:00Z",
                   "departs_at": "2027-01-09T09:00:00Z",
                   "destination": "JFK",
-                  "fare_class": "OI",
+                  "fare_class": "OZ",
                   "flight_number": "DL1325",
                   "origin": "FLL"
                 }
@@ -3477,15 +3418,15 @@
               "trip_id": "3A8VQOSCXy9K4QXVLvP4iD9rM9l"
             },
             {
-              "approx_amex_mr": 51000,
+              "approx_amex_mr": 50000,
               "arrives_at": "2027-01-09T14:17:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-09T11:20:00Z",
-              "effective_cost": 51000,
+              "effective_cost": 50000,
               "flight_numbers": "DL1422",
               "mixed_cabin_pct": null,
-              "program_points": 50500,
+              "program_points": 49500,
               "remaining_seats": 8,
               "segments": [
                 {
@@ -3505,16 +3446,16 @@
               "trip_id": "39ehqdvQyEBcSwnzl59uCPqUe6X"
             },
             {
-              "approx_amex_mr": 51000,
+              "approx_amex_mr": 50000,
               "arrives_at": "2027-01-09T18:25:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-09T15:20:00Z",
-              "effective_cost": 51000,
+              "effective_cost": 50000,
               "flight_numbers": "DL2641",
               "mixed_cabin_pct": null,
-              "program_points": 50500,
-              "remaining_seats": 3,
+              "program_points": 49500,
+              "remaining_seats": 2,
               "segments": [
                 {
                   "aircraft": "739",
@@ -3533,7 +3474,7 @@
               "trip_id": "39ehqhU9K1foxU5vrA1La42sMVc"
             }
           ],
-          "updated_at": "2026-10-10T14:55:37.766008Z"
+          "updated_at": "2026-10-19T03:48:11.702777Z"
         },
         {
           "airlines": "DL",
@@ -3695,6 +3636,111 @@
             }
           ],
           "updated_at": "2026-10-16T12:26:22.374011Z"
+        },
+        {
+          "airlines": "B6",
+          "approx_amex_mr": 35000,
+          "availability_id": "39b6gaT7QJZfZGAMu1PM1HhH7FN",
+          "business_available": true,
+          "date": "2027-01-09",
+          "destination": "LGA",
+          "destination_region": null,
+          "direct": true,
+          "effective_cost": 35000,
+          "funding": "AmEx Membership Rewards",
+          "origin": "FLL",
+          "program": "JetBlue TrueBlue",
+          "program_points": 27800,
+          "remaining_seats": 8,
+          "seat_count_reliable": true,
+          "source": "jetblue",
+          "trips": [
+            {
+              "approx_amex_mr": 35000,
+              "arrives_at": "2027-01-09T14:58:00Z",
+              "cabin": "business",
+              "carriers": "B6",
+              "departs_at": "2027-01-09T12:06:00Z",
+              "effective_cost": 35000,
+              "flight_numbers": "B6372",
+              "mixed_cabin_pct": null,
+              "program_points": 27800,
+              "remaining_seats": 8,
+              "segments": [
+                {
+                  "aircraft": "320",
+                  "arrives_at": "2027-01-09T14:58:00Z",
+                  "departs_at": "2027-01-09T12:06:00Z",
+                  "destination": "LGA",
+                  "fare_class": "S",
+                  "flight_number": "B6372",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3KjlbgRS9GqNwdiggDXvhmRR3Rn"
+            },
+            {
+              "approx_amex_mr": 35000,
+              "arrives_at": "2027-01-09T23:53:00Z",
+              "cabin": "business",
+              "carriers": "B6",
+              "departs_at": "2027-01-09T20:59:00Z",
+              "effective_cost": 35000,
+              "flight_numbers": "B6572",
+              "mixed_cabin_pct": null,
+              "program_points": 27800,
+              "remaining_seats": 7,
+              "segments": [
+                {
+                  "aircraft": "320",
+                  "arrives_at": "2027-01-09T23:53:00Z",
+                  "departs_at": "2027-01-09T20:59:00Z",
+                  "destination": "LGA",
+                  "fare_class": "S",
+                  "flight_number": "B6572",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3KjlbiETlhj2o8X5iLuhGCefks6"
+            },
+            {
+              "approx_amex_mr": 35000,
+              "arrives_at": "2027-01-09T12:32:00Z",
+              "cabin": "business",
+              "carriers": "B6",
+              "departs_at": "2027-01-09T09:43:00Z",
+              "effective_cost": 35000,
+              "flight_numbers": "B672",
+              "mixed_cabin_pct": null,
+              "program_points": 27800,
+              "remaining_seats": 4,
+              "segments": [
+                {
+                  "aircraft": "320",
+                  "arrives_at": "2027-01-09T12:32:00Z",
+                  "departs_at": "2027-01-09T09:43:00Z",
+                  "destination": "LGA",
+                  "fare_class": "S",
+                  "flight_number": "B672",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3KjlbawZeUKXWlnbbiHTtNoOsz2"
+            }
+          ],
+          "updated_at": "2026-10-19T03:48:11.438523Z"
         },
         {
           "airlines": "UA",
@@ -3866,11 +3912,11 @@
           "destination": "LGA",
           "destination_region": null,
           "direct": false,
-          "effective_cost": 50700,
+          "effective_cost": 50300,
           "funding": "United miles",
           "origin": "FLL",
           "program": "United MileagePlus",
-          "program_points": 50700,
+          "program_points": 50300,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "source": "united",
@@ -3881,10 +3927,10 @@
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2027-01-09T08:37:00Z",
-              "effective_cost": 50700,
+              "effective_cost": 50300,
               "flight_numbers": "UA2169, UA4011",
               "mixed_cabin_pct": null,
-              "program_points": 50700,
+              "program_points": 50300,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -3918,10 +3964,10 @@
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2027-01-09T09:00:00Z",
-              "effective_cost": 57200,
+              "effective_cost": 58900,
               "flight_numbers": "UA2298, UA1376",
               "mixed_cabin_pct": null,
-              "program_points": 57200,
+              "program_points": 58900,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -3948,9 +3994,46 @@
               "tax_currency_symbol": "$",
               "taxes_minor_units": 560,
               "trip_id": "3KVYKYktXoa3IHNpsLAH31xr4fM"
+            },
+            {
+              "approx_amex_mr": null,
+              "arrives_at": "2027-01-09T21:15:00Z",
+              "cabin": "business",
+              "carriers": "UA, UA",
+              "departs_at": "2027-01-09T14:13:00Z",
+              "effective_cost": 68400,
+              "flight_numbers": "UA1851, UA2475",
+              "mixed_cabin_pct": null,
+              "program_points": 68400,
+              "remaining_seats": 9,
+              "segments": [
+                {
+                  "aircraft": "739",
+                  "arrives_at": "2027-01-09T16:44:00Z",
+                  "departs_at": "2027-01-09T14:13:00Z",
+                  "destination": "ORD",
+                  "fare_class": "JN",
+                  "flight_number": "UA1851",
+                  "origin": "FLL"
+                },
+                {
+                  "aircraft": "738",
+                  "arrives_at": "2027-01-09T21:15:00Z",
+                  "departs_at": "2027-01-09T18:00:00Z",
+                  "destination": "LGA",
+                  "fare_class": "JN",
+                  "flight_number": "UA2475",
+                  "origin": "ORD"
+                }
+              ],
+              "stops": 1,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3KVYKYh17U7vEMtyg9zhjZHcSFb"
             }
           ],
-          "updated_at": "2026-10-10T14:55:38.604872Z"
+          "updated_at": "2026-10-19T03:48:07.503354Z"
         },
         {
           "airlines": "DL",
@@ -3966,7 +4049,7 @@
           "origin": "FLL",
           "program": "Virgin Atlantic Flying Club",
           "program_points": 59500,
-          "remaining_seats": 8,
+          "remaining_seats": 9,
           "seat_count_reliable": true,
           "source": "virginatlantic",
           "trips": [
@@ -3980,7 +4063,7 @@
               "flight_numbers": "DL2165",
               "mixed_cabin_pct": null,
               "program_points": 59500,
-              "remaining_seats": 8,
+              "remaining_seats": 9,
               "segments": [
                 {
                   "aircraft": "739",
@@ -3999,7 +4082,7 @@
               "trip_id": "3GwzYygdCK62XwtU4B1TJlpMd56"
             }
           ],
-          "updated_at": "2026-10-16T07:10:47.541666Z"
+          "updated_at": "2026-10-19T03:48:10.755936Z"
         },
         {
           "airlines": "DL",
@@ -4048,7 +4131,7 @@
               "trip_id": "3HreiwaqTtGrg9QqkBMc0amgG9h"
             }
           ],
-          "updated_at": "2026-10-16T12:26:17.590375Z"
+          "updated_at": "2026-10-19T03:48:10.5282Z"
         },
         {
           "airlines": "DL",
@@ -4129,22 +4212,50 @@
         },
         {
           "airlines": "B6",
-          "approx_amex_mr": 23000,
+          "approx_amex_mr": 46000,
           "availability_id": "39doXuV5YsHag7kdbmL1fZQQHks",
           "business_available": true,
           "date": "2027-01-10",
           "destination": "LGA",
           "destination_region": null,
           "direct": true,
-          "effective_cost": 23000,
+          "effective_cost": 46000,
           "funding": "AmEx Membership Rewards",
           "origin": "FLL",
           "program": "JetBlue TrueBlue",
-          "program_points": 18100,
-          "remaining_seats": 7,
+          "program_points": 36400,
+          "remaining_seats": 5,
           "seat_count_reliable": true,
           "source": "jetblue",
           "trips": [
+            {
+              "approx_amex_mr": 46000,
+              "arrives_at": "2027-01-10T23:53:00Z",
+              "cabin": "business",
+              "carriers": "B6",
+              "departs_at": "2027-01-10T20:59:00Z",
+              "effective_cost": 46000,
+              "flight_numbers": "B6572",
+              "mixed_cabin_pct": null,
+              "program_points": 36400,
+              "remaining_seats": 4,
+              "segments": [
+                {
+                  "aircraft": "320",
+                  "arrives_at": "2027-01-10T23:53:00Z",
+                  "departs_at": "2027-01-10T20:59:00Z",
+                  "destination": "LGA",
+                  "fare_class": "R",
+                  "flight_number": "B6572",
+                  "origin": "FLL"
+                }
+              ],
+              "stops": null,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3KjlbVlIsCcZLOqxMrRuVz2XyXp"
+            },
             {
               "approx_amex_mr": 51000,
               "arrives_at": "2027-01-10T14:58:00Z",
@@ -4155,7 +4266,7 @@
               "flight_numbers": "B6372",
               "mixed_cabin_pct": null,
               "program_points": 40800,
-              "remaining_seats": 7,
+              "remaining_seats": 5,
               "segments": [
                 {
                   "aircraft": "320",
@@ -4183,7 +4294,7 @@
               "flight_numbers": "B672",
               "mixed_cabin_pct": null,
               "program_points": 40800,
-              "remaining_seats": 6,
+              "remaining_seats": 4,
               "segments": [
                 {
                   "aircraft": "320",
@@ -4202,7 +4313,7 @@
               "trip_id": "3KjlbXKncp2hP3QvNPz5WG7Mj0i"
             }
           ],
-          "updated_at": "2026-10-16T12:26:05.197796Z"
+          "updated_at": "2026-10-19T03:48:09.83087Z"
         },
         {
           "airlines": "DL",
@@ -4279,7 +4390,7 @@
               "trip_id": "3Aw6Q9TR8tEGRUzAD9o3RxCjCYg"
             }
           ],
-          "updated_at": "2026-10-16T12:26:23.036639Z"
+          "updated_at": "2026-10-18T14:55:28.233221Z"
         },
         {
           "airlines": "DL",
@@ -4295,7 +4406,7 @@
           "origin": "FLL",
           "program": "Virgin Atlantic Flying Club",
           "program_points": 59500,
-          "remaining_seats": 5,
+          "remaining_seats": 6,
           "seat_count_reliable": true,
           "source": "virginatlantic",
           "trips": [
@@ -4309,7 +4420,7 @@
               "flight_numbers": "DL2165",
               "mixed_cabin_pct": null,
               "program_points": 59500,
-              "remaining_seats": 5,
+              "remaining_seats": 6,
               "segments": [
                 {
                   "aircraft": "739",
@@ -4328,102 +4439,139 @@
               "trip_id": "3J0RoPIIv8gd0oQxSWlnVaJ5A4X"
             }
           ],
-          "updated_at": "2026-10-16T07:16:09.544032Z"
+          "updated_at": "2026-10-19T03:48:10.109615Z"
         },
         {
-          "airlines": "B6",
-          "approx_amex_mr": 92000,
-          "availability_id": "39doWIeHVYqcAzbq94H1GK344xD",
+          "airlines": "UA",
+          "approx_amex_mr": null,
+          "availability_id": "39SOkerzj9rgKNfZNOgXtR6KXkW",
           "business_available": true,
           "date": "2027-01-10",
-          "destination": "JFK",
+          "destination": "LGA",
           "destination_region": null,
           "direct": false,
-          "effective_cost": 92000,
-          "funding": "AmEx Membership Rewards",
+          "effective_cost": 68400,
+          "funding": "United miles",
           "origin": "FLL",
-          "program": "JetBlue TrueBlue",
-          "program_points": 73400,
-          "remaining_seats": 6,
+          "program": "United MileagePlus",
+          "program_points": 68400,
+          "remaining_seats": 9,
           "seat_count_reliable": true,
-          "source": "jetblue",
+          "source": "united",
           "trips": [
             {
-              "approx_amex_mr": 92000,
-              "arrives_at": "2027-01-10T19:53:00Z",
+              "approx_amex_mr": null,
+              "arrives_at": "2027-01-10T14:21:00Z",
               "cabin": "business",
-              "carriers": "B6, B6",
-              "departs_at": "2027-01-10T11:05:00Z",
-              "effective_cost": 92000,
-              "flight_numbers": "B61070, B6717",
+              "carriers": "UA, UA",
+              "departs_at": "2027-01-10T07:00:00Z",
+              "effective_cost": 68400,
+              "flight_numbers": "UA1770, UA1299",
               "mixed_cabin_pct": null,
-              "program_points": 73400,
-              "remaining_seats": 6,
+              "program_points": 68400,
+              "remaining_seats": 9,
               "segments": [
                 {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-10T14:22:00Z",
-                  "departs_at": "2027-01-10T11:05:00Z",
-                  "destination": "BOS",
-                  "fare_class": "R",
-                  "flight_number": "B61070",
+                  "aircraft": "32Q",
+                  "arrives_at": "2027-01-10T09:34:00Z",
+                  "departs_at": "2027-01-10T07:00:00Z",
+                  "destination": "ORD",
+                  "fare_class": "JN",
+                  "flight_number": "UA1770",
                   "origin": "FLL"
                 },
                 {
-                  "aircraft": "223",
-                  "arrives_at": "2027-01-10T19:53:00Z",
-                  "departs_at": "2027-01-10T18:30:00Z",
-                  "destination": "JFK",
-                  "fare_class": "R",
-                  "flight_number": "B6717",
-                  "origin": "BOS"
+                  "aircraft": "738",
+                  "arrives_at": "2027-01-10T14:21:00Z",
+                  "departs_at": "2027-01-10T11:00:00Z",
+                  "destination": "LGA",
+                  "fare_class": "JN",
+                  "flight_number": "UA1299",
+                  "origin": "ORD"
                 }
               ],
               "stops": 1,
               "tax_currency": "USD",
               "tax_currency_symbol": "$",
-              "taxes_minor_units": 1120,
-              "trip_id": "3KjlbeKEm9p01JPRcgQpfSu4d8s"
+              "taxes_minor_units": 560,
+              "trip_id": "3Ks9IUp6G0oYCk7fPfc7pRtT7lw"
             },
             {
-              "approx_amex_mr": 92000,
-              "arrives_at": "2027-01-10T21:48:00Z",
+              "approx_amex_mr": null,
+              "arrives_at": "2027-01-10T15:14:00Z",
               "cabin": "business",
-              "carriers": "B6, B6",
-              "departs_at": "2027-01-10T11:05:00Z",
-              "effective_cost": 92000,
-              "flight_numbers": "B61070, B61017",
+              "carriers": "UA, UA",
+              "departs_at": "2027-01-10T07:00:00Z",
+              "effective_cost": 68400,
+              "flight_numbers": "UA1770, UA485",
               "mixed_cabin_pct": null,
-              "program_points": 73400,
-              "remaining_seats": 6,
+              "program_points": 68400,
+              "remaining_seats": 9,
               "segments": [
                 {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-10T14:22:00Z",
-                  "departs_at": "2027-01-10T11:05:00Z",
-                  "destination": "BOS",
-                  "fare_class": "R",
-                  "flight_number": "B61070",
+                  "aircraft": "32Q",
+                  "arrives_at": "2027-01-10T09:34:00Z",
+                  "departs_at": "2027-01-10T07:00:00Z",
+                  "destination": "ORD",
+                  "fare_class": "JN",
+                  "flight_number": "UA1770",
                   "origin": "FLL"
                 },
                 {
-                  "aircraft": "223",
-                  "arrives_at": "2027-01-10T21:48:00Z",
-                  "departs_at": "2027-01-10T20:30:00Z",
-                  "destination": "JFK",
-                  "fare_class": "R",
-                  "flight_number": "B61017",
-                  "origin": "BOS"
+                  "aircraft": "738",
+                  "arrives_at": "2027-01-10T15:14:00Z",
+                  "departs_at": "2027-01-10T11:59:00Z",
+                  "destination": "LGA",
+                  "fare_class": "JN",
+                  "flight_number": "UA485",
+                  "origin": "ORD"
                 }
               ],
               "stops": 1,
               "tax_currency": "USD",
               "tax_currency_symbol": "$",
-              "taxes_minor_units": 1120,
-              "trip_id": "3Kjlbf4gkH3ayb9zIkQujw4iudJ"
+              "taxes_minor_units": 560,
+              "trip_id": "3Ks9IWcgZovR8mpSIO3XMUtym3T"
+            },
+            {
+              "approx_amex_mr": null,
+              "arrives_at": "2027-01-10T17:15:00Z",
+              "cabin": "business",
+              "carriers": "UA, UA",
+              "departs_at": "2027-01-10T09:00:00Z",
+              "effective_cost": 68400,
+              "flight_numbers": "UA2298, UA1376",
+              "mixed_cabin_pct": null,
+              "program_points": 68400,
+              "remaining_seats": 9,
+              "segments": [
+                {
+                  "aircraft": "32Q",
+                  "arrives_at": "2027-01-10T11:34:00Z",
+                  "departs_at": "2027-01-10T09:00:00Z",
+                  "destination": "ORD",
+                  "fare_class": "JN",
+                  "flight_number": "UA2298",
+                  "origin": "FLL"
+                },
+                {
+                  "aircraft": "7M8",
+                  "arrives_at": "2027-01-10T17:15:00Z",
+                  "departs_at": "2027-01-10T14:00:00Z",
+                  "destination": "LGA",
+                  "fare_class": "JN",
+                  "flight_number": "UA1376",
+                  "origin": "ORD"
+                }
+              ],
+              "stops": 1,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 560,
+              "trip_id": "3KVYQU0VVdca2LgryU08ZeSjXD5"
             }
           ],
-          "updated_at": "2026-10-15T15:42:10.912374Z"
+          "updated_at": "2026-10-18T14:55:28.704163Z"
         }
       ]
     },
@@ -4439,11 +4587,11 @@
           "destination": "LIR",
           "destination_region": "warm-target",
           "direct": false,
-          "effective_cost": 59300,
+          "effective_cost": 68000,
           "funding": "United miles",
           "origin": "DEN",
           "program": "United MileagePlus",
-          "program_points": 59300,
+          "program_points": 68000,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "source": "united",
@@ -4454,10 +4602,10 @@
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2026-12-28T20:53:00Z",
-              "effective_cost": 59300,
+              "effective_cost": 68000,
               "flight_numbers": "UA2419, UA2009",
               "mixed_cabin_pct": null,
-              "program_points": 59300,
+              "program_points": 68000,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -4484,9 +4632,46 @@
               "tax_currency_symbol": "$",
               "taxes_minor_units": 2421,
               "trip_id": "3HzETABX7MXNO5k28n5zqLaq6qT"
+            },
+            {
+              "approx_amex_mr": null,
+              "arrives_at": "2026-12-29T12:50:00Z",
+              "cabin": "business",
+              "carriers": "UA, UA",
+              "departs_at": "2026-12-28T23:59:00Z",
+              "effective_cost": 92000,
+              "flight_numbers": "UA1924, UA1547",
+              "mixed_cabin_pct": null,
+              "program_points": 92000,
+              "remaining_seats": 9,
+              "segments": [
+                {
+                  "aircraft": "753",
+                  "arrives_at": "2026-12-29T05:19:00Z",
+                  "departs_at": "2026-12-28T23:59:00Z",
+                  "destination": "IAD",
+                  "fare_class": "JN",
+                  "flight_number": "UA1924",
+                  "origin": "DEN"
+                },
+                {
+                  "aircraft": "7M9",
+                  "arrives_at": "2026-12-29T12:50:00Z",
+                  "departs_at": "2026-12-29T08:51:00Z",
+                  "destination": "LIR",
+                  "fare_class": "JN",
+                  "flight_number": "UA1547",
+                  "origin": "IAD"
+                }
+              ],
+              "stops": 1,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 2421,
+              "trip_id": "3GSGAHpFgNl901o8eRZWTVsfLLm"
             }
           ],
-          "updated_at": "2026-10-16T15:21:03.91786Z"
+          "updated_at": "2026-10-19T01:57:13.298947Z"
         },
         {
           "airlines": "UA",
@@ -4497,25 +4682,62 @@
           "destination": "LIR",
           "destination_region": "warm-target",
           "direct": false,
-          "effective_cost": 72300,
+          "effective_cost": 65200,
           "funding": "United miles",
           "origin": "DEN",
           "program": "United MileagePlus",
-          "program_points": 72300,
+          "program_points": 65200,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "source": "united",
           "trips": [
             {
               "approx_amex_mr": null,
+              "arrives_at": "2026-12-29T18:37:00Z",
+              "cabin": "business",
+              "carriers": "UA, UA",
+              "departs_at": "2026-12-29T07:44:00Z",
+              "effective_cost": 65200,
+              "flight_numbers": "UA1720, UA1737",
+              "mixed_cabin_pct": null,
+              "program_points": 65200,
+              "remaining_seats": 9,
+              "segments": [
+                {
+                  "aircraft": "777",
+                  "arrives_at": "2026-12-29T11:09:00Z",
+                  "departs_at": "2026-12-29T07:44:00Z",
+                  "destination": "IAH",
+                  "fare_class": "JN",
+                  "flight_number": "UA1720",
+                  "origin": "DEN"
+                },
+                {
+                  "aircraft": "7M9",
+                  "arrives_at": "2026-12-29T18:37:00Z",
+                  "departs_at": "2026-12-29T15:05:00Z",
+                  "destination": "LIR",
+                  "fare_class": "JN",
+                  "flight_number": "UA1737",
+                  "origin": "IAH"
+                }
+              ],
+              "stops": 1,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 2421,
+              "trip_id": "3IEM4LsgQ0QIHEg4Ps0TauSQCHx"
+            },
+            {
+              "approx_amex_mr": null,
               "arrives_at": "2026-12-30T12:50:00Z",
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2026-12-29T23:59:00Z",
-              "effective_cost": 72300,
+              "effective_cost": 81300,
               "flight_numbers": "UA1924, UA1547",
               "mixed_cabin_pct": null,
-              "program_points": 72300,
+              "program_points": 81300,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -4544,7 +4766,7 @@
               "trip_id": "3Glg3ZSa7X4FAECSeslmPo6ZFn2"
             }
           ],
-          "updated_at": "2026-10-16T03:51:51.31851Z"
+          "updated_at": "2026-10-18T15:57:54.043907Z"
         }
       ],
       "return_options": [
@@ -4596,55 +4818,6 @@
             }
           ],
           "updated_at": "2026-10-17T14:03:58.728472Z"
-        },
-        {
-          "airlines": "B6",
-          "approx_amex_mr": 98000,
-          "availability_id": "39Y9950IEzPtInvUjVWl3Cdj0RV",
-          "business_available": true,
-          "date": "2027-01-08",
-          "destination": "JFK",
-          "destination_region": null,
-          "direct": true,
-          "effective_cost": 98000,
-          "funding": "AmEx Membership Rewards",
-          "origin": "LIR",
-          "program": "JetBlue TrueBlue",
-          "program_points": 78200,
-          "remaining_seats": 6,
-          "seat_count_reliable": true,
-          "source": "jetblue",
-          "trips": [
-            {
-              "approx_amex_mr": 98000,
-              "arrives_at": "2027-01-08T22:40:00Z",
-              "cabin": "business",
-              "carriers": "B6",
-              "departs_at": "2027-01-08T16:35:00Z",
-              "effective_cost": 98000,
-              "flight_numbers": "B61692",
-              "mixed_cabin_pct": null,
-              "program_points": 78200,
-              "remaining_seats": 6,
-              "segments": [
-                {
-                  "aircraft": "320",
-                  "arrives_at": "2027-01-08T22:40:00Z",
-                  "departs_at": "2027-01-08T16:35:00Z",
-                  "destination": "JFK",
-                  "fare_class": "F",
-                  "flight_number": "B61692",
-                  "origin": "LIR"
-                }
-              ],
-              "stops": null,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 10982,
-              "trip_id": "3KlREN8OyTGMkUwmE7ClFeSw5Qm"
-            }
-          ],
-          "updated_at": "2026-10-17T14:03:58.148586Z"
         }
       ]
     },
@@ -6099,7 +6272,7 @@
               "trip_id": "3KKS3EqPb9hVMc0kceBkoRfWJLX"
             }
           ],
-          "updated_at": "2026-10-18T13:20:26.574664Z"
+          "updated_at": "2026-10-19T08:01:44.333025Z"
         },
         {
           "airlines": "DL",
@@ -6642,7 +6815,7 @@
               "flight_numbers": "DL2106",
               "mixed_cabin_pct": null,
               "program_points": 59500,
-              "remaining_seats": 3,
+              "remaining_seats": 2,
               "segments": [
                 {
                   "aircraft": "739",
@@ -6661,7 +6834,7 @@
               "trip_id": "3JY0pmCkIadyDYhfSkhNegKPP9k"
             }
           ],
-          "updated_at": "2026-10-18T13:20:26.674565Z"
+          "updated_at": "2026-10-19T07:54:59.74251Z"
         },
         {
           "airlines": "DL",
@@ -9159,16 +9332,16 @@
               "trip_id": "3AOTRaTQqJzYrmhDZdWsE7Zw4yr"
             },
             {
-              "approx_amex_mr": 64000,
+              "approx_amex_mr": 68000,
               "arrives_at": "2027-01-08T00:59:00Z",
               "cabin": "business",
               "carriers": "DL, DL",
               "departs_at": "2027-01-07T18:06:00Z",
-              "effective_cost": 64000,
+              "effective_cost": 68000,
               "flight_numbers": "DL1991, DL2386",
               "mixed_cabin_pct": null,
-              "program_points": 64000,
-              "remaining_seats": 5,
+              "program_points": 68000,
+              "remaining_seats": 9,
               "segments": [
                 {
                   "aircraft": "739",
@@ -9261,7 +9434,7 @@
               "trip_id": "3Gz1rN1M8kFJ5MI3d5nGdZ85jir"
             }
           ],
-          "updated_at": "2026-10-18T08:54:50.077799Z"
+          "updated_at": "2026-10-19T15:41:02.371206Z"
         },
         {
           "airlines": "DL",
@@ -9310,7 +9483,7 @@
               "trip_id": "3AOTRmM2itE3qeodWNAYHQ96mOF"
             }
           ],
-          "updated_at": "2026-10-18T08:50:04.316467Z"
+          "updated_at": "2026-10-19T12:55:27.271458Z"
         },
         {
           "airlines": "UA",
@@ -10639,32 +10812,32 @@
       "return_options": [
         {
           "airlines": "DL",
-          "approx_amex_mr": 80000,
+          "approx_amex_mr": 79000,
           "availability_id": "39V8eWhxQeiOXMp2qcXgL5T9mmB",
           "business_available": true,
           "date": "2027-01-07",
           "destination": "JFK",
           "destination_region": null,
           "direct": true,
-          "effective_cost": 80000,
+          "effective_cost": 79000,
           "funding": "AmEx Membership Rewards",
           "origin": "SJU",
           "program": "Delta SkyMiles",
-          "program_points": 79700,
+          "program_points": 78700,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "source": "delta",
           "trips": [
             {
-              "approx_amex_mr": 80000,
+              "approx_amex_mr": 79000,
               "arrives_at": "2027-01-07T17:35:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-07T14:15:00Z",
-              "effective_cost": 80000,
+              "effective_cost": 79000,
               "flight_numbers": "DL1877",
               "mixed_cabin_pct": null,
-              "program_points": 79700,
+              "program_points": 78700,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -10684,15 +10857,15 @@
               "trip_id": "3DbXCsPnzr2PQXXWqJHoR2iWN3E"
             },
             {
-              "approx_amex_mr": 80000,
+              "approx_amex_mr": 79000,
               "arrives_at": "2027-01-07T21:30:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-07T18:05:00Z",
-              "effective_cost": 80000,
+              "effective_cost": 79000,
               "flight_numbers": "DL1961",
               "mixed_cabin_pct": null,
-              "program_points": 79700,
+              "program_points": 78700,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -10712,16 +10885,16 @@
               "trip_id": "3B30tFIqJhT7qMlKbNgfg9VV8kG"
             },
             {
-              "approx_amex_mr": 80000,
+              "approx_amex_mr": 79000,
               "arrives_at": "2027-01-07T10:10:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-07T07:00:00Z",
-              "effective_cost": 80000,
+              "effective_cost": 79000,
               "flight_numbers": "DL1854",
               "mixed_cabin_pct": null,
-              "program_points": 79700,
-              "remaining_seats": 4,
+              "program_points": 78700,
+              "remaining_seats": 2,
               "segments": [
                 {
                   "aircraft": "32Q",
@@ -10740,15 +10913,15 @@
               "trip_id": "3B30tD1C0ldMLbjK8EgukPKx3fg"
             },
             {
-              "approx_amex_mr": 80000,
+              "approx_amex_mr": 79000,
               "arrives_at": "2027-01-08T00:59:00Z",
               "cabin": "business",
               "carriers": "DL, DL",
               "departs_at": "2027-01-07T14:15:00Z",
-              "effective_cost": 80000,
+              "effective_cost": 79000,
               "flight_numbers": "DL1757, DL2386",
               "mixed_cabin_pct": null,
-              "program_points": 79700,
+              "program_points": 78700,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -10777,33 +10950,33 @@
               "trip_id": "3BnyRpK9sLqJGZyympF0ZS56eAE"
             },
             {
-              "approx_amex_mr": 80000,
-              "arrives_at": "2027-01-07T22:06:00Z",
+              "approx_amex_mr": 79000,
+              "arrives_at": "2027-01-08T00:59:00Z",
               "cabin": "business",
               "carriers": "DL, DL",
-              "departs_at": "2027-01-07T14:15:00Z",
-              "effective_cost": 80000,
-              "flight_numbers": "DL1757, DL3165",
+              "departs_at": "2027-01-07T18:30:00Z",
+              "effective_cost": 79000,
+              "flight_numbers": "DL1946, DL2386",
               "mixed_cabin_pct": null,
-              "program_points": 79700,
-              "remaining_seats": 6,
+              "program_points": 78700,
+              "remaining_seats": 3,
               "segments": [
                 {
-                  "aircraft": "739",
-                  "arrives_at": "2027-01-07T17:20:00Z",
-                  "departs_at": "2027-01-07T14:15:00Z",
+                  "aircraft": "757",
+                  "arrives_at": "2027-01-07T21:45:00Z",
+                  "departs_at": "2027-01-07T18:30:00Z",
                   "destination": "ATL",
                   "fare_class": "OD",
-                  "flight_number": "DL1757",
+                  "flight_number": "DL1946",
                   "origin": "SJU"
                 },
                 {
                   "aircraft": "739",
-                  "arrives_at": "2027-01-07T22:06:00Z",
-                  "departs_at": "2027-01-07T19:45:00Z",
+                  "arrives_at": "2027-01-08T00:59:00Z",
+                  "departs_at": "2027-01-07T22:40:00Z",
                   "destination": "JFK",
                   "fare_class": "OD",
-                  "flight_number": "DL3165",
+                  "flight_number": "DL2386",
                   "origin": "ATL"
                 }
               ],
@@ -10811,10 +10984,10 @@
               "tax_currency": "USD",
               "tax_currency_symbol": "$",
               "taxes_minor_units": 560,
-              "trip_id": "3HmOw3jJJlJyspCoMbsnrmMeUZ2"
+              "trip_id": "3Gopvk5yDKkRyKF34IPc65S8D5P"
             }
           ],
-          "updated_at": "2026-10-16T07:17:23.810875Z"
+          "updated_at": "2026-10-19T07:23:40.506769Z"
         },
         {
           "airlines": "UA",
@@ -10825,11 +10998,11 @@
           "destination": "EWR",
           "destination_region": null,
           "direct": false,
-          "effective_cost": 90000,
+          "effective_cost": 89900,
           "funding": "United miles",
           "origin": "SJU",
           "program": "United MileagePlus",
-          "program_points": 90000,
+          "program_points": 89900,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "source": "united",
@@ -10840,10 +11013,10 @@
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2027-01-07T08:25:00Z",
-              "effective_cost": 90000,
+              "effective_cost": 89900,
               "flight_numbers": "UA2089, UA1695",
               "mixed_cabin_pct": null,
-              "program_points": 90000,
+              "program_points": 89900,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -10877,10 +11050,10 @@
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2027-01-07T08:25:00Z",
-              "effective_cost": 90000,
+              "effective_cost": 89900,
               "flight_numbers": "UA2089, UA1274",
               "mixed_cabin_pct": null,
-              "program_points": 90000,
+              "program_points": 89900,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -10914,10 +11087,10 @@
               "cabin": "business",
               "carriers": "UA, UA",
               "departs_at": "2027-01-07T08:25:00Z",
-              "effective_cost": 90000,
+              "effective_cost": 89900,
               "flight_numbers": "UA2089, UA1733",
               "mixed_cabin_pct": null,
-              "program_points": 90000,
+              "program_points": 89900,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -10946,7 +11119,7 @@
               "trip_id": "3KZdPqDWnKmwX9bmM0sXKoOh9D9"
             }
           ],
-          "updated_at": "2026-10-12T01:36:42.983979Z"
+          "updated_at": "2026-10-19T07:38:47.981609Z"
         },
         {
           "airlines": "DL",
@@ -10962,7 +11135,7 @@
           "origin": "SJU",
           "program": "Delta SkyMiles",
           "program_points": 52000,
-          "remaining_seats": 9,
+          "remaining_seats": 5,
           "seat_count_reliable": true,
           "source": "delta",
           "trips": [
@@ -10976,7 +11149,7 @@
               "flight_numbers": "DL1961",
               "mixed_cabin_pct": null,
               "program_points": 52000,
-              "remaining_seats": 6,
+              "remaining_seats": 4,
               "segments": [
                 {
                   "aircraft": "32Q",
@@ -10995,16 +11168,16 @@
               "trip_id": "3AtxezFAnXmPIYOVds009zRwQX2"
             },
             {
-              "approx_amex_mr": 80000,
+              "approx_amex_mr": 79000,
               "arrives_at": "2027-01-08T10:10:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-08T07:00:00Z",
-              "effective_cost": 80000,
+              "effective_cost": 79000,
               "flight_numbers": "DL1854",
               "mixed_cabin_pct": null,
-              "program_points": 79700,
-              "remaining_seats": 9,
+              "program_points": 78700,
+              "remaining_seats": 5,
               "segments": [
                 {
                   "aircraft": "32Q",
@@ -11023,16 +11196,16 @@
               "trip_id": "3AtxeyToPsLQtMWGI5K8FWTZHB6"
             },
             {
-              "approx_amex_mr": 80000,
+              "approx_amex_mr": 79000,
               "arrives_at": "2027-01-08T17:35:00Z",
               "cabin": "business",
               "carriers": "DL",
               "departs_at": "2027-01-08T14:15:00Z",
-              "effective_cost": 80000,
+              "effective_cost": 79000,
               "flight_numbers": "DL1877",
               "mixed_cabin_pct": null,
-              "program_points": 79700,
-              "remaining_seats": 5,
+              "program_points": 78700,
+              "remaining_seats": 4,
               "segments": [
                 {
                   "aircraft": "32Q",
@@ -11051,16 +11224,16 @@
               "trip_id": "3DeJb5lkbXDRA3Qv533i0wqI9qc"
             },
             {
-              "approx_amex_mr": 80000,
+              "approx_amex_mr": 79000,
               "arrives_at": "2027-01-08T14:31:00Z",
               "cabin": "business",
               "carriers": "DL, DL",
               "departs_at": "2027-01-08T06:15:00Z",
-              "effective_cost": 80000,
+              "effective_cost": 79000,
               "flight_numbers": "DL1879, DL2380",
               "mixed_cabin_pct": null,
-              "program_points": 79700,
-              "remaining_seats": 6,
+              "program_points": 78700,
+              "remaining_seats": 4,
               "segments": [
                 {
                   "aircraft": "757",
@@ -11086,46 +11259,9 @@
               "tax_currency_symbol": "$",
               "taxes_minor_units": 560,
               "trip_id": "3GVJ5hxTaxVlsGqgY4cE8kBB6dT"
-            },
-            {
-              "approx_amex_mr": 80000,
-              "arrives_at": "2027-01-09T00:59:00Z",
-              "cabin": "business",
-              "carriers": "DL, DL",
-              "departs_at": "2027-01-08T18:30:00Z",
-              "effective_cost": 80000,
-              "flight_numbers": "DL1946, DL2386",
-              "mixed_cabin_pct": null,
-              "program_points": 79700,
-              "remaining_seats": 4,
-              "segments": [
-                {
-                  "aircraft": "757",
-                  "arrives_at": "2027-01-08T21:45:00Z",
-                  "departs_at": "2027-01-08T18:30:00Z",
-                  "destination": "ATL",
-                  "fare_class": "OD",
-                  "flight_number": "DL1946",
-                  "origin": "SJU"
-                },
-                {
-                  "aircraft": "739",
-                  "arrives_at": "2027-01-09T00:59:00Z",
-                  "departs_at": "2027-01-08T22:40:00Z",
-                  "destination": "JFK",
-                  "fare_class": "OD",
-                  "flight_number": "DL2386",
-                  "origin": "ATL"
-                }
-              ],
-              "stops": 1,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3AtxewyH8GyqNbLl9nqzPvHcKJ7"
             }
           ],
-          "updated_at": "2026-10-16T07:23:14.572986Z"
+          "updated_at": "2026-10-19T07:24:10.820014Z"
         },
         {
           "airlines": "DL",
@@ -11204,108 +11340,41 @@
           "source": "delta",
           "trips": [
             {
-              "approx_amex_mr": 81000,
-              "arrives_at": "2027-01-10T14:31:00Z",
+              "approx_amex_mr": 52000,
+              "arrives_at": "2027-01-10T10:10:00Z",
               "cabin": "business",
-              "carriers": "DL, DL",
-              "departs_at": "2027-01-10T07:30:00Z",
-              "effective_cost": 81000,
-              "flight_numbers": "DL1763, DL2380",
+              "carriers": "DL",
+              "departs_at": "2027-01-10T07:00:00Z",
+              "effective_cost": 52000,
+              "flight_numbers": "DL1854",
               "mixed_cabin_pct": null,
-              "program_points": 81000,
+              "program_points": 52000,
               "remaining_seats": 2,
               "segments": [
                 {
-                  "aircraft": "757",
-                  "arrives_at": "2027-01-10T10:30:00Z",
-                  "departs_at": "2027-01-10T07:30:00Z",
-                  "destination": "ATL",
-                  "fare_class": "OD",
-                  "flight_number": "DL1763",
-                  "origin": "SJU"
-                },
-                {
-                  "aircraft": "757",
-                  "arrives_at": "2027-01-10T14:31:00Z",
-                  "departs_at": "2027-01-10T12:15:00Z",
-                  "destination": "JFK",
-                  "fare_class": "OD",
-                  "flight_number": "DL2380",
-                  "origin": "ATL"
-                }
-              ],
-              "stops": 1,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 560,
-              "trip_id": "3Atxev8gyZG29kyLoYV6mSouawR"
-            }
-          ],
-          "updated_at": "2026-10-16T07:15:13.882517Z"
-        },
-        {
-          "airlines": "UA",
-          "approx_amex_mr": null,
-          "availability_id": "39QZxayT9LD05YEw6E6hXRu8lSF",
-          "business_available": true,
-          "date": "2027-01-10",
-          "destination": "EWR",
-          "destination_region": null,
-          "direct": false,
-          "effective_cost": 91100,
-          "funding": "United miles",
-          "origin": "SJU",
-          "program": "United MileagePlus",
-          "program_points": 91100,
-          "remaining_seats": 9,
-          "seat_count_reliable": true,
-          "source": "united",
-          "trips": [
-            {
-              "approx_amex_mr": null,
-              "arrives_at": "2027-01-10T18:55:00Z",
-              "cabin": "business",
-              "carriers": "UA, UA",
-              "departs_at": "2027-01-10T08:25:00Z",
-              "effective_cost": 91100,
-              "flight_numbers": "UA2089, UA1733",
-              "mixed_cabin_pct": null,
-              "program_points": 91100,
-              "remaining_seats": 9,
-              "segments": [
-                {
                   "aircraft": "32Q",
-                  "arrives_at": "2027-01-10T11:49:00Z",
-                  "departs_at": "2027-01-10T08:25:00Z",
-                  "destination": "ORD",
-                  "fare_class": "JN",
-                  "flight_number": "UA2089",
+                  "arrives_at": "2027-01-10T10:10:00Z",
+                  "departs_at": "2027-01-10T07:00:00Z",
+                  "destination": "JFK",
+                  "fare_class": "OI",
+                  "flight_number": "DL1854",
                   "origin": "SJU"
-                },
-                {
-                  "aircraft": "7M9",
-                  "arrives_at": "2027-01-10T18:55:00Z",
-                  "departs_at": "2027-01-10T15:35:00Z",
-                  "destination": "EWR",
-                  "fare_class": "JN",
-                  "flight_number": "UA1733",
-                  "origin": "ORD"
                 }
               ],
-              "stops": 1,
+              "stops": null,
               "tax_currency": "USD",
               "tax_currency_symbol": "$",
               "taxes_minor_units": 560,
-              "trip_id": "3KQLW0th4DX7qpQlMfetNr20p99"
+              "trip_id": "3AtxevBbJgf0S7XpY5NfhH3ZbZ0"
             }
           ],
-          "updated_at": "2026-10-16T13:57:05.669626Z"
+          "updated_at": "2026-10-18T22:04:20.868978Z"
         }
       ]
     }
   ],
   "destinations_with_matching_two_seat_return": 10,
-  "generated_at": "2026-10-18T14:42:05.679047+00:00",
+  "generated_at": "2026-10-19T17:36:47.597686+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "For AmEx-transferable programs, the <100k threshold is applied to approximate Membership Rewards required after the standard transfer ratio; United uses United miles.",

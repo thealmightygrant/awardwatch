@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-10-18T14:42:07.075088+00:00",
+  "generated_at": "2026-10-19T17:36:49.242730+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -675,7 +675,7 @@
               "origin": "MXP"
             },
             {
-              "aircraft": "773",
+              "aircraft": "789",
               "arrives_at": "2027-10-04T10:25:00Z",
               "departs_at": "2027-10-04T05:50:00Z",
               "destination": "JFK",
@@ -711,7 +711,7 @@
               "origin": "MXP"
             },
             {
-              "aircraft": "773",
+              "aircraft": "789",
               "arrives_at": "2027-10-04T10:25:00Z",
               "departs_at": "2027-10-04T05:50:00Z",
               "destination": "JFK",
@@ -728,7 +728,7 @@
           "trip_id": "3KgIV7rZubgsU7nPzv8O8ojIfpR"
         }
       ],
-      "updated_at": "2026-10-18T02:39:06.809623Z"
+      "updated_at": "2026-10-19T10:32:36.439555Z"
     },
     {
       "airlines": "MS",
