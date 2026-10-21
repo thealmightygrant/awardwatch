@@ -45,11 +45,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69570,
+          "taxes_minor_units": 69500,
           "trip_id": "3GebpqZhaZaK5BaYJWdBAwWT4iO"
         }
       ],
-      "updated_at": "2026-10-20T14:36:50.042574Z"
+      "updated_at": "2026-10-21T12:45:49.183037Z"
     },
     {
       "airlines": "VS",
@@ -95,7 +95,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69570,
+          "taxes_minor_units": 69500,
           "trip_id": "3GgqLPKEvQnrkh4DIVCZ5mxMuB7"
         },
         {
@@ -124,7 +124,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69570,
+          "taxes_minor_units": 69500,
           "trip_id": "3GgqLPv7fKY8YCtthI0sRlUwNow"
         },
         {
@@ -153,11 +153,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69570,
+          "taxes_minor_units": 69500,
           "trip_id": "3GgqLMg4EVAu7syeUKFjByqyZKG"
         }
       ],
-      "updated_at": "2026-10-20T04:04:41.323727Z"
+      "updated_at": "2026-10-21T12:13:45.741113Z"
     },
     {
       "airlines": "VS",
@@ -203,40 +203,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69570,
+          "taxes_minor_units": 69500,
           "trip_id": "3KwVlGimE1fEE2vIh5QfNFwI6fy"
-        },
-        {
-          "approx_amex_mr": 29000,
-          "arrives_at": "2027-09-15T06:55:00Z",
-          "cabin": "business",
-          "carriers": "VS",
-          "departs_at": "2027-09-14T18:30:00Z",
-          "effective_cost": 29000,
-          "flight_numbers": "VS10",
-          "mixed_cabin_pct": null,
-          "program_points": 29000,
-          "remaining_seats": 9,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "339",
-              "arrives_at": "2027-09-15T06:55:00Z",
-              "departs_at": "2027-09-14T18:30:00Z",
-              "destination": "LHR",
-              "fare_class": "G",
-              "flight_number": "VS10",
-              "origin": "JFK"
-            }
-          ],
-          "stops": null,
-          "tax_currency": "USD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 69570,
-          "trip_id": "3KwVlJmuUIweWEeL608QL8dNgnu"
         }
       ],
-      "updated_at": "2026-10-20T14:05:27.228035Z"
+      "updated_at": "2026-10-21T13:57:58.069281Z"
     },
     {
       "airlines": "VS",
@@ -282,7 +253,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69570,
+          "taxes_minor_units": 69500,
           "trip_id": "3IgLiNz7qq4Eptb6kZJlBItyDjL"
         },
         {
@@ -311,7 +282,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69570,
+          "taxes_minor_units": 69500,
           "trip_id": "3IgLiL7TBojlcDBdMBKzBL9Hw64"
         },
         {
@@ -340,11 +311,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69570,
+          "taxes_minor_units": 69500,
           "trip_id": "3IgLiKy3CRJTRCgG7sJLkX1UJFM"
         }
       ],
-      "updated_at": "2026-10-20T09:43:52.189942Z"
+      "updated_at": "2026-10-21T15:32:32.271292Z"
     },
     {
       "airlines": "VS",
@@ -452,7 +423,7 @@
           "trip_id": "3IzhkLTj7870y2YLk6SVkpBvc74"
         }
       ],
-      "updated_at": "2026-10-20T09:43:59.542962Z"
+      "updated_at": "2026-10-21T01:47:27.134126Z"
     },
     {
       "airlines": "KL, VS",
@@ -566,7 +537,7 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71260,
+          "taxes_minor_units": 71580,
           "trip_id": "3Kgk9c3sGmL13eSK6WGb3ORA4X3"
         },
         {
@@ -604,11 +575,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71260,
+          "taxes_minor_units": 71580,
           "trip_id": "3Kgk9Wc1x71s36GmgDxrADJTWr9"
         }
       ],
-      "updated_at": "2026-10-20T03:33:21.540652Z"
+      "updated_at": "2026-10-21T15:11:38.993327Z"
     },
     {
       "airlines": "AF, VS",
@@ -663,11 +634,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71650,
+          "taxes_minor_units": 71580,
           "trip_id": "3KgWXAT5NCtPCEFXufplsrm9tUe"
         }
       ],
-      "updated_at": "2026-10-20T15:02:41.83517Z"
+      "updated_at": "2026-10-21T13:46:41.560331Z"
     },
     {
       "airlines": "AF, VS",
@@ -722,11 +693,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71260,
+          "taxes_minor_units": 71650,
           "trip_id": "3Kryl3rSeDomptkdkgtaDeDOOnb"
         }
       ],
-      "updated_at": "2026-10-19T16:14:11.24656Z"
+      "updated_at": "2026-10-21T00:49:15.797675Z"
     },
     {
       "airlines": "SK, VS",
@@ -899,17 +870,17 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71260,
+          "taxes_minor_units": 71650,
           "trip_id": "3IP0Ek0yFfiyoGGJ4qaqeJAttWR"
         }
       ],
-      "updated_at": "2026-10-19T13:07:22.963303Z"
+      "updated_at": "2026-10-21T00:49:38.835749Z"
     }
   ],
   "criteria": {
     "cabin": "business",
     "destination_region": "Europe",
-    "end_date": "2027-10-20",
+    "end_date": "2027-10-21",
     "max_effective_cost_exclusive": 100000,
     "minimum_confirmed_seats": 2,
     "origins": [
@@ -917,10 +888,10 @@
       "JFK",
       "LGA"
     ],
-    "start_date": "2026-10-20",
+    "start_date": "2026-10-21",
     "trip_focus": "couple experiential Europe"
   },
-  "generated_at": "2026-10-20T15:42:12.497421+00:00",
+  "generated_at": "2026-10-21T16:00:31.499014+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "The scanner reuses one server-filtered NYC-to-Europe gateway snapshot for both watches and performs at most 24 trip-detail lookups total.",
