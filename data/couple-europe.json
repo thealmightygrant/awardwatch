@@ -21,35 +21,6 @@
       "trips": [
         {
           "approx_amex_mr": 29000,
-          "arrives_at": "2027-02-02T20:10:00Z",
-          "cabin": "business",
-          "carriers": "VS",
-          "departs_at": "2027-02-02T08:00:00Z",
-          "effective_cost": 29000,
-          "flight_numbers": "VS26",
-          "mixed_cabin_pct": null,
-          "program_points": 29000,
-          "remaining_seats": 9,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "339",
-              "arrives_at": "2027-02-02T20:10:00Z",
-              "departs_at": "2027-02-02T08:00:00Z",
-              "destination": "LHR",
-              "fare_class": "G",
-              "flight_number": "VS26",
-              "origin": "JFK"
-            }
-          ],
-          "stops": null,
-          "tax_currency": "USD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 69840,
-          "trip_id": "3GgqLPKEvQnrkh4DIVCZ5mxMuB7"
-        },
-        {
-          "approx_amex_mr": 29000,
           "arrives_at": "2027-02-03T06:20:00Z",
           "cabin": "business",
           "carriers": "VS",
@@ -74,8 +45,37 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69840,
+          "taxes_minor_units": 69870,
           "trip_id": "3GgqLPv7fKY8YCtthI0sRlUwNow"
+        },
+        {
+          "approx_amex_mr": 29000,
+          "arrives_at": "2027-02-02T20:10:00Z",
+          "cabin": "business",
+          "carriers": "VS",
+          "departs_at": "2027-02-02T08:00:00Z",
+          "effective_cost": 29000,
+          "flight_numbers": "VS26",
+          "mixed_cabin_pct": null,
+          "program_points": 29000,
+          "remaining_seats": 9,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "339",
+              "arrives_at": "2027-02-02T20:10:00Z",
+              "departs_at": "2027-02-02T08:00:00Z",
+              "destination": "LHR",
+              "fare_class": "G",
+              "flight_number": "VS26",
+              "origin": "JFK"
+            }
+          ],
+          "stops": null,
+          "tax_currency": "USD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 69870,
+          "trip_id": "3GgqLPKEvQnrkh4DIVCZ5mxMuB7"
         },
         {
           "approx_amex_mr": 29000,
@@ -103,11 +103,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69840,
+          "taxes_minor_units": 69870,
           "trip_id": "3GgqLMg4EVAu7syeUKFjByqyZKG"
         }
       ],
-      "updated_at": "2026-10-23T12:56:57.553284Z"
+      "updated_at": "2026-10-24T09:26:18.878572Z"
     },
     {
       "airlines": "VS",
@@ -153,7 +153,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69840,
+          "taxes_minor_units": 69870,
           "trip_id": "3IgLiKy3CRJTRCgG7sJLkX1UJFM"
         },
         {
@@ -182,40 +182,40 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69840,
+          "taxes_minor_units": 69870,
           "trip_id": "3IgLiL7TBojlcDBdMBKzBL9Hw64"
         },
         {
-          "approx_amex_mr": 58000,
-          "arrives_at": "2027-07-28T07:25:00Z",
+          "approx_amex_mr": 82000,
+          "arrives_at": "2027-07-28T11:00:00Z",
           "cabin": "business",
           "carriers": "VS",
-          "departs_at": "2027-07-27T19:00:00Z",
-          "effective_cost": 58000,
-          "flight_numbers": "VS46",
+          "departs_at": "2027-07-27T23:00:00Z",
+          "effective_cost": 82000,
+          "flight_numbers": "VS138",
           "mixed_cabin_pct": null,
-          "program_points": 57500,
-          "remaining_seats": 4,
+          "program_points": 82000,
+          "remaining_seats": 9,
           "seat_count_reliable": true,
           "segments": [
             {
-              "aircraft": "339",
-              "arrives_at": "2027-07-28T07:25:00Z",
-              "departs_at": "2027-07-27T19:00:00Z",
+              "aircraft": "351",
+              "arrives_at": "2027-07-28T11:00:00Z",
+              "departs_at": "2027-07-27T23:00:00Z",
               "destination": "LHR",
               "fare_class": "G",
-              "flight_number": "VS46",
+              "flight_number": "VS138",
               "origin": "JFK"
             }
           ],
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69840,
-          "trip_id": "3IgLiNz7qq4Eptb6kZJlBItyDjL"
+          "taxes_minor_units": 69870,
+          "trip_id": "3IgLiLsAAYLb5Fj2tbQsmf99Psi"
         }
       ],
-      "updated_at": "2026-10-23T15:16:58.373752Z"
+      "updated_at": "2026-10-24T14:24:26.595016Z"
     },
     {
       "airlines": "VS",
@@ -323,7 +323,7 @@
           "trip_id": "3IzhkJ87LE2RiVlNnjyVhaymZ7a"
         }
       ],
-      "updated_at": "2026-10-23T15:31:29.094905Z"
+      "updated_at": "2026-10-24T00:40:40.839534Z"
     },
     {
       "airlines": "KL, VS",
@@ -517,7 +517,7 @@
           "trip_id": "3KgWXAT5NCtPCEFXufplsrm9tUe"
         }
       ],
-      "updated_at": "2026-10-23T13:26:04.888786Z"
+      "updated_at": "2026-10-24T03:16:27.449656Z"
     },
     {
       "airlines": "KL, VS",
@@ -537,6 +537,44 @@
       "seat_count_reliable": true,
       "source": "virginatlantic",
       "trips": [
+        {
+          "approx_amex_mr": 44000,
+          "arrives_at": "2027-08-11T11:00:00Z",
+          "cabin": "business",
+          "carriers": "VS, KL",
+          "departs_at": "2027-08-10T18:00:00Z",
+          "effective_cost": 44000,
+          "flight_numbers": "VS4, KL1002",
+          "mixed_cabin_pct": null,
+          "program_points": 44000,
+          "remaining_seats": 9,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "351",
+              "arrives_at": "2027-08-11T06:20:00Z",
+              "departs_at": "2027-08-10T18:00:00Z",
+              "destination": "LHR",
+              "fare_class": "O",
+              "flight_number": "VS4",
+              "origin": "JFK"
+            },
+            {
+              "aircraft": "32Q",
+              "arrives_at": "2027-08-11T11:00:00Z",
+              "departs_at": "2027-08-11T08:40:00Z",
+              "destination": "AMS",
+              "fare_class": "O",
+              "flight_number": "KL1002",
+              "origin": "LHR"
+            }
+          ],
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 71960,
+          "trip_id": "3L6vGv0l9EnhWt0lBimc0EFYwsY"
+        },
         {
           "approx_amex_mr": 44000,
           "arrives_at": "2027-08-11T11:00:00Z",
@@ -572,7 +610,7 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71770,
+          "taxes_minor_units": 71960,
           "trip_id": "3L444bQw8dntRyd6kQQkMoQh1st"
         },
         {
@@ -610,49 +648,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71770,
+          "taxes_minor_units": 71960,
           "trip_id": "3L444bX0fWT8QeRRn80G0zpccJU"
-        },
-        {
-          "approx_amex_mr": 56000,
-          "arrives_at": "2027-08-11T12:20:00Z",
-          "cabin": "business",
-          "carriers": "VS, KL",
-          "departs_at": "2027-08-10T19:00:00Z",
-          "effective_cost": 56000,
-          "flight_numbers": "VS46, KL1004",
-          "mixed_cabin_pct": null,
-          "program_points": 56000,
-          "remaining_seats": 8,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "339",
-              "arrives_at": "2027-08-11T07:25:00Z",
-              "departs_at": "2027-08-10T19:00:00Z",
-              "destination": "LHR",
-              "fare_class": "O",
-              "flight_number": "VS46",
-              "origin": "JFK"
-            },
-            {
-              "aircraft": "295",
-              "arrives_at": "2027-08-11T12:20:00Z",
-              "departs_at": "2027-08-11T09:55:00Z",
-              "destination": "AMS",
-              "fare_class": "O",
-              "flight_number": "KL1004",
-              "origin": "LHR"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 71770,
-          "trip_id": "3L444aAx7fLmPkamw8zmVS6hkAE"
         }
       ],
-      "updated_at": "2026-10-22T20:10:15.9837Z"
+      "updated_at": "2026-10-24T12:10:04.051148Z"
     },
     {
       "airlines": "KL, VS",
@@ -804,11 +804,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71770,
+          "taxes_minor_units": 71960,
           "trip_id": "3GiBrTSPqcXty25GTSZQTr1338V"
         }
       ],
-      "updated_at": "2026-10-22T14:59:25.589661Z"
+      "updated_at": "2026-10-24T12:24:05.791873Z"
     },
     {
       "airlines": "SK, VS",
@@ -979,145 +979,60 @@
       "updated_at": "2026-10-20T19:54:46.710231Z"
     },
     {
-      "airlines": "SK, VS",
-      "approx_amex_mr": 51000,
-      "availability_id": "3JInEHwnJbvfjGJ8IiW3s0hOeE5",
+      "airlines": "VS",
+      "approx_amex_mr": 52000,
+      "availability_id": "3AMxOPokPSJEDt4BennLtHRG8b3",
       "business_available": true,
-      "date": "2027-08-10",
-      "destination": "OSL",
+      "date": "2027-01-26",
+      "destination": "LHR",
       "destination_region": "Europe",
-      "direct": false,
-      "effective_cost": 51000,
+      "direct": true,
+      "effective_cost": 52000,
       "funding": "AmEx Membership Rewards",
       "origin": "JFK",
       "program": "Virgin Atlantic Flying Club",
-      "program_points": 50500,
-      "remaining_seats": 5,
+      "program_points": 52000,
+      "remaining_seats": 9,
       "seat_count_reliable": true,
       "source": "virginatlantic",
       "trips": [
         {
-          "approx_amex_mr": 51000,
-          "arrives_at": "2027-08-11T13:45:00Z",
+          "approx_amex_mr": 52000,
+          "arrives_at": "2027-01-27T07:15:00Z",
           "cabin": "business",
-          "carriers": "VS, SK",
-          "departs_at": "2027-08-10T19:00:00Z",
-          "effective_cost": 51000,
-          "flight_numbers": "VS46, SK804",
+          "carriers": "VS",
+          "departs_at": "2027-01-26T19:01:00Z",
+          "effective_cost": 52000,
+          "flight_numbers": "VS46",
           "mixed_cabin_pct": null,
-          "program_points": 50500,
-          "remaining_seats": 5,
+          "program_points": 52000,
+          "remaining_seats": 9,
           "seat_count_reliable": true,
           "segments": [
             {
               "aircraft": "339",
-              "arrives_at": "2027-08-11T07:25:00Z",
-              "departs_at": "2027-08-10T19:00:00Z",
+              "arrives_at": "2027-01-27T07:15:00Z",
+              "departs_at": "2027-01-26T19:01:00Z",
               "destination": "LHR",
-              "fare_class": "I",
+              "fare_class": "G",
               "flight_number": "VS46",
               "origin": "JFK"
-            },
-            {
-              "aircraft": "32N",
-              "arrives_at": "2027-08-11T13:45:00Z",
-              "departs_at": "2027-08-11T10:35:00Z",
-              "destination": "OSL",
-              "fare_class": "I",
-              "flight_number": "SK804",
-              "origin": "LHR"
             }
           ],
-          "stops": 1,
+          "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71260,
-          "trip_id": "3KsJQqlD1NNmb7sWUmY5McotcEC"
-        },
-        {
-          "approx_amex_mr": 51000,
-          "arrives_at": "2027-08-11T13:45:00Z",
-          "cabin": "business",
-          "carriers": "VS, SK",
-          "departs_at": "2027-08-10T18:30:00Z",
-          "effective_cost": 51000,
-          "flight_numbers": "VS10, SK804",
-          "mixed_cabin_pct": null,
-          "program_points": 50500,
-          "remaining_seats": 5,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "339",
-              "arrives_at": "2027-08-11T06:55:00Z",
-              "departs_at": "2027-08-10T18:30:00Z",
-              "destination": "LHR",
-              "fare_class": "I",
-              "flight_number": "VS10",
-              "origin": "JFK"
-            },
-            {
-              "aircraft": "32N",
-              "arrives_at": "2027-08-11T13:45:00Z",
-              "departs_at": "2027-08-11T10:35:00Z",
-              "destination": "OSL",
-              "fare_class": "I",
-              "flight_number": "SK804",
-              "origin": "LHR"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 71260,
-          "trip_id": "3KsJQsY5Rrit5TX5Mm8UDEKOz98"
-        },
-        {
-          "approx_amex_mr": 51000,
-          "arrives_at": "2027-08-11T18:45:00Z",
-          "cabin": "business",
-          "carriers": "VS, SK",
-          "departs_at": "2027-08-10T23:00:00Z",
-          "effective_cost": 51000,
-          "flight_numbers": "VS138, SK806",
-          "mixed_cabin_pct": null,
-          "program_points": 50500,
-          "remaining_seats": 5,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "351",
-              "arrives_at": "2027-08-11T11:00:00Z",
-              "departs_at": "2027-08-10T23:00:00Z",
-              "destination": "LHR",
-              "fare_class": "I",
-              "flight_number": "VS138",
-              "origin": "JFK"
-            },
-            {
-              "aircraft": "32N",
-              "arrives_at": "2027-08-11T18:45:00Z",
-              "departs_at": "2027-08-11T15:35:00Z",
-              "destination": "OSL",
-              "fare_class": "I",
-              "flight_number": "SK806",
-              "origin": "LHR"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 71260,
-          "trip_id": "3KsJQpeu9sSi1Oi1hmaoxXzeAOL"
+          "taxes_minor_units": 69840,
+          "trip_id": "3Gebq2aQdTZPIE70LK2qLy9Ha2A"
         }
       ],
-      "updated_at": "2026-10-18T16:18:48.060285Z"
+      "updated_at": "2026-10-24T02:55:52.219023Z"
     }
   ],
   "criteria": {
     "cabin": "business",
     "destination_region": "Europe",
-    "end_date": "2027-10-23",
+    "end_date": "2027-10-24",
     "max_effective_cost_exclusive": 100000,
     "minimum_confirmed_seats": 2,
     "origins": [
@@ -1125,10 +1040,10 @@
       "JFK",
       "LGA"
     ],
-    "start_date": "2026-10-23",
+    "start_date": "2026-10-24",
     "trip_focus": "couple experiential Europe"
   },
-  "generated_at": "2026-10-23T15:48:24.555575+00:00",
+  "generated_at": "2026-10-24T14:41:09.958076+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "The scanner reuses one server-filtered NYC-to-Europe gateway snapshot for both watches and performs at most 24 trip-detail lookups total.",
