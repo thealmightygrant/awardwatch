@@ -139,132 +139,6 @@
     {
       "airlines": "AC",
       "approx_amex_mr": 29000,
-      "availability_id": "36P3vrrs4jlWkBN7cEOUvX16TSa",
-      "business_available": true,
-      "date": "2026-11-24",
-      "destination": "YYC",
-      "destination_region": "targeted-non-Europe-hiking",
-      "direct": true,
-      "effective_cost": 29000,
-      "funding": "AmEx Membership Rewards",
-      "origin": "EWR",
-      "program": "Air Canada Aeroplan",
-      "program_points": 28999,
-      "remaining_seats": 5,
-      "seat_count_reliable": true,
-      "source": "aeroplan",
-      "trips": [
-        {
-          "approx_amex_mr": 29000,
-          "arrives_at": "2026-11-24T20:17:00Z",
-          "cabin": "business",
-          "carriers": "AC",
-          "departs_at": "2026-11-24T16:00:00Z",
-          "effective_cost": 29000,
-          "flight_numbers": "AC585",
-          "mixed_cabin_pct": null,
-          "program_points": 28999,
-          "remaining_seats": 2,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "223",
-              "arrives_at": "2026-11-24T20:17:00Z",
-              "departs_at": "2026-11-24T16:00:00Z",
-              "destination": "YYC",
-              "fare_class": "I",
-              "flight_number": "AC585",
-              "origin": "EWR"
-            }
-          ],
-          "stops": null,
-          "tax_currency": "CAD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 4100,
-          "trip_id": "3GufeFU4wKcTLcp0GDi2RR2EXRo"
-        },
-        {
-          "approx_amex_mr": 42000,
-          "arrives_at": "2026-11-25T00:06:00Z",
-          "cabin": "business",
-          "carriers": "AC",
-          "departs_at": "2026-11-24T11:05:00Z",
-          "effective_cost": 42000,
-          "flight_numbers": "AC8877, AC159",
-          "mixed_cabin_pct": null,
-          "program_points": 41284,
-          "remaining_seats": 1,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "CR9",
-              "arrives_at": "2026-11-24T12:41:00Z",
-              "departs_at": "2026-11-24T11:05:00Z",
-              "destination": "YYZ",
-              "fare_class": "P",
-              "flight_number": "AC8877",
-              "origin": "EWR"
-            },
-            {
-              "aircraft": "789",
-              "arrives_at": "2026-11-25T00:06:00Z",
-              "departs_at": "2026-11-24T20:55:00Z",
-              "destination": "YYC",
-              "fare_class": "I",
-              "flight_number": "AC159",
-              "origin": "YYZ"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "CAD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 9614,
-          "trip_id": "3IZxlnA4BKl6URZ3tYjhSKbT1bi"
-        },
-        {
-          "approx_amex_mr": 42000,
-          "arrives_at": "2026-11-25T00:06:00Z",
-          "cabin": "business",
-          "carriers": "AC",
-          "departs_at": "2026-11-24T16:25:00Z",
-          "effective_cost": 42000,
-          "flight_numbers": "AC1509, AC159",
-          "mixed_cabin_pct": null,
-          "program_points": 41284,
-          "remaining_seats": 1,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "223",
-              "arrives_at": "2026-11-24T18:08:00Z",
-              "departs_at": "2026-11-24T16:25:00Z",
-              "destination": "YYZ",
-              "fare_class": "P",
-              "flight_number": "AC1509",
-              "origin": "EWR"
-            },
-            {
-              "aircraft": "789",
-              "arrives_at": "2026-11-25T00:06:00Z",
-              "departs_at": "2026-11-24T20:55:00Z",
-              "destination": "YYC",
-              "fare_class": "I",
-              "flight_number": "AC159",
-              "origin": "YYZ"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "CAD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 5230,
-          "trip_id": "3JqTzZ6R7aBn2oV8wEwda5hBmI0"
-        }
-      ],
-      "updated_at": "2026-10-20T10:15:01.16134Z"
-    },
-    {
-      "airlines": "AC",
-      "approx_amex_mr": 29000,
       "availability_id": "3706SlEuNqI6sqTZoME3BXaJC9a",
       "business_available": true,
       "date": "2026-12-07",
@@ -522,6 +396,141 @@
         }
       ],
       "updated_at": "2026-10-22T00:24:24.297968Z"
+    },
+    {
+      "airlines": "AC",
+      "approx_amex_mr": 40000,
+      "availability_id": "36O4l0wr9UzmcLko35H5UiNARwl",
+      "business_available": true,
+      "date": "2026-11-23",
+      "destination": "YYC",
+      "destination_region": "targeted-non-Europe-hiking",
+      "direct": true,
+      "effective_cost": 40000,
+      "funding": "AmEx Membership Rewards",
+      "origin": "EWR",
+      "program": "Air Canada Aeroplan",
+      "program_points": 39718,
+      "remaining_seats": 5,
+      "seat_count_reliable": true,
+      "source": "aeroplan",
+      "trips": [
+        {
+          "approx_amex_mr": 40000,
+          "arrives_at": "2026-11-23T20:17:00Z",
+          "cabin": "business",
+          "carriers": "AC",
+          "departs_at": "2026-11-23T16:00:00Z",
+          "effective_cost": 40000,
+          "flight_numbers": "AC585",
+          "mixed_cabin_pct": null,
+          "program_points": 39718,
+          "remaining_seats": 2,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "223",
+              "arrives_at": "2026-11-23T20:17:00Z",
+              "departs_at": "2026-11-23T16:00:00Z",
+              "destination": "YYC",
+              "fare_class": "I",
+              "flight_number": "AC585",
+              "origin": "EWR"
+            }
+          ],
+          "stops": null,
+          "tax_currency": "CAD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 4130,
+          "trip_id": "3HeGFZboftB3kpcKMKMQXgnZQPL"
+        },
+        {
+          "approx_amex_mr": 71000,
+          "arrives_at": "2026-11-24T00:50:00Z",
+          "cabin": "business",
+          "carriers": "AC",
+          "departs_at": "2026-11-23T10:20:00Z",
+          "effective_cost": 71000,
+          "flight_numbers": "AC8493, AC327",
+          "mixed_cabin_pct": null,
+          "program_points": 70619,
+          "remaining_seats": 5,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "E75",
+              "arrives_at": "2026-11-23T11:52:00Z",
+              "departs_at": "2026-11-23T10:20:00Z",
+              "destination": "YUL",
+              "fare_class": "P",
+              "flight_number": "AC8493",
+              "origin": "EWR"
+            },
+            {
+              "aircraft": "223",
+              "arrives_at": "2026-11-24T00:50:00Z",
+              "departs_at": "2026-11-23T20:55:00Z",
+              "destination": "YYC",
+              "fare_class": "P",
+              "flight_number": "AC327",
+              "origin": "YUL"
+            }
+          ],
+          "stops": 1,
+          "tax_currency": "CAD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 9723,
+          "trip_id": "3HeGFZNHUpRjxUjgGOpjINVGimg"
+        },
+        {
+          "approx_amex_mr": 90000,
+          "arrives_at": "2026-11-23T19:59:00Z",
+          "cabin": "business",
+          "carriers": "AC",
+          "departs_at": "2026-11-23T06:55:00Z",
+          "effective_cost": 90000,
+          "flight_numbers": "AC8491, AC407, AC149",
+          "mixed_cabin_pct": null,
+          "program_points": 89229,
+          "remaining_seats": 2,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "E75",
+              "arrives_at": "2026-11-23T08:32:00Z",
+              "departs_at": "2026-11-23T06:55:00Z",
+              "destination": "YUL",
+              "fare_class": "I",
+              "flight_number": "AC8491",
+              "origin": "EWR"
+            },
+            {
+              "aircraft": "321",
+              "arrives_at": "2026-11-23T11:45:00Z",
+              "departs_at": "2026-11-23T10:10:00Z",
+              "destination": "YYZ",
+              "fare_class": "Z",
+              "flight_number": "AC407",
+              "origin": "YUL"
+            },
+            {
+              "aircraft": "321",
+              "arrives_at": "2026-11-23T19:59:00Z",
+              "departs_at": "2026-11-23T16:30:00Z",
+              "destination": "YYC",
+              "fare_class": "Z",
+              "flight_number": "AC149",
+              "origin": "YYZ"
+            }
+          ],
+          "stops": 2,
+          "tax_currency": "CAD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 10104,
+          "trip_id": "3IEzeLuuM3S7BmkeY4oLAicx4jt"
+        }
+      ],
+      "updated_at": "2026-10-17T03:25:24.773012Z"
     },
     {
       "airlines": "AC",
@@ -833,15 +842,15 @@
         },
         {
           "approx_amex_mr": 46000,
-          "arrives_at": "2026-11-25T16:05:00Z",
+          "arrives_at": "2026-11-25T17:35:00Z",
           "cabin": "business",
           "carriers": "AV",
           "departs_at": "2026-11-25T03:55:00Z",
           "effective_cost": 46000,
-          "flight_numbers": "AV7395, AV1633",
+          "flight_numbers": "AV7395, AV1631",
           "mixed_cabin_pct": null,
           "program_points": 45590,
-          "remaining_seats": 2,
+          "remaining_seats": 3,
           "seat_count_reliable": false,
           "segments": [
             {
@@ -855,11 +864,11 @@
             },
             {
               "aircraft": "320",
-              "arrives_at": "2026-11-25T16:05:00Z",
-              "departs_at": "2026-11-25T15:15:00Z",
+              "arrives_at": "2026-11-25T17:35:00Z",
+              "departs_at": "2026-11-25T16:40:00Z",
               "destination": "UIO",
               "fare_class": "I",
-              "flight_number": "AV1633",
+              "flight_number": "AV1631",
               "origin": "GYE"
             }
           ],
@@ -867,10 +876,10 @@
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
           "taxes_minor_units": 4766,
-          "trip_id": "3KVg7Thne7wTmrkqrI4V0fJjUSr"
+          "trip_id": "3KVg7SSRGtGWjctkQZv0Csy00Vb"
         }
       ],
-      "updated_at": "2026-10-22T07:35:29.744792Z"
+      "updated_at": "2026-10-24T19:54:48.356905Z"
     },
     {
       "airlines": "AV",
@@ -1001,56 +1010,6 @@
     {
       "airlines": "LA",
       "approx_amex_mr": 50000,
-      "availability_id": "36ul8hdhkORtXPjs9RWsoYGlnYU",
-      "business_available": true,
-      "date": "2026-11-11",
-      "destination": "LIM",
-      "destination_region": "targeted-non-Europe-hiking",
-      "direct": true,
-      "effective_cost": 50000,
-      "funding": "AmEx Membership Rewards",
-      "origin": "JFK",
-      "program": "Virgin Atlantic Flying Club",
-      "program_points": 50000,
-      "remaining_seats": 2,
-      "seat_count_reliable": true,
-      "source": "virginatlantic",
-      "trips": [
-        {
-          "approx_amex_mr": 50000,
-          "arrives_at": "2026-11-11T21:00:00Z",
-          "cabin": "business",
-          "carriers": "LA",
-          "departs_at": "2026-11-11T12:50:00Z",
-          "effective_cost": 50000,
-          "flight_numbers": "LA2691",
-          "mixed_cabin_pct": null,
-          "program_points": 50000,
-          "remaining_seats": 2,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "763",
-              "arrives_at": "2026-11-11T21:00:00Z",
-              "departs_at": "2026-11-11T12:50:00Z",
-              "destination": "LIM",
-              "fare_class": "U",
-              "flight_number": "LA2691",
-              "origin": "JFK"
-            }
-          ],
-          "stops": null,
-          "tax_currency": "USD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 5555,
-          "trip_id": "3L3lJJA1HgfzQOYhGFeIbCgyQ7I"
-        }
-      ],
-      "updated_at": "2026-10-23T21:47:13.738687Z"
-    },
-    {
-      "airlines": "LA",
-      "approx_amex_mr": 50000,
       "availability_id": "37tbugzMzkjuj18NeDvc82tkEiR",
       "business_available": true,
       "date": "2026-12-02",
@@ -1062,7 +1021,7 @@
       "origin": "JFK",
       "program": "Virgin Atlantic Flying Club",
       "program_points": 50000,
-      "remaining_seats": 2,
+      "remaining_seats": 3,
       "seat_count_reliable": true,
       "source": "virginatlantic",
       "trips": [
@@ -1076,7 +1035,7 @@
           "flight_numbers": "LA2691",
           "mixed_cabin_pct": null,
           "program_points": 50000,
-          "remaining_seats": 2,
+          "remaining_seats": 3,
           "seat_count_reliable": true,
           "segments": [
             {
@@ -1096,7 +1055,57 @@
           "trip_id": "3KhRk9ykc5y8e2F02QcFqANnrER"
         }
       ],
-      "updated_at": "2026-10-24T00:21:39.812918Z"
+      "updated_at": "2026-10-25T05:28:49.204702Z"
+    },
+    {
+      "airlines": "LA",
+      "approx_amex_mr": 50000,
+      "availability_id": "3706KguugqdAvzAHOFCQcBNaPBD",
+      "business_available": true,
+      "date": "2026-11-13",
+      "destination": "LIM",
+      "destination_region": "targeted-non-Europe-hiking",
+      "direct": true,
+      "effective_cost": 50000,
+      "funding": "AmEx Membership Rewards",
+      "origin": "JFK",
+      "program": "Virgin Atlantic Flying Club",
+      "program_points": 50000,
+      "remaining_seats": 1,
+      "seat_count_reliable": true,
+      "source": "virginatlantic",
+      "trips": [
+        {
+          "approx_amex_mr": 50000,
+          "arrives_at": "2026-11-13T21:00:00Z",
+          "cabin": "business",
+          "carriers": "LA",
+          "departs_at": "2026-11-13T12:50:00Z",
+          "effective_cost": 50000,
+          "flight_numbers": "LA2691",
+          "mixed_cabin_pct": null,
+          "program_points": 50000,
+          "remaining_seats": 1,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "763",
+              "arrives_at": "2026-11-13T21:00:00Z",
+              "departs_at": "2026-11-13T12:50:00Z",
+              "destination": "LIM",
+              "fare_class": "U",
+              "flight_number": "LA2691",
+              "origin": "JFK"
+            }
+          ],
+          "stops": null,
+          "tax_currency": "USD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 5555,
+          "trip_id": "3LAOv2PbQyvs9jcc6tYgpDsM1NT"
+        }
+      ],
+      "updated_at": "2026-10-25T05:28:48.693616Z"
     },
     {
       "airlines": "AC, AV, CM, UA",
@@ -1167,139 +1176,92 @@
       "updated_at": "2026-10-18T15:46:28.319746Z"
     },
     {
-      "airlines": "AC, UA",
-      "approx_amex_mr": 53000,
-      "availability_id": "358H7WFbcqMBzLgKKQr2p4qBX91",
+      "airlines": "LX",
+      "approx_amex_mr": 55000,
+      "availability_id": "3JQ86fy9jZm0HchSQN9jyrVTYOn",
       "business_available": true,
-      "date": "2026-10-27",
-      "destination": "YVR",
-      "destination_region": "targeted-non-Europe-hiking",
-      "direct": false,
-      "effective_cost": 53000,
+      "date": "2026-11-09",
+      "destination": "ZRH",
+      "destination_region": "Europe",
+      "direct": true,
+      "effective_cost": 55000,
       "funding": "AmEx Membership Rewards",
-      "origin": "EWR",
-      "program": "Air Canada Aeroplan",
-      "program_points": 52373,
+      "origin": "JFK",
+      "program": "Avianca LifeMiles",
+      "program_points": 54010,
       "remaining_seats": 3,
-      "seat_count_reliable": true,
-      "source": "aeroplan",
+      "seat_count_reliable": false,
+      "source": "lifemiles",
       "trips": [
         {
-          "approx_amex_mr": 53000,
-          "arrives_at": "2026-10-27T21:58:00Z",
+          "approx_amex_mr": 55000,
+          "arrives_at": "2026-11-10T10:50:00Z",
           "cabin": "business",
-          "carriers": "AC",
-          "departs_at": "2026-10-27T16:00:00Z",
-          "effective_cost": 53000,
-          "flight_numbers": "AC585, AC8073",
+          "carriers": "LX",
+          "departs_at": "2026-11-09T21:00:00Z",
+          "effective_cost": 55000,
+          "flight_numbers": "LX15",
           "mixed_cabin_pct": null,
-          "program_points": 52373,
-          "remaining_seats": 1,
-          "seat_count_reliable": true,
+          "program_points": 54010,
+          "remaining_seats": 2,
+          "seat_count_reliable": false,
           "segments": [
             {
-              "aircraft": "223",
-              "arrives_at": "2026-10-27T19:17:00Z",
-              "departs_at": "2026-10-27T16:00:00Z",
-              "destination": "YYC",
+              "aircraft": "333",
+              "arrives_at": "2026-11-10T10:50:00Z",
+              "departs_at": "2026-11-09T21:00:00Z",
+              "destination": "ZRH",
               "fare_class": "I",
-              "flight_number": "AC585",
-              "origin": "EWR"
-            },
-            {
-              "aircraft": "CR9",
-              "arrives_at": "2026-10-27T21:58:00Z",
-              "departs_at": "2026-10-27T21:15:00Z",
-              "destination": "YVR",
-              "fare_class": "I",
-              "flight_number": "AC8073",
-              "origin": "YYC"
+              "flight_number": "LX15",
+              "origin": "JFK"
             }
           ],
-          "stops": 1,
-          "tax_currency": "CAD",
+          "stops": null,
+          "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 4080,
-          "trip_id": "3JwOpL98tdKjHunbqgMtpz6bVs4"
+          "taxes_minor_units": 2900,
+          "trip_id": "3L4zy1mBolxP7CFZ35br5BW79do"
         },
         {
-          "approx_amex_mr": 53000,
-          "arrives_at": "2026-10-28T07:52:00Z",
+          "approx_amex_mr": 55000,
+          "arrives_at": "2026-11-10T11:30:00Z",
           "cabin": "business",
-          "carriers": "AC",
-          "departs_at": "2026-10-27T16:00:00Z",
-          "effective_cost": 53000,
-          "flight_numbers": "AC585, AC203",
+          "carriers": "LX",
+          "departs_at": "2026-11-09T19:35:00Z",
+          "effective_cost": 55000,
+          "flight_numbers": "LX23, LX2809",
           "mixed_cabin_pct": null,
-          "program_points": 52373,
-          "remaining_seats": 1,
-          "seat_count_reliable": true,
+          "program_points": 54010,
+          "remaining_seats": 3,
+          "seat_count_reliable": false,
           "segments": [
             {
-              "aircraft": "223",
-              "arrives_at": "2026-10-27T19:17:00Z",
-              "departs_at": "2026-10-27T16:00:00Z",
-              "destination": "YYC",
+              "aircraft": "333",
+              "arrives_at": "2026-11-10T09:20:00Z",
+              "departs_at": "2026-11-09T19:35:00Z",
+              "destination": "GVA",
               "fare_class": "I",
-              "flight_number": "AC585",
-              "origin": "EWR"
+              "flight_number": "LX23",
+              "origin": "JFK"
             },
             {
-              "aircraft": "223",
-              "arrives_at": "2026-10-28T07:52:00Z",
-              "departs_at": "2026-10-28T07:00:00Z",
-              "destination": "YVR",
+              "aircraft": "32Q",
+              "arrives_at": "2026-11-10T11:30:00Z",
+              "departs_at": "2026-11-10T10:35:00Z",
+              "destination": "ZRH",
               "fare_class": "I",
-              "flight_number": "AC203",
-              "origin": "YYC"
+              "flight_number": "LX2809",
+              "origin": "GVA"
             }
           ],
           "stops": 1,
-          "tax_currency": "CAD",
+          "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 9274,
-          "trip_id": "3JwOpLewYKx2IQsHuwiwxdskn37"
-        },
-        {
-          "approx_amex_mr": 75000,
-          "arrives_at": "2026-10-28T06:52:00Z",
-          "cabin": "business",
-          "carriers": "AC",
-          "departs_at": "2026-10-27T16:00:00Z",
-          "effective_cost": 75000,
-          "flight_numbers": "AC585, AC201",
-          "mixed_cabin_pct": null,
-          "program_points": 74620,
-          "remaining_seats": 1,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "223",
-              "arrives_at": "2026-10-27T19:17:00Z",
-              "departs_at": "2026-10-27T16:00:00Z",
-              "destination": "YYC",
-              "fare_class": "I",
-              "flight_number": "AC585",
-              "origin": "EWR"
-            },
-            {
-              "aircraft": "223",
-              "arrives_at": "2026-10-28T06:52:00Z",
-              "departs_at": "2026-10-28T06:00:00Z",
-              "destination": "YVR",
-              "fare_class": "D",
-              "flight_number": "AC201",
-              "origin": "YYC"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "CAD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 9274,
-          "trip_id": "3JwOpNfy54Og5gpMWDTjTd9WyIc"
+          "taxes_minor_units": 6170,
+          "trip_id": "3L0hSFIrj0JqMfSJtGlqSXp446h"
         }
       ],
-      "updated_at": "2026-10-23T01:22:53.48112Z"
+      "updated_at": "2026-10-25T11:54:51.151985Z"
     }
   ],
   "criteria": {
@@ -1381,10 +1343,10 @@
       "JFK",
       "LGA"
     ],
-    "start_date": "2026-10-24",
+    "start_date": "2026-10-25",
     "trip_focus": "solo hiking"
   },
-  "generated_at": "2026-10-24T14:41:09.958048+00:00",
+  "generated_at": "2026-10-25T14:59:11.262834+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "The scanner reuses one server-filtered NYC-to-Europe gateway snapshot for both watches and performs at most 24 trip-detail lookups total.",

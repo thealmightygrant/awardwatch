@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-10-24T14:41:23.758282+00:00",
+  "generated_at": "2026-10-25T14:59:17.633407+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -330,11 +330,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 16040,
+          "taxes_minor_units": 16000,
           "trip_id": "3KfnWwTa7XxlwmHWBHwjQgVg1HH"
         }
       ],
-      "updated_at": "2026-10-22T01:31:01.634654Z"
+      "updated_at": "2026-10-25T10:22:32.029229Z"
     },
     {
       "airlines": "MS",
@@ -417,7 +417,7 @@
               "origin": "MXP"
             },
             {
-              "aircraft": "773",
+              "aircraft": "789",
               "arrives_at": "2027-10-03T10:25:00Z",
               "departs_at": "2027-10-03T05:50:00Z",
               "destination": "JFK",
@@ -430,7 +430,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15080,
+          "taxes_minor_units": 14960,
           "trip_id": "3KgIVoPJ9UwVpWsNr0Zf2nSaJiC"
         },
         {
@@ -453,7 +453,7 @@
               "origin": "MXP"
             },
             {
-              "aircraft": "773",
+              "aircraft": "789",
               "arrives_at": "2027-10-03T10:25:00Z",
               "departs_at": "2027-10-03T05:50:00Z",
               "destination": "JFK",
@@ -466,7 +466,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15080,
+          "taxes_minor_units": 14960,
           "trip_id": "3KgIVqyPW397UU74YhgtbLtHYXL"
         },
         {
@@ -489,7 +489,7 @@
               "origin": "MXP"
             },
             {
-              "aircraft": "773",
+              "aircraft": "789",
               "arrives_at": "2027-10-03T10:25:00Z",
               "departs_at": "2027-10-03T05:50:00Z",
               "destination": "JFK",
@@ -502,11 +502,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15080,
+          "taxes_minor_units": 14960,
           "trip_id": "3KgIVrC3tjUWMjAgxhx0gv7ljjN"
         }
       ],
-      "updated_at": "2026-10-18T02:38:19.913624Z"
+      "updated_at": "2026-10-25T01:15:00.518956Z"
     },
     {
       "airlines": "MS",
