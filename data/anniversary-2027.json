@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-10-26T17:29:32.662125+00:00",
+  "generated_at": "2026-10-27T16:45:16.818568+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -330,11 +330,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 16000,
+          "taxes_minor_units": 15970,
           "trip_id": "3KfnWwTa7XxlwmHWBHwjQgVg1HH"
         }
       ],
-      "updated_at": "2026-10-26T15:33:13.75109Z"
+      "updated_at": "2026-10-27T14:12:44.222873Z"
     },
     {
       "airlines": "MS",
@@ -539,7 +539,7 @@
               "origin": "CPH"
             },
             {
-              "aircraft": "773",
+              "aircraft": "789",
               "arrives_at": "2027-10-03T10:25:00Z",
               "departs_at": "2027-10-03T05:50:00Z",
               "destination": "JFK",
@@ -552,11 +552,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 22040,
+          "taxes_minor_units": 21850,
           "trip_id": "3KqQRmokPxIkm6lNMoAjBqn4edW"
         }
       ],
-      "updated_at": "2026-10-18T00:16:52.417252Z"
+      "updated_at": "2026-10-27T02:19:01.497668Z"
     },
     {
       "airlines": "MS",
@@ -639,7 +639,7 @@
               "origin": "GVA"
             },
             {
-              "aircraft": "773",
+              "aircraft": "789",
               "arrives_at": "2027-10-03T10:25:00Z",
               "departs_at": "2027-10-03T05:50:00Z",
               "destination": "JFK",
@@ -652,11 +652,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 16610,
+          "taxes_minor_units": 16520,
           "trip_id": "3KqTlyFbL2BuE1HHHlZSB4aB0J8"
         }
       ],
-      "updated_at": "2026-10-18T00:44:12.605173Z"
+      "updated_at": "2026-10-26T23:21:28.465928Z"
     },
     {
       "airlines": "MS",
