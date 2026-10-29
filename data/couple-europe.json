@@ -45,11 +45,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69690,
+          "taxes_minor_units": 69520,
           "trip_id": "3L4VKTsxhPbAc9njhGiOUxKWJRC"
         }
       ],
-      "updated_at": "2026-10-28T14:03:42.787707Z"
+      "updated_at": "2026-10-29T15:55:43.137521Z"
     },
     {
       "airlines": "VS",
@@ -95,7 +95,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69690,
+          "taxes_minor_units": 69520,
           "trip_id": "3GgqLPKEvQnrkh4DIVCZ5mxMuB7"
         },
         {
@@ -124,7 +124,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69690,
+          "taxes_minor_units": 69520,
           "trip_id": "3GgqLPv7fKY8YCtthI0sRlUwNow"
         },
         {
@@ -153,11 +153,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69690,
+          "taxes_minor_units": 69520,
           "trip_id": "3GgqLMg4EVAu7syeUKFjByqyZKG"
         }
       ],
-      "updated_at": "2026-10-28T15:15:14.999467Z"
+      "updated_at": "2026-10-29T15:11:05.183586Z"
     },
     {
       "airlines": "VS",
@@ -203,19 +203,19 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69690,
+          "taxes_minor_units": 69520,
           "trip_id": "3IzhkLTj7870y2YLk6SVkpBvc74"
         },
         {
-          "approx_amex_mr": 45000,
+          "approx_amex_mr": 58000,
           "arrives_at": "2027-08-04T11:00:00Z",
           "cabin": "business",
           "carriers": "VS",
           "departs_at": "2027-08-03T23:00:00Z",
-          "effective_cost": 45000,
+          "effective_cost": 58000,
           "flight_numbers": "VS138",
           "mixed_cabin_pct": null,
-          "program_points": 45000,
+          "program_points": 57500,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "segments": [
@@ -232,7 +232,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69690,
+          "taxes_minor_units": 69520,
           "trip_id": "3IzhkJ87LE2RiVlNnjyVhaymZ7a"
         },
         {
@@ -261,11 +261,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69690,
+          "taxes_minor_units": 69520,
           "trip_id": "3IzhkIKkyU5tcgtduGa4cx7F6sg"
         }
       ],
-      "updated_at": "2026-10-28T16:55:10.084059Z"
+      "updated_at": "2026-10-29T14:47:23.969464Z"
     },
     {
       "airlines": "KL, VS",
@@ -320,11 +320,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71770,
+          "taxes_minor_units": 71600,
           "trip_id": "3L9VNc3DZ70AfY0HlnfnbV6Gpnc"
         }
       ],
-      "updated_at": "2026-10-28T11:52:35.813085Z"
+      "updated_at": "2026-10-29T11:06:31.539776Z"
     },
     {
       "airlines": "KL, VS",
@@ -514,49 +514,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71770,
+          "taxes_minor_units": 71600,
           "trip_id": "3KgWXAT5NCtPCEFXufplsrm9tUe"
-        },
-        {
-          "approx_amex_mr": 56000,
-          "arrives_at": "2027-02-24T13:50:00Z",
-          "cabin": "business",
-          "carriers": "VS, AF",
-          "departs_at": "2027-02-23T21:25:00Z",
-          "effective_cost": 56000,
-          "flight_numbers": "VS10, AF1581",
-          "mixed_cabin_pct": null,
-          "program_points": 55500,
-          "remaining_seats": 9,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "339",
-              "arrives_at": "2027-02-24T09:25:00Z",
-              "departs_at": "2027-02-23T21:25:00Z",
-              "destination": "LHR",
-              "fare_class": "O",
-              "flight_number": "VS10",
-              "origin": "JFK"
-            },
-            {
-              "aircraft": "223",
-              "arrives_at": "2027-02-24T13:50:00Z",
-              "departs_at": "2027-02-24T11:30:00Z",
-              "destination": "CDG",
-              "fare_class": "O",
-              "flight_number": "AF1581",
-              "origin": "LHR"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 71770,
-          "trip_id": "3LJwCd7Dh0qvShVKbB5dQ3pOx93"
         }
       ],
-      "updated_at": "2026-10-28T14:58:52.286801Z"
+      "updated_at": "2026-10-29T17:13:42.398092Z"
     },
     {
       "airlines": "AF, VS",
@@ -611,11 +573,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71770,
+          "taxes_minor_units": 71600,
           "trip_id": "3LAVSFmOvwQAguu7RjMKUU08O6N"
         }
       ],
-      "updated_at": "2026-10-28T14:58:53.241545Z"
+      "updated_at": "2026-10-29T14:52:20.039081Z"
     },
     {
       "airlines": "KL, VS",
@@ -1030,7 +992,7 @@
   "criteria": {
     "cabin": "business",
     "destination_region": "Europe",
-    "end_date": "2027-10-28",
+    "end_date": "2027-10-29",
     "max_effective_cost_exclusive": 100000,
     "minimum_confirmed_seats": 2,
     "origins": [
@@ -1038,10 +1000,10 @@
       "JFK",
       "LGA"
     ],
-    "start_date": "2026-10-28",
+    "start_date": "2026-10-29",
     "trip_focus": "couple experiential Europe"
   },
-  "generated_at": "2026-10-28T17:13:34.084478+00:00",
+  "generated_at": "2026-10-29T17:28:47.309377+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "The scanner reuses one server-filtered NYC-to-Europe gateway snapshot for both watches and performs at most 24 trip-detail lookups total.",

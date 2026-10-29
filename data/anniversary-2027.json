@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-10-28T17:13:50.086780+00:00",
+  "generated_at": "2026-10-29T17:29:03.133204+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -401,42 +401,6 @@
           "arrives_at": "2027-10-03T10:25:00Z",
           "cabin": "business",
           "carriers": "MS",
-          "departs_at": "2027-10-02T17:50:00Z",
-          "flight_numbers": "MS706, MS985",
-          "mixed_cabin_pct": null,
-          "points": 90000,
-          "remaining_seats": 2,
-          "segments": [
-            {
-              "aircraft": "738",
-              "arrives_at": "2027-10-02T22:30:00Z",
-              "departs_at": "2027-10-02T17:50:00Z",
-              "destination": "CAI",
-              "fare_class": "I",
-              "flight_number": "MS706",
-              "origin": "MXP"
-            },
-            {
-              "aircraft": "789",
-              "arrives_at": "2027-10-03T10:25:00Z",
-              "departs_at": "2027-10-03T05:50:00Z",
-              "destination": "JFK",
-              "fare_class": "I",
-              "flight_number": "MS985",
-              "origin": "CAI"
-            }
-          ],
-          "source": "aeroplan",
-          "stops": 1,
-          "tax_currency": "CAD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 14960,
-          "trip_id": "3KgIVoPJ9UwVpWsNr0Zf2nSaJiC"
-        },
-        {
-          "arrives_at": "2027-10-03T10:25:00Z",
-          "cabin": "business",
-          "carriers": "MS",
           "departs_at": "2027-10-02T22:45:00Z",
           "flight_numbers": "MS716, MS985",
           "mixed_cabin_pct": null,
@@ -466,7 +430,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14960,
+          "taxes_minor_units": 15060,
           "trip_id": "3KgIVqyPW397UU74YhgtbLtHYXL"
         },
         {
@@ -502,11 +466,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14960,
+          "taxes_minor_units": 15060,
           "trip_id": "3KgIVrC3tjUWMjAgxhx0gv7ljjN"
         }
       ],
-      "updated_at": "2026-10-26T03:24:33.550901Z"
+      "updated_at": "2026-10-29T14:36:55.795263Z"
     },
     {
       "airlines": "MS",
