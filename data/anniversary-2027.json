@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-10-29T17:29:03.133204+00:00",
+  "generated_at": "2026-10-30T17:04:26.497979+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -470,7 +470,7 @@
           "trip_id": "3KgIVrC3tjUWMjAgxhx0gv7ljjN"
         }
       ],
-      "updated_at": "2026-10-29T14:36:55.795263Z"
+      "updated_at": "2026-10-30T10:38:02.380838Z"
     },
     {
       "airlines": "MS",
@@ -516,11 +516,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 21850,
+          "taxes_minor_units": 21780,
           "trip_id": "3KqQRmokPxIkm6lNMoAjBqn4edW"
         }
       ],
-      "updated_at": "2026-10-27T02:19:01.497668Z"
+      "updated_at": "2026-10-30T15:39:42.053564Z"
     },
     {
       "airlines": "MS",
