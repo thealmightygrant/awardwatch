@@ -45,11 +45,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69420,
+          "taxes_minor_units": 69610,
           "trip_id": "3L4VKTsxhPbAc9njhGiOUxKWJRC"
         }
       ],
-      "updated_at": "2026-10-30T21:12:36.888269Z"
+      "updated_at": "2026-10-31T14:14:59.419354Z"
     },
     {
       "airlines": "VS",
@@ -95,7 +95,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69420,
+          "taxes_minor_units": 69610,
           "trip_id": "3GgqLPKEvQnrkh4DIVCZ5mxMuB7"
         },
         {
@@ -124,7 +124,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69420,
+          "taxes_minor_units": 69610,
           "trip_id": "3GgqLPv7fKY8YCtthI0sRlUwNow"
         },
         {
@@ -153,11 +153,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69420,
+          "taxes_minor_units": 69610,
           "trip_id": "3GgqLMg4EVAu7syeUKFjByqyZKG"
         }
       ],
-      "updated_at": "2026-10-30T20:17:01.04961Z"
+      "updated_at": "2026-10-31T04:58:07.180128Z"
     },
     {
       "airlines": "VS",
@@ -203,7 +203,7 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69420,
+          "taxes_minor_units": 69610,
           "trip_id": "3IzhkLTj7870y2YLk6SVkpBvc74"
         },
         {
@@ -215,7 +215,7 @@
           "effective_cost": 58000,
           "flight_numbers": "VS46",
           "mixed_cabin_pct": null,
-          "program_points": 57500,
+          "program_points": 58000,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "segments": [
@@ -232,40 +232,40 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69420,
+          "taxes_minor_units": 69610,
           "trip_id": "3IzhkIKkyU5tcgtduGa4cx7F6sg"
         },
         {
-          "approx_amex_mr": 76000,
-          "arrives_at": "2027-08-04T11:00:00Z",
+          "approx_amex_mr": 84000,
+          "arrives_at": "2027-08-04T06:20:00Z",
           "cabin": "business",
           "carriers": "VS",
-          "departs_at": "2027-08-03T23:00:00Z",
-          "effective_cost": 76000,
-          "flight_numbers": "VS138",
+          "departs_at": "2027-08-03T18:00:00Z",
+          "effective_cost": 84000,
+          "flight_numbers": "VS4",
           "mixed_cabin_pct": null,
-          "program_points": 76000,
+          "program_points": 84000,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "segments": [
             {
               "aircraft": "351",
-              "arrives_at": "2027-08-04T11:00:00Z",
-              "departs_at": "2027-08-03T23:00:00Z",
+              "arrives_at": "2027-08-04T06:20:00Z",
+              "departs_at": "2027-08-03T18:00:00Z",
               "destination": "LHR",
               "fare_class": "G",
-              "flight_number": "VS138",
+              "flight_number": "VS4",
               "origin": "JFK"
             }
           ],
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 69420,
-          "trip_id": "3IzhkJ87LE2RiVlNnjyVhaymZ7a"
+          "taxes_minor_units": 69610,
+          "trip_id": "3IzhkHFYoT0f4nhm3OZ5zrGImHC"
         }
       ],
-      "updated_at": "2026-10-31T01:00:47.678885Z"
+      "updated_at": "2026-10-31T12:16:33.368375Z"
     },
     {
       "airlines": "KL, VS",
@@ -476,70 +476,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 71490,
+          "taxes_minor_units": 71800,
           "trip_id": "3KgWXAT5NCtPCEFXufplsrm9tUe"
         }
       ],
-      "updated_at": "2026-10-30T22:24:24.626982Z"
-    },
-    {
-      "airlines": "AF, VS",
-      "approx_amex_mr": 39000,
-      "availability_id": "3AMxNUmvDuEQGJT7IiuvAJDrCYn",
-      "business_available": true,
-      "date": "2027-01-26",
-      "destination": "CDG",
-      "destination_region": "Europe",
-      "direct": false,
-      "effective_cost": 39000,
-      "funding": "AmEx Membership Rewards",
-      "origin": "JFK",
-      "program": "Virgin Atlantic Flying Club",
-      "program_points": 39000,
-      "remaining_seats": 4,
-      "seat_count_reliable": true,
-      "source": "virginatlantic",
-      "trips": [
-        {
-          "approx_amex_mr": 39000,
-          "arrives_at": "2027-01-27T11:20:00Z",
-          "cabin": "business",
-          "carriers": "VS, AF",
-          "departs_at": "2027-01-26T19:01:00Z",
-          "effective_cost": 39000,
-          "flight_numbers": "VS46, AF1681",
-          "mixed_cabin_pct": null,
-          "program_points": 39000,
-          "remaining_seats": 4,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "339",
-              "arrives_at": "2027-01-27T07:15:00Z",
-              "departs_at": "2027-01-26T19:01:00Z",
-              "destination": "LHR",
-              "fare_class": "O",
-              "flight_number": "VS46",
-              "origin": "JFK"
-            },
-            {
-              "aircraft": "223",
-              "arrives_at": "2027-01-27T11:20:00Z",
-              "departs_at": "2027-01-27T08:55:00Z",
-              "destination": "CDG",
-              "fare_class": "O",
-              "flight_number": "AF1681",
-              "origin": "LHR"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 71490,
-          "trip_id": "3LAVSFmOvwQAguu7RjMKUU08O6N"
-        }
-      ],
-      "updated_at": "2026-10-30T10:14:51.094565Z"
+      "updated_at": "2026-10-31T15:51:10.697382Z"
     },
     {
       "airlines": "KL, VS",
@@ -854,63 +795,142 @@
       "updated_at": "2026-10-30T22:24:24.809921Z"
     },
     {
-      "airlines": "AF",
-      "approx_amex_mr": 49000,
-      "availability_id": "3CHV27cI8fmuUYIDehLNAE4XdvK",
+      "airlines": "AF, VS",
+      "approx_amex_mr": 47000,
+      "availability_id": "3AMxNUmvDuEQGJT7IiuvAJDrCYn",
       "business_available": true,
-      "date": "2027-03-09",
-      "destination": "LGW",
+      "date": "2027-01-26",
+      "destination": "CDG",
       "destination_region": "Europe",
       "direct": false,
+      "effective_cost": 47000,
+      "funding": "AmEx Membership Rewards",
+      "origin": "JFK",
+      "program": "Virgin Atlantic Flying Club",
+      "program_points": 47000,
+      "remaining_seats": 4,
+      "seat_count_reliable": true,
+      "source": "virginatlantic",
+      "trips": [
+        {
+          "approx_amex_mr": 47000,
+          "arrives_at": "2027-01-27T11:20:00Z",
+          "cabin": "business",
+          "carriers": "VS, AF",
+          "departs_at": "2027-01-26T19:01:00Z",
+          "effective_cost": 47000,
+          "flight_numbers": "VS46, AF1681",
+          "mixed_cabin_pct": null,
+          "program_points": 47000,
+          "remaining_seats": 4,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "339",
+              "arrives_at": "2027-01-27T07:15:00Z",
+              "departs_at": "2027-01-26T19:01:00Z",
+              "destination": "LHR",
+              "fare_class": "O",
+              "flight_number": "VS46",
+              "origin": "JFK"
+            },
+            {
+              "aircraft": "223",
+              "arrives_at": "2027-01-27T11:20:00Z",
+              "departs_at": "2027-01-27T08:55:00Z",
+              "destination": "CDG",
+              "fare_class": "O",
+              "flight_number": "AF1681",
+              "origin": "LHR"
+            }
+          ],
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 71800,
+          "trip_id": "3LAVSFmOvwQAguu7RjMKUU08O6N"
+        }
+      ],
+      "updated_at": "2026-10-31T14:53:43.561217Z"
+    },
+    {
+      "airlines": "VS",
+      "approx_amex_mr": 49000,
+      "availability_id": "3If47bgQnJ2FhT0UqNeRAUw7QV2",
+      "business_available": true,
+      "date": "2027-07-27",
+      "destination": "LHR",
+      "destination_region": "Europe",
+      "direct": true,
       "effective_cost": 49000,
       "funding": "AmEx Membership Rewards",
       "origin": "JFK",
       "program": "Virgin Atlantic Flying Club",
-      "program_points": 48500,
+      "program_points": 49000,
       "remaining_seats": 9,
       "seat_count_reliable": true,
       "source": "virginatlantic",
       "trips": [
         {
           "approx_amex_mr": 49000,
-          "arrives_at": "2027-03-10T15:45:00Z",
+          "arrives_at": "2027-07-28T06:20:00Z",
           "cabin": "business",
-          "carriers": "AF, AF",
-          "departs_at": "2027-03-09T18:30:00Z",
+          "carriers": "VS",
+          "departs_at": "2027-07-27T18:00:00Z",
           "effective_cost": 49000,
-          "flight_numbers": "AF5, AF1706",
+          "flight_numbers": "VS4",
           "mixed_cabin_pct": null,
-          "program_points": 48500,
+          "program_points": 49000,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "segments": [
             {
-              "aircraft": "77W",
-              "arrives_at": "2027-03-10T07:55:00Z",
-              "departs_at": "2027-03-09T18:30:00Z",
-              "destination": "CDG",
-              "fare_class": "O",
-              "flight_number": "AF5",
+              "aircraft": "351",
+              "arrives_at": "2027-07-28T06:20:00Z",
+              "departs_at": "2027-07-27T18:00:00Z",
+              "destination": "LHR",
+              "fare_class": "G",
+              "flight_number": "VS4",
               "origin": "JFK"
-            },
-            {
-              "aircraft": "223",
-              "arrives_at": "2027-03-10T15:45:00Z",
-              "departs_at": "2027-03-10T15:35:00Z",
-              "destination": "LGW",
-              "fare_class": "O",
-              "flight_number": "AF1706",
-              "origin": "CDG"
             }
           ],
-          "stops": 1,
+          "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 31420,
-          "trip_id": "3LFzLCvbLriT1MH99DFAaoIl8tK"
+          "taxes_minor_units": 69610,
+          "trip_id": "3IgLiL7TBojlcDBdMBKzBL9Hw64"
+        },
+        {
+          "approx_amex_mr": 58000,
+          "arrives_at": "2027-07-28T11:00:00Z",
+          "cabin": "business",
+          "carriers": "VS",
+          "departs_at": "2027-07-27T23:00:00Z",
+          "effective_cost": 58000,
+          "flight_numbers": "VS138",
+          "mixed_cabin_pct": null,
+          "program_points": 57500,
+          "remaining_seats": 9,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "351",
+              "arrives_at": "2027-07-28T11:00:00Z",
+              "departs_at": "2027-07-27T23:00:00Z",
+              "destination": "LHR",
+              "fare_class": "G",
+              "flight_number": "VS138",
+              "origin": "JFK"
+            }
+          ],
+          "stops": null,
+          "tax_currency": "USD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 69610,
+          "trip_id": "3IgLiLsAAYLb5Fj2tbQsmf99Psi"
         }
       ],
-      "updated_at": "2026-10-31T01:32:30.564178Z"
+      "updated_at": "2026-10-31T15:36:31.77062Z"
     }
   ],
   "criteria": {
@@ -927,7 +947,7 @@
     "start_date": "2026-10-31",
     "trip_focus": "couple experiential Europe"
   },
-  "generated_at": "2026-10-31T01:56:57.549036+00:00",
+  "generated_at": "2026-10-31T16:12:21.388479+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "The scanner reuses one server-filtered NYC-to-Europe gateway snapshot for both watches and performs at most 24 trip-detail lookups total.",
