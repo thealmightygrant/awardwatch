@@ -37,6 +37,7 @@ WARM_DESTINATIONS = {
 TWO_SEAT_SOURCES = [s for s, cfg in PROGRAMS.items() if cfg["has_seat_count"]]
 TAKE = 1000
 TRIPS_PER_AVAILABILITY = 5
+LONG_FLIGHT_HOURS = 6
 
 API_KEY = os.environ.get("SEATS_AERO_API_KEY")
 if not API_KEY:
@@ -171,6 +172,7 @@ def trip_summary(trip, source):
             "arrives_at": seg.get("ArrivesAt") or seg.get("arrivesAt"),
             "aircraft": seg.get("AircraftCode") or seg.get("AircraftName") or seg.get("aircraftCode"),
             "fare_class": seg.get("FareClass") or seg.get("fareClass"),
+            "cabin": seg.get("Cabin") or seg.get("cabin") or seg.get("CabinClass") or seg.get("cabinClass"),
         })
     return {
         "trip_id": trip.get("ID") or trip.get("id"),
@@ -191,23 +193,89 @@ def trip_summary(trip, source):
         "segments": clean_segments,
     }
 
+def field(obj, *names):
+    for name in names:
+        value = obj.get(name)
+        if value is not None:
+            return value
+    return None
+
+def segment_duration_hours(seg):
+    start = field(seg, "DepartsAt", "departsAt")
+    end = field(seg, "ArrivesAt", "arrivesAt")
+    if not start or not end:
+        return None
+    try:
+        a = datetime.fromisoformat(str(start).replace("Z", "+00:00"))
+        b = datetime.fromisoformat(str(end).replace("Z", "+00:00"))
+        if a.tzinfo is None or b.tzinfo is None:
+            return None
+        hours = (b - a).total_seconds() / 3600
+        return hours if 0 < hours < 24 else None
+    except (ValueError, TypeError):
+        return None
+
+def cabin_category(value):
+    if not value:
+        return None
+    value = str(value).strip().lower().replace("_", " ")
+    if value in ("business", "business class", "first", "first class", "j", "f"):
+        return "business"
+    if value in ("economy", "economy class", "premium economy", "premium economy class", "coach", "y", "w"):
+        return "economy"
+    return None
+
+def verified_segment_cabins(trip):
+    segs = field(trip, "AvailabilitySegments", "availabilitySegments", "segments") or []
+    if not segs:
+        return None
+    verified = []
+    for seg in segs:
+        hours = segment_duration_hours(seg)
+        cabin = cabin_category(field(seg, "Cabin", "cabin", "CabinClass", "cabinClass", "ServiceClass", "serviceClass"))
+        # FareClass letters are airline-specific and cannot prove the cabin.
+        if hours is None or cabin is None:
+            return None
+        if hours >= LONG_FLIGHT_HOURS and cabin != "business":
+            return None
+        verified.append({"hours": round(hours, 2), "cabin": cabin})
+    return verified
+
 def get_two_seat_business_trips(availability_id, source):
     payload = api_get(
         f"/trips/{urllib.parse.quote(str(availability_id))}",
-        {"min_cabin_pct": 100},
+        {"min_cabin_pct": 0},
     )
     result = []
     for trip in items(payload):
         cabin = str(trip.get("Cabin") or trip.get("cabin") or "").lower()
         points = nint(trip.get("MileageCost") or trip.get("mileageCost"))
         seats = nint(trip.get("RemainingSeats") or trip.get("remainingSeats"))
-        if cabin != "business":
+        if cabin not in ("business", "economy", "premium_economy", "premium economy", "first"):
             continue
         if not under_limit(points, source, MAX_EFFECTIVE_COST):
             continue
         if (seats or 0) < 2:
             continue
-        result.append(trip_summary(trip, source))
+        verified = verified_segment_cabins(trip)
+        # All-business trips may be accepted as before; mixed cabins must be
+        # explicitly documented on every segment, with verified durations.
+        mixed = field(trip, "MixedCabinPct", "mixedCabinPct")
+        try:
+            full_business = cabin in ("business", "first") and mixed is not None and float(mixed) >= 100
+        except (ValueError, TypeError):
+            full_business = False
+        if not full_business and verified is None:
+            continue
+        if full_business and verified is None:
+            # Provider says 100% business; keep existing fully-business behavior.
+            pass
+        elif verified is not None and any(x["hours"] >= LONG_FLIGHT_HOURS and x["cabin"] != "business" for x in verified):
+            continue
+        item = trip_summary(trip, source)
+        item["verified_segment_cabins"] = verified
+        item["cabin_rule"] = "verified_segments" if verified is not None else "provider_100_percent_business"
+        result.append(item)
     result.sort(key=lambda x: (
         x["effective_cost"] if x["effective_cost"] is not None else 10**9,
         0 if x["stops"] in (None, 0) else 1,
@@ -261,7 +329,7 @@ def main():
                     "end_date": OUT_END,
                     "sources": source,
                     "cabins": "business",
-                    "min_cabin_pct": 100,
+                    "min_cabin_pct": 0,
                     "order_by": "lowest_mileage",
                 },
                 max_pages=10,
@@ -301,7 +369,7 @@ def main():
                         "end_date": RETURN_END,
                         "sources": source,
                         "cabins": "business",
-                        "min_cabin_pct": 100,
+                        "min_cabin_pct": 0,
                         "order_by": "lowest_mileage",
                     },
                 )
@@ -365,7 +433,7 @@ def main():
             "outbound_dates": [OUT_START, OUT_END],
             "return_airports": NYC,
             "return_dates": [RETURN_START, RETURN_END],
-            "cabin": "business",
+            "cabin": "business for segments >=6h; economy permitted on shorter segments only with explicit cabin and duration verification",
             "max_effective_cost_exclusive": MAX_EFFECTIVE_COST,
             "minimum_confirmed_seats": 2,
             "min_cabin_pct": 100,
@@ -380,7 +448,7 @@ def main():
         "notes": [
             "Uses Seats.aero cached availability, not live airline search.",
             "For AmEx-transferable programs, the <100k threshold is applied to approximate Membership Rewards required after the standard transfer ratio; United uses United miles.",
-            "Both directions require trip-level data showing at least two business-class seats; mixed-cabin itineraries are not yet verified and are excluded.",
+            "Both directions require at least two reported seats; mixed-cabin trips qualify only when every segment has explicit cabin and timezone-aware duration and all flights >=6 hours are business/first.",
             "Gateway matches require separate verification of onward flights and are not end-to-end destination availability.",
             "Some current AmEx airline partners are not direct Seats.aero cached API sources and are not included in this feed.",
             "Verify promising itineraries directly with the loyalty program before transferring points or booking.",
