@@ -262,7 +262,7 @@ def get_two_seat_business_trips(availability_id, source):
         # explicitly documented on every segment, with verified durations.
         mixed = field(trip, "MixedCabinPct", "mixedCabinPct")
         try:
-            full_business = cabin in ("business", "first") and mixed is not None and float(mixed) >= 100
+            full_business = cabin in ("business", "first") and (mixed is None or float(mixed) >= 100)
         except (ValueError, TypeError):
             full_business = False
         if not full_business and verified is None:
