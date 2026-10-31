@@ -19,19 +19,21 @@ ORIGIN = "DEN"
 NYC = ["JFK", "EWR", "LGA"]
 OUT_START = "2026-12-28"
 OUT_END = "2026-12-29"
-RETURN_START = "2027-01-07"
-RETURN_END = "2027-01-10"
+RETURN_START = "2027-01-03"
+RETURN_END = "2027-01-05"
+# Wildlife-first New Year's shortlist. Gateways are included where remote islands
+# require a separate domestic connection; the gateway is not the final destination.
 WARM_DESTINATIONS = {
-    "MIA", "FLL", "HNL", "OGG",
-    "CUN", "PVR", "SJD",
-    "AUA", "CUR", "BGI", "PUJ", "MBJ", "NAS", "GCM", "SXM", "UVF", "ANU", "SJU",
-    "LIR", "SJO", "PTY", "BZE",
-    "EZE", "MVD", "GIG", "GRU", "SCL", "LIM",
-    "CPT", "JNB", "RAK", "CMN",
-    "DXB", "AUH", "DOH", "MCT",
-    "BKK", "HKT", "SIN", "MLE", "SEZ", "MRU",
-    "SYD", "MEL", "BNE", "AKL", "NAN", "PPT"
+    "GPS", "SCY", "UIO", "GYE",  # Galapagos and Ecuador gateways
+    "FEN", "REC", "NAT", "FOR",  # Fernando de Noronha and Brazil gateways
+    "SJO", "LIR", "PJM", "DRK",  # Osa Peninsula / Corcovado gateways
+    "MGA", "RNI",               # Corn Islands, Nicaragua
+    "SJD", "LAP",               # Baja marine wildlife
+    "IPC", "SCL",               # Rapa Nui / Santiago
+    "CJC",                     # Atacama
 }
+# A gateway match does NOT establish award availability to the remote destination.
+
 TWO_SEAT_SOURCES = [s for s, cfg in PROGRAMS.items() if cfg["has_seat_count"]]
 TAKE = 1000
 TRIPS_PER_AVAILABILITY = 5
@@ -247,8 +249,7 @@ def enrich(options):
 def main():
     outbound = []
 
-    # Query only warm/sunny New Year gateways. This is dramatically smaller
-    # than crawling every region and still matches the purpose of this watch.
+    # Query wildlife destinations and necessary gateways, not generic beach resorts.
     for source in TWO_SEAT_SOURCES:
         try:
             rows = paginate(
@@ -272,7 +273,7 @@ def main():
             continue
         for row in rows:
             if qualifies(row, source, required_origin=ORIGIN):
-                s = summary(row, source, region="warm-target")
+                s = summary(row, source, region="wildlife-target-or-gateway")
                 if s["destination"] in WARM_DESTINATIONS:
                     outbound.append(s)
 
@@ -369,7 +370,8 @@ def main():
             "minimum_confirmed_seats": 2,
             "min_cabin_pct": 100,
             "return_pairing": "same destination airport; outbound and return may use different loyalty programs",
-            "warm_destination_airports": sorted(WARM_DESTINATIONS),
+            "wildlife_destination_and_gateway_airports": sorted(WARM_DESTINATIONS),
+            "gateway_caveat": "Gateway awards are not proof of onward travel to Galapagos, Fernando de Noronha, Osa, Corn Islands or Rapa Nui.",
         },
         "programs": PROGRAMS,
         "outbound_candidates_with_two_seat_trip_data": len(outbound),
@@ -378,7 +380,8 @@ def main():
         "notes": [
             "Uses Seats.aero cached availability, not live airline search.",
             "For AmEx-transferable programs, the <100k threshold is applied to approximate Membership Rewards required after the standard transfer ratio; United uses United miles.",
-            "Both directions require trip-level data showing at least two business-class seats.",
+            "Both directions require trip-level data showing at least two business-class seats; mixed-cabin itineraries are not yet verified and are excluded.",
+            "Gateway matches require separate verification of onward flights and are not end-to-end destination availability.",
             "Some current AmEx airline partners are not direct Seats.aero cached API sources and are not included in this feed.",
             "Verify promising itineraries directly with the loyalty program before transferring points or booking.",
         ],
