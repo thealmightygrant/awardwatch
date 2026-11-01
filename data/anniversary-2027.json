@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-10-31T16:12:23.676213+00:00",
+  "generated_at": "2026-11-01T17:12:03.394631+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -43,160 +43,16 @@
   "outbound_options": [],
   "return_options": [
     {
-      "airlines": "AF, KL",
+      "airlines": "AF",
       "availability_id": "3KR5i8SNm1wJAicGgdbcj0vGrbQ",
       "date": "2027-10-02",
       "destination": "JFK",
       "direct": false,
       "origin": "MAN",
       "points": 86000,
-      "remaining_seats": 9,
+      "remaining_seats": 4,
       "source": "flyingblue",
       "trips": [
-        {
-          "arrives_at": "2027-10-02T19:05:00Z",
-          "cabin": "business",
-          "carriers": "KL, KL",
-          "departs_at": "2027-10-02T13:45:00Z",
-          "flight_numbers": "KL1034, KL643",
-          "mixed_cabin_pct": null,
-          "points": 86000,
-          "remaining_seats": 9,
-          "segments": [
-            {
-              "aircraft": "E7W",
-              "arrives_at": "2027-10-02T16:05:00Z",
-              "departs_at": "2027-10-02T13:45:00Z",
-              "destination": "AMS",
-              "fare_class": "J",
-              "flight_number": "KL1034",
-              "origin": "MAN"
-            },
-            {
-              "aircraft": "781",
-              "arrives_at": "2027-10-02T19:05:00Z",
-              "departs_at": "2027-10-02T17:05:00Z",
-              "destination": "JFK",
-              "fare_class": "I",
-              "flight_number": "KL643",
-              "origin": "AMS"
-            }
-          ],
-          "source": "flyingblue",
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 84089,
-          "trip_id": "3KYuQiqPLINOz0DOqapmw39Z6hP"
-        },
-        {
-          "arrives_at": "2027-10-02T18:45:00Z",
-          "cabin": "business",
-          "carriers": "AF, AF",
-          "departs_at": "2027-10-02T10:55:00Z",
-          "flight_numbers": "AF1669, AF8",
-          "mixed_cabin_pct": null,
-          "points": 86000,
-          "remaining_seats": 9,
-          "segments": [
-            {
-              "aircraft": "223",
-              "arrives_at": "2027-10-02T13:25:00Z",
-              "departs_at": "2027-10-02T10:55:00Z",
-              "destination": "CDG",
-              "fare_class": "J",
-              "flight_number": "AF1669",
-              "origin": "MAN"
-            },
-            {
-              "aircraft": "77W",
-              "arrives_at": "2027-10-02T18:45:00Z",
-              "departs_at": "2027-10-02T16:30:00Z",
-              "destination": "JFK",
-              "fare_class": "I",
-              "flight_number": "AF8",
-              "origin": "CDG"
-            }
-          ],
-          "source": "flyingblue",
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 84099,
-          "trip_id": "3KYuQnq046Ruf8hq44gUXo5hCAs"
-        },
-        {
-          "arrives_at": "2027-10-02T19:05:00Z",
-          "cabin": "business",
-          "carriers": "KL, KL",
-          "departs_at": "2027-10-02T11:00:00Z",
-          "flight_numbers": "KL1032, KL643",
-          "mixed_cabin_pct": null,
-          "points": 86000,
-          "remaining_seats": 9,
-          "segments": [
-            {
-              "aircraft": "32Q",
-              "arrives_at": "2027-10-02T13:20:00Z",
-              "departs_at": "2027-10-02T11:00:00Z",
-              "destination": "AMS",
-              "fare_class": "J",
-              "flight_number": "KL1032",
-              "origin": "MAN"
-            },
-            {
-              "aircraft": "781",
-              "arrives_at": "2027-10-02T19:05:00Z",
-              "departs_at": "2027-10-02T17:05:00Z",
-              "destination": "JFK",
-              "fare_class": "I",
-              "flight_number": "KL643",
-              "origin": "AMS"
-            }
-          ],
-          "source": "flyingblue",
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 84089,
-          "trip_id": "3KYuQjiObvSY9mJEiV892GvdNvM"
-        },
-        {
-          "arrives_at": "2027-10-02T19:05:00Z",
-          "cabin": "business",
-          "carriers": "KL, KL",
-          "departs_at": "2027-10-02T08:55:00Z",
-          "flight_numbers": "KL1030, KL643",
-          "mixed_cabin_pct": null,
-          "points": 86000,
-          "remaining_seats": 9,
-          "segments": [
-            {
-              "aircraft": "E7W",
-              "arrives_at": "2027-10-02T11:15:00Z",
-              "departs_at": "2027-10-02T08:55:00Z",
-              "destination": "AMS",
-              "fare_class": "J",
-              "flight_number": "KL1030",
-              "origin": "MAN"
-            },
-            {
-              "aircraft": "781",
-              "arrives_at": "2027-10-02T19:05:00Z",
-              "departs_at": "2027-10-02T17:05:00Z",
-              "destination": "JFK",
-              "fare_class": "I",
-              "flight_number": "KL643",
-              "origin": "AMS"
-            }
-          ],
-          "source": "flyingblue",
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 84089,
-          "trip_id": "3KYuQpWxbswbRy0tFUcxHK08tG7"
-        },
         {
           "arrives_at": "2027-10-02T22:40:00Z",
           "cabin": "business",
@@ -205,7 +61,7 @@
           "flight_numbers": "AF1669, AF12",
           "mixed_cabin_pct": null,
           "points": 86000,
-          "remaining_seats": 9,
+          "remaining_seats": 4,
           "segments": [
             {
               "aircraft": "223",
@@ -230,11 +86,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": null,
-          "taxes_minor_units": 84099,
+          "taxes_minor_units": 84419,
           "trip_id": "3KYuQmK1LhVVvMyPai9DErpgBPb"
         }
       ],
-      "updated_at": "2026-10-11T19:26:48.565642Z"
+      "updated_at": "2026-11-01T14:36:43.956289Z"
     },
     {
       "airlines": "MS",
@@ -280,11 +136,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 17890,
+          "taxes_minor_units": 17800,
           "trip_id": "3L8KxnIDTCIvihp3W1x4EAIEnR6"
         }
       ],
-      "updated_at": "2026-10-24T08:28:23.837828Z"
+      "updated_at": "2026-11-01T08:14:43.251577Z"
     },
     {
       "airlines": "MS",
@@ -330,11 +186,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15970,
+          "taxes_minor_units": 15930,
           "trip_id": "3KfnWwTa7XxlwmHWBHwjQgVg1HH"
         }
       ],
-      "updated_at": "2026-10-27T14:12:44.222873Z"
+      "updated_at": "2026-10-31T22:40:36.202054Z"
     },
     {
       "airlines": "MS",
@@ -401,6 +257,42 @@
           "arrives_at": "2027-10-03T10:25:00Z",
           "cabin": "business",
           "carriers": "MS",
+          "departs_at": "2027-10-02T17:50:00Z",
+          "flight_numbers": "MS706, MS985",
+          "mixed_cabin_pct": null,
+          "points": 90000,
+          "remaining_seats": 2,
+          "segments": [
+            {
+              "aircraft": "738",
+              "arrives_at": "2027-10-02T22:30:00Z",
+              "departs_at": "2027-10-02T17:50:00Z",
+              "destination": "CAI",
+              "fare_class": "I",
+              "flight_number": "MS706",
+              "origin": "MXP"
+            },
+            {
+              "aircraft": "789",
+              "arrives_at": "2027-10-03T10:25:00Z",
+              "departs_at": "2027-10-03T05:50:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "MS985",
+              "origin": "CAI"
+            }
+          ],
+          "source": "aeroplan",
+          "stops": 1,
+          "tax_currency": "CAD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 15030,
+          "trip_id": "3LVe9AcZHPO8CG3v1gXQiPnbIKr"
+        },
+        {
+          "arrives_at": "2027-10-03T10:25:00Z",
+          "cabin": "business",
+          "carriers": "MS",
           "departs_at": "2027-10-02T22:45:00Z",
           "flight_numbers": "MS716, MS985",
           "mixed_cabin_pct": null,
@@ -430,7 +322,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15060,
+          "taxes_minor_units": 15030,
           "trip_id": "3KgIVqyPW397UU74YhgtbLtHYXL"
         },
         {
@@ -466,11 +358,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15060,
+          "taxes_minor_units": 15030,
           "trip_id": "3KgIVrC3tjUWMjAgxhx0gv7ljjN"
         }
       ],
-      "updated_at": "2026-10-30T10:38:02.380838Z"
+      "updated_at": "2026-11-01T14:31:48.994542Z"
     },
     {
       "airlines": "MS",
@@ -616,11 +508,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 16480,
+          "taxes_minor_units": 16450,
           "trip_id": "3KqTlyFbL2BuE1HHHlZSB4aB0J8"
         }
       ],
-      "updated_at": "2026-10-31T00:47:21.974519Z"
+      "updated_at": "2026-11-01T09:32:56.949334Z"
     },
     {
       "airlines": "MS",
@@ -666,7 +558,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14420,
+          "taxes_minor_units": 14380,
           "trip_id": "3L1dwwuaggmG2xVKSgbIdYyDSwj"
         },
         {
@@ -702,7 +594,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14420,
+          "taxes_minor_units": 14380,
           "trip_id": "3L1dwtTTKQWA5ZSpkLtKf5CPWWk"
         },
         {
@@ -738,11 +630,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14420,
+          "taxes_minor_units": 14380,
           "trip_id": "3L1dwvlKpNPB92udzKfzst8sKNN"
         }
       ],
-      "updated_at": "2026-10-28T04:18:56.237306Z"
+      "updated_at": "2026-11-01T01:55:18.581034Z"
     },
     {
       "airlines": "AF",
