@@ -44,7 +44,7 @@
   },
   "destinations": [],
   "destinations_with_matching_two_seat_return": 0,
-  "generated_at": "2026-11-04T18:43:58.957972+00:00",
+  "generated_at": "2026-11-05T18:52:04.910705+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "For AmEx-transferable programs, the <100k threshold is applied to approximate Membership Rewards required after the standard transfer ratio; United uses United miles.",
