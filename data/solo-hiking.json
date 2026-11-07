@@ -395,7 +395,7 @@
           "trip_id": "3FhXbDDang6fMDdS4PPyDLcZ7F8"
         }
       ],
-      "updated_at": "2026-11-06T06:52:27.930487Z"
+      "updated_at": "2026-11-06T18:09:39.933417Z"
     },
     {
       "airlines": "AC, UA",
@@ -411,7 +411,7 @@
       "origin": "EWR",
       "program": "Air Canada Aeroplan",
       "program_points": 39718,
-      "remaining_seats": 2,
+      "remaining_seats": 3,
       "seat_count_reliable": true,
       "source": "aeroplan",
       "trips": [
@@ -518,7 +518,7 @@
               "arrives_at": "2026-11-24T07:37:00Z",
               "departs_at": "2026-11-24T06:45:00Z",
               "destination": "YVR",
-              "fare_class": "I",
+              "fare_class": "P",
               "flight_number": "AC201",
               "origin": "YYC"
             }
@@ -530,7 +530,7 @@
           "trip_id": "3ImqiCEKnRBo1AFg7Mnp46Pp042"
         }
       ],
-      "updated_at": "2026-11-05T21:24:52.742728Z"
+      "updated_at": "2026-11-06T22:31:56.56515Z"
     },
     {
       "airlines": "AF",
@@ -552,12 +552,12 @@
       "trips": [
         {
           "approx_amex_mr": 45000,
-          "arrives_at": "2026-11-28T05:45:00Z",
+          "arrives_at": "2026-11-28T06:45:00Z",
           "cabin": "business",
           "carriers": "AF",
-          "departs_at": "2026-11-27T16:30:00Z",
+          "departs_at": "2026-11-27T17:30:00Z",
           "effective_cost": 45000,
-          "flight_numbers": "AF1",
+          "flight_numbers": "AF3",
           "mixed_cabin_pct": null,
           "program_points": 45000,
           "remaining_seats": 9,
@@ -565,29 +565,29 @@
           "segments": [
             {
               "aircraft": "77W",
-              "arrives_at": "2026-11-28T05:45:00Z",
-              "departs_at": "2026-11-27T16:30:00Z",
+              "arrives_at": "2026-11-28T06:45:00Z",
+              "departs_at": "2026-11-27T17:30:00Z",
               "destination": "CDG",
               "fare_class": "O",
-              "flight_number": "AF1",
+              "flight_number": "AF3",
               "origin": "JFK"
             }
           ],
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": null,
-          "taxes_minor_units": 33700,
-          "trip_id": "36RHvDvo8mNMdrnQHtXaaD3g8HT"
+          "taxes_minor_units": 33690,
+          "trip_id": "3Du2OQFc2KAl5lZdR20kHXW7yjH"
         }
       ],
-      "updated_at": "2026-11-06T17:50:01.842094Z"
+      "updated_at": "2026-11-07T15:10:33.181542Z"
     },
     {
-      "airlines": "AF, KL",
+      "airlines": "AF",
       "approx_amex_mr": 45000,
-      "availability_id": "37ixodmSrZdGiSzpYda1WSm2hN2",
+      "availability_id": "37qdRwNCuei7Dt05i78dXoiEomG",
       "business_available": true,
-      "date": "2026-12-27",
+      "date": "2026-12-29",
       "destination": "CDG",
       "destination_region": "Europe",
       "direct": true,
@@ -596,235 +596,41 @@
       "origin": "JFK",
       "program": "Air France/KLM Flying Blue",
       "program_points": 45000,
-      "remaining_seats": 1,
+      "remaining_seats": 4,
       "seat_count_reliable": true,
       "source": "flyingblue",
       "trips": [
         {
           "approx_amex_mr": 45000,
-          "arrives_at": "2026-12-27T14:05:00Z",
+          "arrives_at": "2026-12-30T05:45:00Z",
           "cabin": "business",
           "carriers": "AF",
-          "departs_at": "2026-12-27T01:00:00Z",
+          "departs_at": "2026-12-29T16:30:00Z",
           "effective_cost": 45000,
-          "flight_numbers": "AF11",
+          "flight_numbers": "AF1",
           "mixed_cabin_pct": null,
           "program_points": 45000,
-          "remaining_seats": 1,
+          "remaining_seats": 4,
           "seat_count_reliable": true,
           "segments": [
             {
-              "aircraft": "359",
-              "arrives_at": "2026-12-27T14:05:00Z",
-              "departs_at": "2026-12-27T01:00:00Z",
+              "aircraft": "77W",
+              "arrives_at": "2026-12-30T05:45:00Z",
+              "departs_at": "2026-12-29T16:30:00Z",
               "destination": "CDG",
               "fare_class": "O",
-              "flight_number": "AF11",
+              "flight_number": "AF1",
               "origin": "JFK"
             }
           ],
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": null,
-          "taxes_minor_units": 33700,
-          "trip_id": "37z68IB4mCk5sWbmMwOVyqJW47h"
+          "taxes_minor_units": 33690,
+          "trip_id": "383ggRUnm8ddiWJ9gAJutAshjRQ"
         }
       ],
-      "updated_at": "2026-11-06T17:50:01.703237Z"
-    },
-    {
-      "airlines": "AF",
-      "approx_amex_mr": 45000,
-      "availability_id": "35XckknrqDq5jDffceKfEkSCwkV",
-      "business_available": true,
-      "date": "2026-11-09",
-      "destination": "BCN",
-      "destination_region": "Europe",
-      "direct": false,
-      "effective_cost": 45000,
-      "funding": "AmEx Membership Rewards",
-      "origin": "JFK",
-      "program": "Air France/KLM Flying Blue",
-      "program_points": 45000,
-      "remaining_seats": 9,
-      "seat_count_reliable": true,
-      "source": "flyingblue",
-      "trips": [
-        {
-          "approx_amex_mr": 45000,
-          "arrives_at": "2026-11-10T14:00:00Z",
-          "cabin": "business",
-          "carriers": "AF, AF",
-          "departs_at": "2026-11-09T21:30:00Z",
-          "effective_cost": 45000,
-          "flight_numbers": "AF7, AF1648",
-          "mixed_cabin_pct": null,
-          "program_points": 45000,
-          "remaining_seats": 3,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "77W",
-              "arrives_at": "2026-11-10T10:50:00Z",
-              "departs_at": "2026-11-09T21:30:00Z",
-              "destination": "CDG",
-              "fare_class": "O",
-              "flight_number": "AF7",
-              "origin": "JFK"
-            },
-            {
-              "aircraft": "318",
-              "arrives_at": "2026-11-10T14:00:00Z",
-              "departs_at": "2026-11-10T12:15:00Z",
-              "destination": "BCN",
-              "fare_class": "J",
-              "flight_number": "AF1648",
-              "origin": "CDG"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 35410,
-          "trip_id": "360N1vjS8HX8HXToeUn5fGICcNv"
-        },
-        {
-          "approx_amex_mr": 72000,
-          "arrives_at": "2026-11-10T09:00:00Z",
-          "cabin": "business",
-          "carriers": "AF, AF",
-          "departs_at": "2026-11-09T16:30:00Z",
-          "effective_cost": 72000,
-          "flight_numbers": "AF1, AF1148",
-          "mixed_cabin_pct": null,
-          "program_points": 71500,
-          "remaining_seats": 9,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "77W",
-              "arrives_at": "2026-11-10T05:45:00Z",
-              "departs_at": "2026-11-09T16:30:00Z",
-              "destination": "CDG",
-              "fare_class": "Z",
-              "flight_number": "AF1",
-              "origin": "JFK"
-            },
-            {
-              "aircraft": "321",
-              "arrives_at": "2026-11-10T09:00:00Z",
-              "departs_at": "2026-11-10T07:10:00Z",
-              "destination": "BCN",
-              "fare_class": "J",
-              "flight_number": "AF1148",
-              "origin": "CDG"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 35410,
-          "trip_id": "3FENDre0YDUMC41B6YFxmNcH5GX"
-        },
-        {
-          "approx_amex_mr": 72000,
-          "arrives_at": "2026-11-10T11:10:00Z",
-          "cabin": "business",
-          "carriers": "AF, AF",
-          "departs_at": "2026-11-09T17:30:00Z",
-          "effective_cost": 72000,
-          "flight_numbers": "AF3, AF1348",
-          "mixed_cabin_pct": null,
-          "program_points": 71500,
-          "remaining_seats": 2,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "77W",
-              "arrives_at": "2026-11-10T06:45:00Z",
-              "departs_at": "2026-11-09T17:30:00Z",
-              "destination": "CDG",
-              "fare_class": "Z",
-              "flight_number": "AF3",
-              "origin": "JFK"
-            },
-            {
-              "aircraft": "223",
-              "arrives_at": "2026-11-10T11:10:00Z",
-              "departs_at": "2026-11-10T09:20:00Z",
-              "destination": "BCN",
-              "fare_class": "J",
-              "flight_number": "AF1348",
-              "origin": "CDG"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 35410,
-          "trip_id": "3BuiCoFJ9ZLZ2jfJjqeR6CX99Nh"
-        }
-      ],
-      "updated_at": "2026-11-05T17:14:57.826328Z"
-    },
-    {
-      "airlines": "AF",
-      "approx_amex_mr": 45000,
-      "availability_id": "35XciAGgulRcTyrgqpIi1KSAnXD",
-      "business_available": true,
-      "date": "2026-11-09",
-      "destination": "LGW",
-      "destination_region": "Europe",
-      "direct": false,
-      "effective_cost": 45000,
-      "funding": "AmEx Membership Rewards",
-      "origin": "JFK",
-      "program": "Air France/KLM Flying Blue",
-      "program_points": 45000,
-      "remaining_seats": 9,
-      "seat_count_reliable": true,
-      "source": "flyingblue",
-      "trips": [
-        {
-          "approx_amex_mr": 45000,
-          "arrives_at": "2026-11-10T15:45:00Z",
-          "cabin": "business",
-          "carriers": "AF, AF",
-          "departs_at": "2026-11-09T21:30:00Z",
-          "effective_cost": 45000,
-          "flight_numbers": "AF7, AF1706",
-          "mixed_cabin_pct": null,
-          "program_points": 45000,
-          "remaining_seats": 9,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "77W",
-              "arrives_at": "2026-11-10T10:50:00Z",
-              "departs_at": "2026-11-09T21:30:00Z",
-              "destination": "CDG",
-              "fare_class": "O",
-              "flight_number": "AF7",
-              "origin": "JFK"
-            },
-            {
-              "aircraft": "223",
-              "arrives_at": "2026-11-10T15:45:00Z",
-              "departs_at": "2026-11-10T15:35:00Z",
-              "destination": "LGW",
-              "fare_class": "J",
-              "flight_number": "AF1706",
-              "origin": "CDG"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 35480,
-          "trip_id": "3CKBXZEHI26z21gXcLV90pJVwop"
-        }
-      ],
-      "updated_at": "2026-11-05T14:11:51.356141Z"
+      "updated_at": "2026-11-07T13:57:50.644199Z"
     },
     {
       "airlines": "AF",
@@ -879,7 +685,7 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": null,
-          "taxes_minor_units": 35550,
+          "taxes_minor_units": 35540,
           "trip_id": "3CJvEmTh9UpLeDT2Bmt6W8jcRQb"
         },
         {
@@ -917,49 +723,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": null,
-          "taxes_minor_units": 35550,
+          "taxes_minor_units": 35540,
           "trip_id": "3F08aqWTRiCyH4LNtmNYKKO18Z6"
-        },
-        {
-          "approx_amex_mr": 45000,
-          "arrives_at": "2026-11-10T17:20:00Z",
-          "cabin": "business",
-          "carriers": "AF, AF",
-          "departs_at": "2026-11-10T01:00:00Z",
-          "effective_cost": 45000,
-          "flight_numbers": "AF11, AF1342",
-          "mixed_cabin_pct": null,
-          "program_points": 45000,
-          "remaining_seats": 7,
-          "seat_count_reliable": true,
-          "segments": [
-            {
-              "aircraft": "359",
-              "arrives_at": "2026-11-10T14:05:00Z",
-              "departs_at": "2026-11-10T01:00:00Z",
-              "destination": "CDG",
-              "fare_class": "O",
-              "flight_number": "AF11",
-              "origin": "JFK"
-            },
-            {
-              "aircraft": "223",
-              "arrives_at": "2026-11-10T17:20:00Z",
-              "departs_at": "2026-11-10T16:10:00Z",
-              "destination": "GVA",
-              "fare_class": "J",
-              "flight_number": "AF1342",
-              "origin": "CDG"
-            }
-          ],
-          "stops": 1,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 35550,
-          "trip_id": "369jVyqwmcbuSxpYgCbwzgn0jRN"
         }
       ],
-      "updated_at": "2026-11-06T08:37:43.279169Z"
+      "updated_at": "2026-11-07T13:03:37.403985Z"
     },
     {
       "airlines": "AF",
@@ -1014,38 +782,59 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": null,
-          "taxes_minor_units": 35550,
+          "taxes_minor_units": 35540,
           "trip_id": "35jadfhNEdCEVyBePMcmzSdOxGH"
-        },
+        }
+      ],
+      "updated_at": "2026-11-07T13:03:34.775296Z"
+    },
+    {
+      "airlines": "AF",
+      "approx_amex_mr": 45000,
+      "availability_id": "36O4a77gDxf4QIUGjIsUjrM0NoY",
+      "business_available": true,
+      "date": "2026-11-27",
+      "destination": "MXP",
+      "destination_region": "Europe",
+      "direct": false,
+      "effective_cost": 45000,
+      "funding": "AmEx Membership Rewards",
+      "origin": "JFK",
+      "program": "Air France/KLM Flying Blue",
+      "program_points": 45000,
+      "remaining_seats": 9,
+      "seat_count_reliable": true,
+      "source": "flyingblue",
+      "trips": [
         {
           "approx_amex_mr": 45000,
-          "arrives_at": "2026-11-10T17:50:00Z",
+          "arrives_at": "2026-11-28T11:45:00Z",
           "cabin": "business",
           "carriers": "AF, AF",
-          "departs_at": "2026-11-10T01:00:00Z",
+          "departs_at": "2026-11-27T16:30:00Z",
           "effective_cost": 45000,
-          "flight_numbers": "AF11, AF1814",
+          "flight_numbers": "AF1, AF1130",
           "mixed_cabin_pct": null,
           "program_points": 45000,
-          "remaining_seats": 7,
+          "remaining_seats": 9,
           "seat_count_reliable": true,
           "segments": [
             {
-              "aircraft": "359",
-              "arrives_at": "2026-11-10T14:05:00Z",
-              "departs_at": "2026-11-10T01:00:00Z",
+              "aircraft": "77W",
+              "arrives_at": "2026-11-28T05:45:00Z",
+              "departs_at": "2026-11-27T16:30:00Z",
               "destination": "CDG",
               "fare_class": "O",
-              "flight_number": "AF11",
+              "flight_number": "AF1",
               "origin": "JFK"
             },
             {
               "aircraft": "223",
-              "arrives_at": "2026-11-10T17:50:00Z",
-              "departs_at": "2026-11-10T16:35:00Z",
-              "destination": "ZRH",
+              "arrives_at": "2026-11-28T11:45:00Z",
+              "departs_at": "2026-11-28T10:15:00Z",
+              "destination": "MXP",
               "fare_class": "J",
-              "flight_number": "AF1814",
+              "flight_number": "AF1130",
               "origin": "CDG"
             }
           ],
@@ -1053,10 +842,86 @@
           "tax_currency": "USD",
           "tax_currency_symbol": null,
           "taxes_minor_units": 35550,
-          "trip_id": "35jadjhmIW31xeqTZxG4ly3Ok9R"
+          "trip_id": "3LNjwrpUqcU5ysaoYD0n4gOU8sR"
+        },
+        {
+          "approx_amex_mr": 45000,
+          "arrives_at": "2026-11-28T10:00:00Z",
+          "cabin": "business",
+          "carriers": "AF, AF",
+          "departs_at": "2026-11-27T16:30:00Z",
+          "effective_cost": 45000,
+          "flight_numbers": "AF1, AF1830",
+          "mixed_cabin_pct": null,
+          "program_points": 45000,
+          "remaining_seats": 9,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "77W",
+              "arrives_at": "2026-11-28T05:45:00Z",
+              "departs_at": "2026-11-27T16:30:00Z",
+              "destination": "CDG",
+              "fare_class": "O",
+              "flight_number": "AF1",
+              "origin": "JFK"
+            },
+            {
+              "aircraft": "223",
+              "arrives_at": "2026-11-28T10:00:00Z",
+              "departs_at": "2026-11-28T08:30:00Z",
+              "destination": "MXP",
+              "fare_class": "J",
+              "flight_number": "AF1830",
+              "origin": "CDG"
+            }
+          ],
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 35550,
+          "trip_id": "3FirHj8aKVZVOyT83DKmCDyRBV3"
+        },
+        {
+          "approx_amex_mr": 89000,
+          "arrives_at": "2026-11-28T11:45:00Z",
+          "cabin": "business",
+          "carriers": "AF, AF",
+          "departs_at": "2026-11-27T17:30:00Z",
+          "effective_cost": 89000,
+          "flight_numbers": "AF3, AF1130",
+          "mixed_cabin_pct": null,
+          "program_points": 89000,
+          "remaining_seats": 9,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "77W",
+              "arrives_at": "2026-11-28T06:45:00Z",
+              "departs_at": "2026-11-27T17:30:00Z",
+              "destination": "CDG",
+              "fare_class": "Z",
+              "flight_number": "AF3",
+              "origin": "JFK"
+            },
+            {
+              "aircraft": "223",
+              "arrives_at": "2026-11-28T11:45:00Z",
+              "departs_at": "2026-11-28T10:15:00Z",
+              "destination": "MXP",
+              "fare_class": "J",
+              "flight_number": "AF1130",
+              "origin": "CDG"
+            }
+          ],
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 35550,
+          "trip_id": "3F3GCnsyi3Xm5H6l2BOCYVD08vv"
         }
       ],
-      "updated_at": "2026-11-06T14:46:26.754155Z"
+      "updated_at": "2026-11-06T18:28:55.462854Z"
     },
     {
       "airlines": "AF, KL",
@@ -1116,6 +981,141 @@
         }
       ],
       "updated_at": "2026-11-06T11:51:17.917732Z"
+    },
+    {
+      "airlines": "AF",
+      "approx_amex_mr": 45000,
+      "availability_id": "36O4eQCNLPNiivQZmtwELV8Z44r",
+      "business_available": true,
+      "date": "2026-11-27",
+      "destination": "BCN",
+      "destination_region": "Europe",
+      "direct": false,
+      "effective_cost": 45000,
+      "funding": "AmEx Membership Rewards",
+      "origin": "JFK",
+      "program": "Air France/KLM Flying Blue",
+      "program_points": 45000,
+      "remaining_seats": 9,
+      "seat_count_reliable": true,
+      "source": "flyingblue",
+      "trips": [
+        {
+          "approx_amex_mr": 45000,
+          "arrives_at": "2026-11-28T11:10:00Z",
+          "cabin": "business",
+          "carriers": "AF, AF",
+          "departs_at": "2026-11-27T17:30:00Z",
+          "effective_cost": 45000,
+          "flight_numbers": "AF3, AF1348",
+          "mixed_cabin_pct": null,
+          "program_points": 45000,
+          "remaining_seats": 4,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "77W",
+              "arrives_at": "2026-11-28T06:45:00Z",
+              "departs_at": "2026-11-27T17:30:00Z",
+              "destination": "CDG",
+              "fare_class": "O",
+              "flight_number": "AF3",
+              "origin": "JFK"
+            },
+            {
+              "aircraft": "32A",
+              "arrives_at": "2026-11-28T11:10:00Z",
+              "departs_at": "2026-11-28T09:20:00Z",
+              "destination": "BCN",
+              "fare_class": "J",
+              "flight_number": "AF1348",
+              "origin": "CDG"
+            }
+          ],
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 35540,
+          "trip_id": "3BxLywQMxDVS3pUqxDzTeC8yON0"
+        },
+        {
+          "approx_amex_mr": 72000,
+          "arrives_at": "2026-11-28T09:00:00Z",
+          "cabin": "business",
+          "carriers": "AF, AF",
+          "departs_at": "2026-11-27T16:30:00Z",
+          "effective_cost": 72000,
+          "flight_numbers": "AF1, AF1148",
+          "mixed_cabin_pct": null,
+          "program_points": 71500,
+          "remaining_seats": 9,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "77W",
+              "arrives_at": "2026-11-28T05:45:00Z",
+              "departs_at": "2026-11-27T16:30:00Z",
+              "destination": "CDG",
+              "fare_class": "Z",
+              "flight_number": "AF1",
+              "origin": "JFK"
+            },
+            {
+              "aircraft": "223",
+              "arrives_at": "2026-11-28T09:00:00Z",
+              "departs_at": "2026-11-28T07:10:00Z",
+              "destination": "BCN",
+              "fare_class": "J",
+              "flight_number": "AF1148",
+              "origin": "CDG"
+            }
+          ],
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 35540,
+          "trip_id": "3F1CC0CxgAPtFgePHlHmt9sHGNc"
+        },
+        {
+          "approx_amex_mr": 72000,
+          "arrives_at": "2026-11-28T11:10:00Z",
+          "cabin": "business",
+          "carriers": "AF, AF",
+          "departs_at": "2026-11-27T18:30:00Z",
+          "effective_cost": 72000,
+          "flight_numbers": "AF5, AF1348",
+          "mixed_cabin_pct": null,
+          "program_points": 71500,
+          "remaining_seats": 5,
+          "seat_count_reliable": true,
+          "segments": [
+            {
+              "aircraft": "77W",
+              "arrives_at": "2026-11-28T07:55:00Z",
+              "departs_at": "2026-11-27T18:30:00Z",
+              "destination": "CDG",
+              "fare_class": "Z",
+              "flight_number": "AF5",
+              "origin": "JFK"
+            },
+            {
+              "aircraft": "32A",
+              "arrives_at": "2026-11-28T11:10:00Z",
+              "departs_at": "2026-11-28T09:20:00Z",
+              "destination": "BCN",
+              "fare_class": "J",
+              "flight_number": "AF1348",
+              "origin": "CDG"
+            }
+          ],
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 35540,
+          "trip_id": "36kmmFAat0L3oyeVBIrThVUUBAv"
+        }
+      ],
+      "updated_at": "2026-11-07T15:30:12.34781Z"
     },
     {
       "airlines": "AF",
@@ -1332,10 +1332,10 @@
       "JFK",
       "LGA"
     ],
-    "start_date": "2026-11-06",
+    "start_date": "2026-11-07",
     "trip_focus": "solo hiking"
   },
-  "generated_at": "2026-11-06T18:08:18.277468+00:00",
+  "generated_at": "2026-11-07T16:55:51.587527+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "The scanner reuses one server-filtered NYC-to-Europe gateway snapshot for both watches and performs at most 24 trip-detail lookups total.",

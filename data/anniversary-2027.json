@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-11-06T18:08:20.873303+00:00",
+  "generated_at": "2026-11-07T16:55:53.842409+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -326,7 +326,7 @@
           "trip_id": "3KgIVrC3tjUWMjAgxhx0gv7ljjN"
         }
       ],
-      "updated_at": "2026-11-06T12:34:22.391211Z"
+      "updated_at": "2026-11-07T11:20:44.837411Z"
     },
     {
       "airlines": "MS",
@@ -472,7 +472,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14390,
+          "taxes_minor_units": 14400,
           "trip_id": "3L1dwwuaggmG2xVKSgbIdYyDSwj"
         },
         {
@@ -508,7 +508,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14390,
+          "taxes_minor_units": 14400,
           "trip_id": "3L1dwtTTKQWA5ZSpkLtKf5CPWWk"
         },
         {
@@ -544,11 +544,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14390,
+          "taxes_minor_units": 14400,
           "trip_id": "3L1dwvlKpNPB92udzKfzst8sKNN"
         }
       ],
-      "updated_at": "2026-11-06T05:10:19.221071Z"
+      "updated_at": "2026-11-07T11:29:04.200751Z"
     },
     {
       "airlines": "AF",
@@ -680,7 +680,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14390,
+          "taxes_minor_units": 14400,
           "trip_id": "3L1e3EurX4tVOCBg8uGOWHGVxAq"
         },
         {
@@ -716,7 +716,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14390,
+          "taxes_minor_units": 14400,
           "trip_id": "3L1e3EFQJGK46tQ7g9tV2iCfXA1"
         },
         {
@@ -752,11 +752,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14390,
+          "taxes_minor_units": 14400,
           "trip_id": "3L1e3EqEmJy7zv5rFoFbR756U8q"
         }
       ],
-      "updated_at": "2026-11-05T11:44:04.631116Z"
+      "updated_at": "2026-11-07T11:29:09.518637Z"
     },
     {
       "airlines": "AF, KL",
