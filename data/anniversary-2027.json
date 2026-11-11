@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-11-10T18:43:41.469981+00:00",
+  "generated_at": "2026-11-11T18:47:22.916926+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -140,7 +140,7 @@
           "trip_id": "3KfnWwTa7XxlwmHWBHwjQgVg1HH"
         }
       ],
-      "updated_at": "2026-11-10T15:22:04.721439Z"
+      "updated_at": "2026-11-11T01:33:07.570164Z"
     },
     {
       "airlines": "MS",
@@ -236,7 +236,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15050,
+          "taxes_minor_units": 15120,
           "trip_id": "3LrD6eVsjWwa11VSticZOVAx89J"
         },
         {
@@ -272,7 +272,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15050,
+          "taxes_minor_units": 15120,
           "trip_id": "3KgIVqyPW397UU74YhgtbLtHYXL"
         },
         {
@@ -308,11 +308,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15050,
+          "taxes_minor_units": 15120,
           "trip_id": "3KgIVrC3tjUWMjAgxhx0gv7ljjN"
         }
       ],
-      "updated_at": "2026-11-09T12:58:21.508879Z"
+      "updated_at": "2026-11-11T11:27:29.521429Z"
     },
     {
       "airlines": "MS",
@@ -508,7 +508,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14400,
+          "taxes_minor_units": 14470,
           "trip_id": "3L1dwwuaggmG2xVKSgbIdYyDSwj"
         },
         {
@@ -544,7 +544,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14400,
+          "taxes_minor_units": 14470,
           "trip_id": "3L1dwtTTKQWA5ZSpkLtKf5CPWWk"
         },
         {
@@ -580,134 +580,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14400,
+          "taxes_minor_units": 14470,
           "trip_id": "3L1dwvlKpNPB92udzKfzst8sKNN"
         }
       ],
-      "updated_at": "2026-11-09T05:19:14.077351Z"
-    },
-    {
-      "airlines": "DL, KL",
-      "availability_id": "3KYvy5tUJA9tYSt2pggymLlU7BZ",
-      "date": "2027-10-04",
-      "destination": "JFK",
-      "direct": true,
-      "origin": "AMS",
-      "points": 70000,
-      "remaining_seats": 7,
-      "source": "flyingblue",
-      "trips": [
-        {
-          "arrives_at": "2027-10-04T12:32:00Z",
-          "cabin": "business",
-          "carriers": "DL",
-          "departs_at": "2027-10-04T10:10:00Z",
-          "flight_numbers": "DL47",
-          "mixed_cabin_pct": null,
-          "points": 70000,
-          "remaining_seats": 7,
-          "segments": [
-            {
-              "aircraft": "339",
-              "arrives_at": "2027-10-04T12:32:00Z",
-              "departs_at": "2027-10-04T10:10:00Z",
-              "destination": "JFK",
-              "fare_class": "O",
-              "flight_number": "DL47",
-              "origin": "AMS"
-            }
-          ],
-          "source": "flyingblue",
-          "stops": null,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 44709,
-          "trip_id": "3LuaYUB4KhBpECh2ankfyFb252T"
-        }
-      ],
-      "updated_at": "2026-11-10T14:35:09.053803Z"
-    },
-    {
-      "airlines": "DL",
-      "availability_id": "3KYvw0608TDabBD0UvH5ja0hRmR",
-      "date": "2027-10-04",
-      "destination": "JFK",
-      "direct": true,
-      "origin": "ARN",
-      "points": 75000,
-      "remaining_seats": 7,
-      "source": "flyingblue",
-      "trips": [
-        {
-          "arrives_at": "2027-10-04T12:59:00Z",
-          "cabin": "business",
-          "carriers": "DL",
-          "departs_at": "2027-10-04T10:20:00Z",
-          "flight_numbers": "DL205",
-          "mixed_cabin_pct": null,
-          "points": 75000,
-          "remaining_seats": 7,
-          "segments": [
-            {
-              "aircraft": "76W",
-              "arrives_at": "2027-10-04T12:59:00Z",
-              "departs_at": "2027-10-04T10:20:00Z",
-              "destination": "JFK",
-              "fare_class": "O",
-              "flight_number": "DL205",
-              "origin": "ARN"
-            }
-          ],
-          "source": "flyingblue",
-          "stops": null,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 32349,
-          "trip_id": "3LsAbkOIODOSO4bn9iXbfDeU5GA"
-        }
-      ],
-      "updated_at": "2026-11-10T16:48:32.099207Z"
-    },
-    {
-      "airlines": "DL",
-      "availability_id": "3KYcORWPnDtvOjBayOlndaFvgcV",
-      "date": "2027-10-04",
-      "destination": "JFK",
-      "direct": true,
-      "origin": "BER",
-      "points": 76500,
-      "remaining_seats": 7,
-      "source": "flyingblue",
-      "trips": [
-        {
-          "arrives_at": "2027-10-04T12:50:00Z",
-          "cabin": "business",
-          "carriers": "DL",
-          "departs_at": "2027-10-04T09:50:00Z",
-          "flight_numbers": "DL315",
-          "mixed_cabin_pct": null,
-          "points": 76500,
-          "remaining_seats": 7,
-          "segments": [
-            {
-              "aircraft": "76W",
-              "arrives_at": "2027-10-04T12:50:00Z",
-              "departs_at": "2027-10-04T09:50:00Z",
-              "destination": "JFK",
-              "fare_class": "O",
-              "flight_number": "DL315",
-              "origin": "BER"
-            }
-          ],
-          "source": "flyingblue",
-          "stops": null,
-          "tax_currency": "USD",
-          "tax_currency_symbol": null,
-          "taxes_minor_units": 39759,
-          "trip_id": "3LuGdMoUVA8f6g6PA3O53TPwrue"
-        }
-      ],
-      "updated_at": "2026-11-10T09:05:39.511499Z"
+      "updated_at": "2026-11-11T17:38:21.236668Z"
     }
   ],
   "source": "Seats.aero cached availability",
