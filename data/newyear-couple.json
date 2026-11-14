@@ -55,65 +55,15 @@
           "destination": "SJD",
           "destination_region": "wildlife-target-or-gateway",
           "direct": false,
-          "effective_cost": 68600,
+          "effective_cost": 69400,
           "funding": "United miles",
           "origin": "DEN",
           "program": "United MileagePlus",
-          "program_points": 68600,
+          "program_points": 69400,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "source": "united",
           "trips": [
-            {
-              "approx_amex_mr": null,
-              "arrives_at": "2026-12-29T13:10:00Z",
-              "cabin": "economy",
-              "cabin_rule": "verified_segments",
-              "carriers": "UA, UA",
-              "departs_at": "2026-12-29T05:00:00Z",
-              "effective_cost": 26900,
-              "flight_numbers": "UA2367, UA1189",
-              "mixed_cabin_pct": null,
-              "program_points": 26900,
-              "remaining_seats": 9,
-              "segments": [
-                {
-                  "aircraft": "738",
-                  "arrives_at": "2026-12-29T06:53:00Z",
-                  "cabin": "economy",
-                  "departs_at": "2026-12-29T05:00:00Z",
-                  "destination": "SFO",
-                  "fare_class": "YN",
-                  "flight_number": "UA2367",
-                  "origin": "DEN"
-                },
-                {
-                  "aircraft": "738",
-                  "arrives_at": "2026-12-29T13:10:00Z",
-                  "cabin": "economy",
-                  "departs_at": "2026-12-29T08:54:00Z",
-                  "destination": "SJD",
-                  "fare_class": "YN",
-                  "flight_number": "UA1189",
-                  "origin": "SFO"
-                }
-              ],
-              "stops": 1,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 5905,
-              "trip_id": "3HuOFTg43opW9amZdWCgtWgAY9P",
-              "verified_segment_cabins": [
-                {
-                  "cabin": "economy",
-                  "hours": 1.88
-                },
-                {
-                  "cabin": "economy",
-                  "hours": 4.27
-                }
-              ]
-            },
             {
               "approx_amex_mr": null,
               "arrives_at": "2026-12-29T11:47:00Z",
@@ -121,10 +71,10 @@
               "cabin_rule": "verified_segments",
               "carriers": "UA, UA",
               "departs_at": "2026-12-29T06:00:00Z",
-              "effective_cost": 26900,
+              "effective_cost": 27800,
               "flight_numbers": "UA1850, UA1185",
               "mixed_cabin_pct": null,
-              "program_points": 26900,
+              "program_points": 27800,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -166,51 +116,51 @@
             },
             {
               "approx_amex_mr": null,
-              "arrives_at": "2026-12-29T13:47:00Z",
+              "arrives_at": "2026-12-29T13:10:00Z",
               "cabin": "economy",
               "cabin_rule": "verified_segments",
               "carriers": "UA, UA",
-              "departs_at": "2026-12-29T06:00:00Z",
-              "effective_cost": 28300,
-              "flight_numbers": "UA1850, UA797",
+              "departs_at": "2026-12-29T05:00:00Z",
+              "effective_cost": 27800,
+              "flight_numbers": "UA2367, UA1189",
               "mixed_cabin_pct": null,
-              "program_points": 28300,
+              "program_points": 27800,
               "remaining_seats": 9,
               "segments": [
                 {
-                  "aircraft": "32Q",
-                  "arrives_at": "2026-12-29T07:34:00Z",
+                  "aircraft": "738",
+                  "arrives_at": "2026-12-29T06:53:00Z",
                   "cabin": "economy",
-                  "departs_at": "2026-12-29T06:00:00Z",
-                  "destination": "LAX",
+                  "departs_at": "2026-12-29T05:00:00Z",
+                  "destination": "SFO",
                   "fare_class": "YN",
-                  "flight_number": "UA1850",
+                  "flight_number": "UA2367",
                   "origin": "DEN"
                 },
                 {
                   "aircraft": "738",
-                  "arrives_at": "2026-12-29T13:47:00Z",
+                  "arrives_at": "2026-12-29T13:10:00Z",
                   "cabin": "economy",
-                  "departs_at": "2026-12-29T10:15:00Z",
+                  "departs_at": "2026-12-29T08:54:00Z",
                   "destination": "SJD",
                   "fare_class": "YN",
-                  "flight_number": "UA797",
-                  "origin": "LAX"
+                  "flight_number": "UA1189",
+                  "origin": "SFO"
                 }
               ],
               "stops": 1,
               "tax_currency": "USD",
               "tax_currency_symbol": "$",
               "taxes_minor_units": 5905,
-              "trip_id": "3HCgyASF7Lex53gKCIubKknV5AN",
+              "trip_id": "3HuOFTg43opW9amZdWCgtWgAY9P",
               "verified_segment_cabins": [
                 {
                   "cabin": "economy",
-                  "hours": 1.57
+                  "hours": 1.88
                 },
                 {
                   "cabin": "economy",
-                  "hours": 3.53
+                  "hours": 4.27
                 }
               ]
             },
@@ -221,10 +171,10 @@
               "cabin_rule": "verified_segments",
               "carriers": "UA, UA",
               "departs_at": "2026-12-29T06:00:00Z",
-              "effective_cost": 31700,
+              "effective_cost": 30300,
               "flight_numbers": "UA351, UA1189",
               "mixed_cabin_pct": null,
-              "program_points": 31700,
+              "program_points": 30300,
               "remaining_seats": 9,
               "segments": [
                 {
@@ -270,21 +220,21 @@
               "cabin": "economy",
               "cabin_rule": "verified_segments",
               "carriers": "UA, UA",
-              "departs_at": "2026-12-29T07:50:00Z",
-              "effective_cost": 34400,
-              "flight_numbers": "UA1638, UA797",
+              "departs_at": "2026-12-29T06:00:00Z",
+              "effective_cost": 31400,
+              "flight_numbers": "UA1850, UA797",
               "mixed_cabin_pct": null,
-              "program_points": 34400,
+              "program_points": 31400,
               "remaining_seats": 9,
               "segments": [
                 {
-                  "aircraft": "739",
-                  "arrives_at": "2026-12-29T09:31:00Z",
+                  "aircraft": "32Q",
+                  "arrives_at": "2026-12-29T07:34:00Z",
                   "cabin": "economy",
-                  "departs_at": "2026-12-29T07:50:00Z",
+                  "departs_at": "2026-12-29T06:00:00Z",
                   "destination": "LAX",
                   "fare_class": "YN",
-                  "flight_number": "UA1638",
+                  "flight_number": "UA1850",
                   "origin": "DEN"
                 },
                 {
@@ -302,20 +252,70 @@
               "tax_currency": "USD",
               "tax_currency_symbol": "$",
               "taxes_minor_units": 5905,
-              "trip_id": "3HuOFW4irvy6tfxS2Rgc5ZlnXDQ",
+              "trip_id": "3HCgyASF7Lex53gKCIubKknV5AN",
               "verified_segment_cabins": [
                 {
                   "cabin": "economy",
-                  "hours": 1.68
+                  "hours": 1.57
                 },
                 {
                   "cabin": "economy",
                   "hours": 3.53
                 }
               ]
+            },
+            {
+              "approx_amex_mr": null,
+              "arrives_at": "2026-12-29T15:12:00Z",
+              "cabin": "economy",
+              "cabin_rule": "verified_segments",
+              "carriers": "UA, UA",
+              "departs_at": "2026-12-29T06:00:00Z",
+              "effective_cost": 32600,
+              "flight_numbers": "UA351, UA1881",
+              "mixed_cabin_pct": null,
+              "program_points": 32600,
+              "remaining_seats": 9,
+              "segments": [
+                {
+                  "aircraft": "32Q",
+                  "arrives_at": "2026-12-29T07:52:00Z",
+                  "cabin": "economy",
+                  "departs_at": "2026-12-29T06:00:00Z",
+                  "destination": "SFO",
+                  "fare_class": "YN",
+                  "flight_number": "UA351",
+                  "origin": "DEN"
+                },
+                {
+                  "aircraft": "738",
+                  "arrives_at": "2026-12-29T15:12:00Z",
+                  "cabin": "economy",
+                  "departs_at": "2026-12-29T11:00:00Z",
+                  "destination": "SJD",
+                  "fare_class": "YN",
+                  "flight_number": "UA1881",
+                  "origin": "SFO"
+                }
+              ],
+              "stops": 1,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 5905,
+              "trip_id": "3HuOFXJpp6Kl8iINzxzarsBxssa",
+              "verified_segment_cabins": [
+                {
+                  "cabin": "economy",
+                  "hours": 1.87
+                },
+                {
+                  "cabin": "economy",
+                  "hours": 4.2
+                }
+              ]
             }
           ],
-          "updated_at": "2026-11-12T05:17:40.122607Z"
+          "updated_at": "2026-11-14T02:05:00.365956Z"
         }
       ],
       "return_options": [
@@ -394,7 +394,7 @@
     }
   ],
   "destinations_with_matching_two_seat_return": 1,
-  "generated_at": "2026-11-13T18:36:43.722525+00:00",
+  "generated_at": "2026-11-14T17:13:48.676271+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "For AmEx-transferable programs, the <100k threshold is applied to approximate Membership Rewards required after the standard transfer ratio; United uses United miles.",
