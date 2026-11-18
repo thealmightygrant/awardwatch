@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-11-17T19:56:30.062354+00:00",
+  "generated_at": "2026-11-18T19:27:13.260231+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -136,11 +136,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 16120,
+          "taxes_minor_units": 16100,
           "trip_id": "3KfnWwTa7XxlwmHWBHwjQgVg1HH"
         }
       ],
-      "updated_at": "2026-11-17T03:25:47.491605Z"
+      "updated_at": "2026-11-18T12:49:02.460546Z"
     },
     {
       "airlines": "MS",
@@ -236,7 +236,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15200,
+          "taxes_minor_units": 15190,
           "trip_id": "3LrD6eVsjWwa11VSticZOVAx89J"
         },
         {
@@ -272,7 +272,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15200,
+          "taxes_minor_units": 15190,
           "trip_id": "3M5Xg6h0YHc0u3CQLMKUkKT4Lte"
         },
         {
@@ -308,11 +308,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15200,
+          "taxes_minor_units": 15190,
           "trip_id": "3Lyc6qQDU4TXrs9qNEIAuNbWPH1"
         }
       ],
-      "updated_at": "2026-11-16T18:33:14.181345Z"
+      "updated_at": "2026-11-17T22:47:20.098875Z"
     },
     {
       "airlines": "MS",
@@ -408,11 +408,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 17960,
+          "taxes_minor_units": 17950,
           "trip_id": "3KqRd7U5tcVRlyhjbH7kSZbl30f"
         }
       ],
-      "updated_at": "2026-11-13T21:44:49.539001Z"
+      "updated_at": "2026-11-18T11:45:13.493071Z"
     },
     {
       "airlines": "MS",
@@ -558,7 +558,7 @@
           "remaining_seats": 2,
           "segments": [
             {
-              "aircraft": "32N",
+              "aircraft": "7M8",
               "arrives_at": "2027-10-02T16:20:00Z",
               "departs_at": "2027-10-02T14:00:00Z",
               "destination": "CAI",
@@ -584,7 +584,7 @@
           "trip_id": "3L1dwtTTKQWA5ZSpkLtKf5CPWWk"
         }
       ],
-      "updated_at": "2026-11-17T05:03:36.396505Z"
+      "updated_at": "2026-11-18T14:06:52.511527Z"
     }
   ],
   "source": "Seats.aero cached availability",

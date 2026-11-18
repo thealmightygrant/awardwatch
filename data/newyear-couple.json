@@ -60,10 +60,60 @@
           "origin": "DEN",
           "program": "United MileagePlus",
           "program_points": 69400,
-          "remaining_seats": 7,
+          "remaining_seats": 5,
           "seat_count_reliable": true,
           "source": "united",
           "trips": [
+            {
+              "approx_amex_mr": null,
+              "arrives_at": "2026-12-29T13:47:00Z",
+              "cabin": "economy",
+              "cabin_rule": "verified_segments",
+              "carriers": "UA, UA",
+              "departs_at": "2026-12-29T07:50:00Z",
+              "effective_cost": 27800,
+              "flight_numbers": "UA1638, UA797",
+              "mixed_cabin_pct": null,
+              "program_points": 27800,
+              "remaining_seats": 9,
+              "segments": [
+                {
+                  "aircraft": "739",
+                  "arrives_at": "2026-12-29T09:31:00Z",
+                  "cabin": "economy",
+                  "departs_at": "2026-12-29T07:50:00Z",
+                  "destination": "LAX",
+                  "fare_class": "YN",
+                  "flight_number": "UA1638",
+                  "origin": "DEN"
+                },
+                {
+                  "aircraft": "738",
+                  "arrives_at": "2026-12-29T13:47:00Z",
+                  "cabin": "economy",
+                  "departs_at": "2026-12-29T10:15:00Z",
+                  "destination": "SJD",
+                  "fare_class": "YN",
+                  "flight_number": "UA797",
+                  "origin": "LAX"
+                }
+              ],
+              "stops": 1,
+              "tax_currency": "USD",
+              "tax_currency_symbol": "$",
+              "taxes_minor_units": 5905,
+              "trip_id": "3HuOFW4irvy6tfxS2Rgc5ZlnXDQ",
+              "verified_segment_cabins": [
+                {
+                  "cabin": "economy",
+                  "hours": 1.68
+                },
+                {
+                  "cabin": "economy",
+                  "hours": 3.53
+                }
+              ]
+            },
             {
               "approx_amex_mr": null,
               "arrives_at": "2026-12-29T11:47:00Z",
@@ -216,56 +266,6 @@
             },
             {
               "approx_amex_mr": null,
-              "arrives_at": "2026-12-29T13:47:00Z",
-              "cabin": "economy",
-              "cabin_rule": "verified_segments",
-              "carriers": "UA, UA",
-              "departs_at": "2026-12-29T07:50:00Z",
-              "effective_cost": 29200,
-              "flight_numbers": "UA1638, UA797",
-              "mixed_cabin_pct": null,
-              "program_points": 29200,
-              "remaining_seats": 9,
-              "segments": [
-                {
-                  "aircraft": "739",
-                  "arrives_at": "2026-12-29T09:31:00Z",
-                  "cabin": "economy",
-                  "departs_at": "2026-12-29T07:50:00Z",
-                  "destination": "LAX",
-                  "fare_class": "YN",
-                  "flight_number": "UA1638",
-                  "origin": "DEN"
-                },
-                {
-                  "aircraft": "738",
-                  "arrives_at": "2026-12-29T13:47:00Z",
-                  "cabin": "economy",
-                  "departs_at": "2026-12-29T10:15:00Z",
-                  "destination": "SJD",
-                  "fare_class": "YN",
-                  "flight_number": "UA797",
-                  "origin": "LAX"
-                }
-              ],
-              "stops": 1,
-              "tax_currency": "USD",
-              "tax_currency_symbol": "$",
-              "taxes_minor_units": 5905,
-              "trip_id": "3HuOFW4irvy6tfxS2Rgc5ZlnXDQ",
-              "verified_segment_cabins": [
-                {
-                  "cabin": "economy",
-                  "hours": 1.68
-                },
-                {
-                  "cabin": "economy",
-                  "hours": 3.53
-                }
-              ]
-            },
-            {
-              "approx_amex_mr": null,
               "arrives_at": "2026-12-29T15:12:00Z",
               "cabin": "economy",
               "cabin_rule": "verified_segments",
@@ -315,7 +315,7 @@
               ]
             }
           ],
-          "updated_at": "2026-11-15T23:30:34.522922Z"
+          "updated_at": "2026-11-18T07:37:55.201562Z"
         }
       ],
       "return_options": [
@@ -394,7 +394,7 @@
     }
   ],
   "destinations_with_matching_two_seat_return": 1,
-  "generated_at": "2026-11-17T19:56:28.358186+00:00",
+  "generated_at": "2026-11-18T19:27:11.127691+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "For AmEx-transferable programs, the <100k threshold is applied to approximate Membership Rewards required after the standard transfer ratio; United uses United miles.",
