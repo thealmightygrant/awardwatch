@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-11-19T19:32:46.226789+00:00",
+  "generated_at": "2026-11-20T19:10:28.709860+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -90,7 +90,7 @@
           "trip_id": "3L8KxnIDTCIvihp3W1x4EAIEnR6"
         }
       ],
-      "updated_at": "2026-11-15T20:39:29.369659Z"
+      "updated_at": "2026-11-20T13:02:35.539773Z"
     },
     {
       "airlines": "MS",
@@ -358,11 +358,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 21990,
+          "taxes_minor_units": 21960,
           "trip_id": "3KqQRmokPxIkm6lNMoAjBqn4edW"
         }
       ],
-      "updated_at": "2026-11-15T11:03:49.820765Z"
+      "updated_at": "2026-11-20T08:33:34.937409Z"
     },
     {
       "airlines": "MS",
@@ -508,7 +508,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14550,
+          "taxes_minor_units": 14560,
           "trip_id": "3L1dwwuaggmG2xVKSgbIdYyDSwj"
         },
         {
@@ -544,7 +544,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14550,
+          "taxes_minor_units": 14560,
           "trip_id": "3L1dwvlKpNPB92udzKfzst8sKNN"
         },
         {
@@ -580,11 +580,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 14550,
+          "taxes_minor_units": 14560,
           "trip_id": "3L1dwtTTKQWA5ZSpkLtKf5CPWWk"
         }
       ],
-      "updated_at": "2026-11-18T14:06:52.511527Z"
+      "updated_at": "2026-11-19T20:59:52.339773Z"
     }
   ],
   "source": "Seats.aero cached availability",
