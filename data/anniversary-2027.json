@@ -33,7 +33,7 @@
     ],
     "return_origins": "any Europe airport represented in Seats.aero regional cache"
   },
-  "generated_at": "2026-11-24T21:23:32.588519+00:00",
+  "generated_at": "2026-11-25T20:31:53.024999+00:00",
   "notes": [
     "The return is deliberately open-jaw: it can leave from a different European city after the UK portion.",
     "This watch requires at least two reported business-class seats in both directions.",
@@ -136,11 +136,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 16130,
+          "taxes_minor_units": 16160,
           "trip_id": "3MXRK6t2nnhNHxJXkvsZSF8HZbP"
         }
       ],
-      "updated_at": "2026-11-24T04:34:18.619503Z"
+      "updated_at": "2026-11-25T09:30:31.637536Z"
     },
     {
       "airlines": "MS",
@@ -186,11 +186,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 12920,
+          "taxes_minor_units": 13350,
           "trip_id": "3L3aIA83m1oxdcIKjt1WgpaZGKg"
         }
       ],
-      "updated_at": "2026-11-21T16:30:34.991071Z"
+      "updated_at": "2026-11-25T17:37:48.219013Z"
     },
     {
       "airlines": "MS",
@@ -236,7 +236,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15220,
+          "taxes_minor_units": 15230,
           "trip_id": "3LrD6eVsjWwa11VSticZOVAx89J"
         },
         {
@@ -272,7 +272,7 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15220,
+          "taxes_minor_units": 15230,
           "trip_id": "3M5Xg6h0YHc0u3CQLMKUkKT4Lte"
         },
         {
@@ -308,11 +308,11 @@
           "stops": 1,
           "tax_currency": "CAD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 15220,
+          "taxes_minor_units": 15230,
           "trip_id": "3Lyc6qQDU4TXrs9qNEIAuNbWPH1"
         }
       ],
-      "updated_at": "2026-11-23T02:25:16.861192Z"
+      "updated_at": "2026-11-25T15:43:26.522757Z"
     },
     {
       "airlines": "MS",
@@ -362,7 +362,7 @@
           "trip_id": "3KqQRmokPxIkm6lNMoAjBqn4edW"
         }
       ],
-      "updated_at": "2026-11-24T11:23:43.396907Z"
+      "updated_at": "2026-11-25T04:54:39.583108Z"
     },
     {
       "airlines": "MS",
@@ -479,42 +479,6 @@
           "arrives_at": "2027-10-03T10:25:00Z",
           "cabin": "business",
           "carriers": "MS",
-          "departs_at": "2027-10-02T14:00:00Z",
-          "flight_numbers": "MS738, MS985",
-          "mixed_cabin_pct": null,
-          "points": 90000,
-          "remaining_seats": 2,
-          "segments": [
-            {
-              "aircraft": "7M8",
-              "arrives_at": "2027-10-02T16:20:00Z",
-              "departs_at": "2027-10-02T14:00:00Z",
-              "destination": "CAI",
-              "fare_class": "I",
-              "flight_number": "MS738",
-              "origin": "IST"
-            },
-            {
-              "aircraft": "789",
-              "arrives_at": "2027-10-03T10:25:00Z",
-              "departs_at": "2027-10-03T05:50:00Z",
-              "destination": "JFK",
-              "fare_class": "I",
-              "flight_number": "MS985",
-              "origin": "CAI"
-            }
-          ],
-          "source": "aeroplan",
-          "stops": 1,
-          "tax_currency": "CAD",
-          "tax_currency_symbol": "$",
-          "taxes_minor_units": 14590,
-          "trip_id": "3L1dwtTTKQWA5ZSpkLtKf5CPWWk"
-        },
-        {
-          "arrives_at": "2027-10-03T10:25:00Z",
-          "cabin": "business",
-          "carriers": "MS",
           "departs_at": "2027-10-02T03:50:00Z",
           "flight_numbers": "MS746, MS985",
           "mixed_cabin_pct": null,
@@ -546,6 +510,42 @@
           "tax_currency_symbol": "$",
           "taxes_minor_units": 14590,
           "trip_id": "3L1dwvlKpNPB92udzKfzst8sKNN"
+        },
+        {
+          "arrives_at": "2027-10-03T10:25:00Z",
+          "cabin": "business",
+          "carriers": "MS",
+          "departs_at": "2027-10-02T14:00:00Z",
+          "flight_numbers": "MS738, MS985",
+          "mixed_cabin_pct": null,
+          "points": 90000,
+          "remaining_seats": 2,
+          "segments": [
+            {
+              "aircraft": "7M8",
+              "arrives_at": "2027-10-02T16:20:00Z",
+              "departs_at": "2027-10-02T14:00:00Z",
+              "destination": "CAI",
+              "fare_class": "I",
+              "flight_number": "MS738",
+              "origin": "IST"
+            },
+            {
+              "aircraft": "789",
+              "arrives_at": "2027-10-03T10:25:00Z",
+              "departs_at": "2027-10-03T05:50:00Z",
+              "destination": "JFK",
+              "fare_class": "I",
+              "flight_number": "MS985",
+              "origin": "CAI"
+            }
+          ],
+          "source": "aeroplan",
+          "stops": 1,
+          "tax_currency": "CAD",
+          "tax_currency_symbol": "$",
+          "taxes_minor_units": 14590,
+          "trip_id": "3L1dwtTTKQWA5ZSpkLtKf5CPWWk"
         },
         {
           "arrives_at": "2027-10-03T10:25:00Z",
@@ -584,7 +584,57 @@
           "trip_id": "3L1dwwuaggmG2xVKSgbIdYyDSwj"
         }
       ],
-      "updated_at": "2026-11-24T13:09:01.101597Z"
+      "updated_at": "2026-11-25T06:39:20.866144Z"
+    },
+    {
+      "airlines": "DL, UX",
+      "availability_id": "3KTparL3TrLWIPb2TJqPXUlfiTm",
+      "date": "2027-10-03",
+      "destination": "JFK",
+      "direct": false,
+      "origin": "MAD",
+      "points": 86500,
+      "remaining_seats": 2,
+      "source": "flyingblue",
+      "trips": [
+        {
+          "arrives_at": "2027-10-03T13:38:00Z",
+          "cabin": "business",
+          "carriers": "UX, DL",
+          "departs_at": "2027-10-03T07:30:00Z",
+          "flight_numbers": "UX7701, DL129",
+          "mixed_cabin_pct": null,
+          "points": 86500,
+          "remaining_seats": 2,
+          "segments": [
+            {
+              "aircraft": "788",
+              "arrives_at": "2027-10-03T08:55:00Z",
+              "departs_at": "2027-10-03T07:30:00Z",
+              "destination": "BCN",
+              "fare_class": "W",
+              "flight_number": "UX7701",
+              "origin": "MAD"
+            },
+            {
+              "aircraft": "333",
+              "arrives_at": "2027-10-03T13:38:00Z",
+              "departs_at": "2027-10-03T10:55:00Z",
+              "destination": "JFK",
+              "fare_class": "O",
+              "flight_number": "DL129",
+              "origin": "BCN"
+            }
+          ],
+          "source": "flyingblue",
+          "stops": 1,
+          "tax_currency": "USD",
+          "tax_currency_symbol": null,
+          "taxes_minor_units": 27199,
+          "trip_id": "3Ma0vRmTyK3hf4EPw4CyeCj9MIz"
+        }
+      ],
+      "updated_at": "2026-11-25T11:13:39.811949Z"
     }
   ],
   "source": "Seats.aero cached availability",
