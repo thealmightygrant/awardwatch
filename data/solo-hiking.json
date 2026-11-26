@@ -45,20 +45,20 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 68290,
+          "taxes_minor_units": 68300,
           "trip_id": "3M7mO2GwZmkIWrB5MLtjRjQwVJE"
         },
         {
-          "approx_amex_mr": 58000,
+          "approx_amex_mr": 59000,
           "arrives_at": "2026-12-29T20:10:00Z",
           "cabin": "business",
           "carriers": "VS",
           "departs_at": "2026-12-29T08:00:00Z",
-          "effective_cost": 58000,
+          "effective_cost": 59000,
           "flight_numbers": "VS26",
           "mixed_cabin_pct": null,
-          "program_points": 57500,
-          "remaining_seats": 8,
+          "program_points": 59000,
+          "remaining_seats": 9,
           "seat_count_reliable": true,
           "segments": [
             {
@@ -74,19 +74,19 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 68290,
+          "taxes_minor_units": 68300,
           "trip_id": "3M7mO88SCryoWklOfBF5qgC0N2p"
         },
         {
-          "approx_amex_mr": 70000,
+          "approx_amex_mr": 60000,
           "arrives_at": "2026-12-30T07:15:00Z",
           "cabin": "business",
           "carriers": "VS",
           "departs_at": "2026-12-29T19:01:00Z",
-          "effective_cost": 70000,
+          "effective_cost": 60000,
           "flight_numbers": "VS46",
           "mixed_cabin_pct": null,
-          "program_points": 70000,
+          "program_points": 60000,
           "remaining_seats": 9,
           "seat_count_reliable": true,
           "segments": [
@@ -103,11 +103,11 @@
           "stops": null,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 68290,
+          "taxes_minor_units": 68300,
           "trip_id": "3M7mO7QsantK0xr2Q8KnnM2KuSz"
         }
       ],
-      "updated_at": "2026-11-25T19:25:29.790168Z"
+      "updated_at": "2026-11-26T19:10:03.765303Z"
     },
     {
       "airlines": "AC",
@@ -432,7 +432,7 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 70440,
+          "taxes_minor_units": 70450,
           "trip_id": "3MLT8v0BssII4MeD7BrawJz7Sn2"
         },
         {
@@ -470,11 +470,11 @@
           "stops": 1,
           "tax_currency": "USD",
           "tax_currency_symbol": "$",
-          "taxes_minor_units": 70440,
+          "taxes_minor_units": 70450,
           "trip_id": "3MYTqeg2eZX9ZryNcbdhfK8T4Sl"
         }
       ],
-      "updated_at": "2026-11-25T15:13:39.190208Z"
+      "updated_at": "2026-11-26T08:31:42.785603Z"
     },
     {
       "airlines": "AF",
@@ -1504,10 +1504,10 @@
       "JFK",
       "LGA"
     ],
-    "start_date": "2026-11-25",
+    "start_date": "2026-11-26",
     "trip_focus": "solo hiking"
   },
-  "generated_at": "2026-11-25T20:31:49.757628+00:00",
+  "generated_at": "2026-11-26T20:19:15.804692+00:00",
   "notes": [
     "Uses Seats.aero cached availability, not live airline search.",
     "The scanner reuses one server-filtered NYC-to-Europe gateway snapshot for both watches and performs at most 24 trip-detail lookups total.",
